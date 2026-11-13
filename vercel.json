@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "maxDuration": 30,
+      "excludeFiles": "{.env,.env.*,.git/**,.vendor/**,.pytest_cache/**,**/__pycache__/**,**/*.py[cod],.chart-data-*/**,tmp/**,tests/**,notebooks/**,presentations/**,presentation_build/**,output/**,data/*.csv,data/*.txt,*.xlsx,ml/models/experiments/**,ml/models/label_map.json,ml/models/metrics.json,ml/audit.py,ml/benchmarks.py,ml/build_catalog.py,ml/check_all.py,ml/data.py,ml/documentation.py,ml/export.py,ml/package_project.py,ml/predict.py,ml/robustness.py,ml/run_all.py,ml/train.py,ml/typos.py,ml/update_site.py,reports/*.csv,reports/*.json,reports/*.md}"
+    }
+  }
+}

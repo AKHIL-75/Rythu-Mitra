@@ -1,5 +1,14 @@
 import pytest
 
+@pytest.mark.parametrize('path',[
+    '/','/about.html','/crop-disease.html','/fertilizer.html','/govt-schemes.html',
+    '/index.html','/irrigation.html','/market-prices.html','/model-report.html','/weather.html',
+    '/css/style.css','/js/app.js','/js/model-report.js','/reports/logistic_regression_word_confusion.png',
+])
+def test_public_pages_and_assets(client,path):
+    response=client.get(path)
+    assert response.status_code==200,path
+
 def test_health(client):
     r=client.get('/health');assert r.status_code==200;assert r.json['model_loaded']
 
@@ -18,7 +27,12 @@ def test_gibberish(client):
     assert r.status_code==200 and r.json['clarify']
 
 def test_private_files_not_served(client):
-    for p in ['/.env','/.env.local','/app.py','/data/train.csv','/ml/models/best_model.joblib']:
+    for p in [
+        '/.env','/.env.local','/app.py','/data/train.csv','/data/crops.json',
+        '/ml/models/best_model.joblib','/ml/models/problem_models.joblib',
+        '/ml/models/metrics.json','/ml/models/experiments/logistic_regression_word.joblib',
+        '/notebooks/indicbert_colab.ipynb','/tests/test_api.py',
+    ]:
         assert client.get(p).status_code==404
 
 @pytest.mark.parametrize('query,crop,symptom,intent',[

@@ -1,7 +1,6 @@
 (async function(){
  const el=id=>document.getElementById(id);
- let m=window.MODEL_METRICS;
- if(location.protocol!=='file:'){try{const r=await fetch('ml/models/metrics.json');if(r.ok)m=await r.json();}catch(_){}}
+ const m=window.MODEL_METRICS;
  const table=(headers,rows)=>{const t=document.createElement('table'),head=t.createTHead().insertRow();headers.forEach(h=>{const th=document.createElement('th');th.textContent=h;head.append(th);});const b=t.createTBody();rows.forEach(row=>{const tr=b.insertRow();row.forEach(v=>tr.insertCell().textContent=String(v));});return t;};
  const pct=x=>(x*100).toFixed(2)+'%';
  window.RythuCharts.modelCharts(m);

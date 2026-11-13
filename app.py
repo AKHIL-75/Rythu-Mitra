@@ -3,11 +3,8 @@ import sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT/'.vendor'))
-from dotenv import load_dotenv
-load_dotenv(ROOT / '.env', override=False)
 import joblib
 from flask import Flask, request, jsonify, send_from_directory
-from ml.entities import detect_crop
 from ml.preprocess import normalize, script_type
 from ml.slots import extract_slots,route_intent
 
@@ -58,7 +55,7 @@ def create_app():
     @app.get('/<path:path>')
     def assets(path):
         # Serve explicit public UI artifacts only, not Python, training data or models.
-        if (path.endswith('.html') and '/' not in path) or (path.startswith(('js/','css/')) and path.endswith(('.js','.css'))) or (path.startswith('reports/') and path.endswith('.png')) or path=='ml/models/metrics.json':
+        if (path.endswith('.html') and '/' not in path) or (path.startswith(('js/','css/')) and path.endswith(('.js','.css'))) or (path.startswith('reports/') and path.endswith('.png')):
             return send_from_directory(ROOT,path)
         return jsonify(error='Not found'),404
 

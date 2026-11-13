@@ -1,15 +1,9 @@
 """Within-intent problem classifiers. Source metadata is retained, not inferred as facts."""
 import json
-import numpy as np
-import pandas as pd
-import joblib
-from sklearn.pipeline import Pipeline
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import StratifiedGroupKFold,cross_val_score
-from threadpoolctl import threadpool_limits
-from ml.train import features,scores
+from pathlib import Path
 from ml.preprocess import normalize,VARIANTS
-from ml.audit import ROOT
+
+ROOT=Path(__file__).resolve().parents[1]
 
 def payload(pipe):
     f=pipe.named_steps['features'];clf=pipe.named_steps['model']
@@ -24,6 +18,14 @@ def predict_problem(models,query,intent):
     return dict(label=str(pipe.classes_[i]),confidence=float(p[i]))
 
 def train_problems(train,val,test):
+    import joblib
+    import pandas as pd
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.model_selection import StratifiedGroupKFold,cross_val_score
+    from sklearn.pipeline import Pipeline
+    from threadpoolctl import threadpool_limits
+    from ml.train import features,scores
+
     original=train[train.source.eq('workbook')&train.problem.notna()].copy()
     hand=pd.read_csv(ROOT/'data/problem_handwritten.csv')
     assert not set(hand['query'].map(normalize))&set(train.normalized)

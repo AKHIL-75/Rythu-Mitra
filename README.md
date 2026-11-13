@@ -281,15 +281,28 @@ Browser/API transport: Flask WSGI over stdio (sandbox blocks local TCP). The act
 The validation-selected word model was retained rather than selecting on the new challenge. Character and combined Logistic Regression candidates each scored 88.09% on that authored set; the full nine-experiment table is retained, without treating this test as validation. The cross-script macro-F1 of 0.1164 is a substantial limitation.
 
 
-### Save the price API key locally
+### Configure the price API key
 
-Edit `.env` in the project root and set:
+The application reads `DATA_GOV_IN_API_KEY` from its environment. For local
+PowerShell use:
 
 ```dotenv
-DATA_GOV_IN_API_KEY=your-own-data-gov-in-key
+$env:DATA_GOV_IN_API_KEY = "your-own-data-gov-in-key"
 ```
 
-Start or restart `python app.py`. The server loads `.env` automatically;
-no PowerShell key command is needed. Existing environment variables take
-precedence. The file is excluded from Git and source packaging and is not
-served to the browser. Keep it private.
+Then start the local server with `python app.py`.
+
+For Vercel, add `DATA_GOV_IN_API_KEY` in the project's Environment Variables
+settings. The app reads only the process environment and does not load `.env`.
+The Vercel ignore rules exclude `.env` files; the key is never sent to the
+browser.
+
+## Vercel deployment
+
+The root `app.py` is the Flask entrypoint. `vercel.json` keeps the API and
+allowlisted static pages in the Flask function while excluding training data,
+experiment models, notebooks, presentations, test files and caches. The selected
+and problem-classifier model artifacts plus the crop, slot and district JSON
+catalogs are retained for inference. Set `DATA_GOV_IN_API_KEY` in Vercel before
+deploying if live mandi prices are required; `/prices` otherwise reports that
+the provider is not configured.

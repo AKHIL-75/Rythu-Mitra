@@ -10,7 +10,7 @@ import socket
 import ssl
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
-from urllib.request import urlopen
+import requests
 
 RESOURCE='https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070'
 SOURCE='https://data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi'
@@ -74,7 +74,22 @@ def _open_windows_provider(url, timeout):
 def _open_provider(url, timeout):
     if sys.platform == 'win32':
         return _open_windows_provider(url, timeout)
-    return urlopen(url, timeout=timeout)
+    try:
+        with requests.get(url, timeout=timeout, stream=True) as response:
+            if response.status_code >= 400:
+                raise HTTPError(RESOURCE, response.status_code, 'Price provider rejected request', response.headers, None)
+            content=bytearray()
+            for chunk in response.iter_content(chunk_size=65536):
+                content.extend(chunk)
+                if len(content)>2_000_000:
+                    raise ValueError('Price provider response is too large')
+            return io.BytesIO(content)
+    except requests.exceptions.Timeout:
+        raise TimeoutError('Price provider timed out') from None
+    except requests.exceptions.SSLError as error:
+        raise URLError(error) from None
+    except requests.exceptions.RequestException:
+        raise URLError('Price provider request failed') from None
 
 
 def fetch_prices(filters,opener=None):

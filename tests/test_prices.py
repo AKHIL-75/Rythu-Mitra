@@ -1,5 +1,6 @@
 import io
 import json
+import pytest
 from ml import prices
 
 def test_prices_missing_key(client,monkeypatch):
@@ -77,6 +78,53 @@ def test_windows_transport_keeps_key_out_of_command_line(monkeypatch):
     assert 'private-test-key' not in ' '.join(args)
     assert kwargs['input'].endswith('private-test-key') and kwargs['timeout'] == 30
     assert kwargs['capture_output'] and kwargs['encoding'] == 'utf-8'
+
+
+def test_non_windows_transport_uses_requests_and_bounds_response(monkeypatch):
+    class Response:
+        status_code=200
+        headers={}
+        def __enter__(self):return self
+        def __exit__(self,*args):pass
+        def iter_content(self,chunk_size):
+            assert chunk_size==65536
+            yield b'{"records":[]}'
+
+    calls=[]
+    def get(url,**kwargs):
+        calls.append((url,kwargs))
+        return Response()
+
+    monkeypatch.setattr(prices.requests,'get',get)
+    monkeypatch.setattr(prices.sys,'platform','linux')
+    with prices._open_provider('https://example.invalid/?api-key=private-test-key',25) as response:
+        assert json.load(response)=={'records':[]}
+    assert calls[0][1]=={'timeout':25,'stream':True}
+
+
+def test_non_windows_transport_maps_http_and_timeout_errors(monkeypatch):
+    import requests
+    from urllib.error import HTTPError, URLError
+
+    class Rejected:
+        status_code=403
+        headers={}
+        def __enter__(self):return self
+        def __exit__(self,*args):pass
+
+    monkeypatch.setattr(prices.requests,'get',lambda *args,**kwargs:Rejected())
+    monkeypatch.setattr(prices.sys,'platform','linux')
+    with pytest.raises(HTTPError) as error:
+        prices._open_provider('https://example.invalid/',25)
+    assert error.value.code==403
+
+    monkeypatch.setattr(prices.requests,'get',lambda *args,**kwargs:(_ for _ in ()).throw(requests.Timeout()))
+    with pytest.raises(TimeoutError):
+        prices._open_provider('https://example.invalid/',25)
+
+    monkeypatch.setattr(prices.requests,'get',lambda *args,**kwargs:(_ for _ in ()).throw(requests.ConnectionError()))
+    with pytest.raises(URLError):
+        prices._open_provider('https://example.invalid/',25)
 
 
 def test_windows_transport_errors_use_existing_safe_messages(monkeypatch):
