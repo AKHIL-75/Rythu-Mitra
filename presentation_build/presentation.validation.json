@@ -1,0 +1,8 @@
+{
+  "finalPath": "C:\\Users\\akhil\\Desktop\\NLP_PROJECT\\presentations\\Rythu_Mitra_NLP_Project_Presentation.pptx",
+  "finalSha256": "7703b100e4d263c80bef1285b9ab19aad4b3ef6e8fecdc3316389cbb2af17802",
+  "slides": 16,
+  "publicationMethod": "exclusive-copy-after-upstream-validation",
+  "upstreamPublicationError": "EPERM",
+  "validationScope": "Upstream package, geometry/font, native table/chart, chart-title and first-party import checks completed before the unsupported hard-link publication step."
+}

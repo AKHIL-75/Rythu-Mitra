@@ -1,0 +1,151 @@
+query,intent,source,prediction,correct
+My tomato leaves have circular dark lesions; could this be blight?,crop_disease,handwritten_unseen,crop_disease,True
+వంకాయ ఆకులపై చిన్న రంధ్రాలు పురుగులు కనిపిస్తున్నాయి,crop_disease,handwritten_unseen,crop_disease,True
+mamidi pandu lo purugu undi emi cheyyali,crop_disease,handwritten_unseen,crop_disease,True
+Cotton whitefly attack needs inspection,crop_disease,handwritten_unseen,crop_disease,True
+పత్తి మొక్కలు వాడిపోతున్నాయి ఏ తెగులు,crop_disease,handwritten_unseen,crop_disease,True
+guava leafs showing fungal spotz please help,crop_disease,handwritten_unseen,crop_disease,True
+mirapa lo thrips damage chala ekkuva,crop_disease,handwritten_unseen,crop_disease,True
+అరటి వేర్లు కుళ్ళుతున్నాయి నివారణ చెప్పండి,crop_disease,handwritten_unseen,crop_disease,True
+Disease?,crop_disease,handwritten_unseen,crop_disease,True
+tegulu,crop_disease,handwritten_unseen,crop_disease,True
+Rose has powdery mildew spreading over buds,crop_disease,handwritten_unseen,crop_disease,True
+టమాటా పండ్లలో fruit borer పురుగు ఉంది,crop_disease,handwritten_unseen,crop_disease,True
+My brinjal shoots wilt and a caterpillar is inside; I have not sprayed anything and want help identifying the pest before deciding on control,crop_disease,handwritten_unseen,crop_disease,True
+boppayi aakulu curl avutunnayi virus aa,crop_disease,handwritten_unseen,other_agri,False
+వరి అగ్గి తెగులు ఎలా గుర్తించాలి,crop_disease,handwritten_unseen,crop_disease,True
+cucumber seedlings have root rot after rain,crop_disease,handwritten_unseen,crop_disease,True
+bendakaya meeda aphids unnayi treatment kavali,crop_disease,handwritten_unseen,crop_disease,True
+చామంతి ఆకులపై తెల్లదోమలు,crop_disease,handwritten_unseen,crop_disease,True
+pest on pomegranate flower,crop_disease,handwritten_unseen,crop_disease,True
+banana disease చికిత్స కోసం ఎవరిని అడగాలి,crop_disease,handwritten_unseen,crop_disease,True
+How much potash fertilizer for a banana orchard?,fertilizer,handwritten_unseen,fertilizer,True
+పాలకూరకు పోషకాలు ఎంత అవసరం,fertilizer,handwritten_unseen,irrigation,False
+tamata ki eruvulu eppudu veyyali,fertilizer,handwritten_unseen,fertilizer,True
+My maize needs a nitrogen nutrient recommendation,fertilizer,handwritten_unseen,fertilizer,True
+కందికి యూరియా మోతాదు చెప్పండి,fertilizer,handwritten_unseen,fertilizer,True
+guava fertilizr dose after soil testing,fertilizer,handwritten_unseen,other_agri,False
+kobbari ki potash mariyu compost enta,fertilizer,handwritten_unseen,fertilizer,True
+ఎరువు?,fertilizer,handwritten_unseen,fertilizer,True
+urea,fertilizer,handwritten_unseen,fertilizer,True
+Please explain DAP nutrition for turmeric,fertilizer,handwritten_unseen,fertilizer,True
+మిరపకు nitrogen deficiency ఉంటే ఎరువు ఏమిటి,fertilizer,handwritten_unseen,fertilizer,True
+My tomato soil report says phosphorus is low and I used manure last month; please help calculate the remaining fertilizer requirement without double feeding,fertilizer,handwritten_unseen,fertilizer,True
+beetroot ki poshakalu kavali,fertilizer,handwritten_unseen,fertilizer,True
+కొత్తిమీర పంటకు కంపోస్ట్ వేయవచ్చా,fertilizer,handwritten_unseen,other_agri,False
+NPK for French beans,fertilizer,handwritten_unseen,other_agri,False
+mamidi orchard lo zinc nutrient ela ivvali,fertilizer,handwritten_unseen,fertilizer,True
+దానిమ్మకు పొటాష్ మోతాదు ఎంత,fertilizer,handwritten_unseen,fertilizer,True
+Is vermicompost a fertilizer option for spinach?,fertilizer,handwritten_unseen,fertilizer,True
+vankaya ki basal eruvu cheppandi,fertilizer,handwritten_unseen,fertilizer,True
+ఉల్లిపాయ fertilizer schedule కావాలి,fertilizer,handwritten_unseen,fertilizer,True
+When is the next irrigation for okra?,irrigation,handwritten_unseen,irrigation,True
+టమాటాకు నీరు ఎన్ని రోజులకు పెట్టాలి,irrigation,handwritten_unseen,irrigation,True
+patti ki neelllu enni sarlu ivvali,irrigation,handwritten_unseen,irrigation,True
+Set a drip water plan for mango,irrigation,handwritten_unseen,irrigation,True
+బొప్పాయి పొలంలో నీరు నిలిచిపోయింది,irrigation,handwritten_unseen,irrigation,True
+irrigaation timing for cabbage please,irrigation,handwritten_unseen,other_agri,False
+munaga ki saguneeru avasaram enta,irrigation,handwritten_unseen,irrigation,True
+నీరు?,irrigation,handwritten_unseen,irrigation,True
+watering,irrigation,handwritten_unseen,irrigation,True
+Does bottle gourd need irrigation when soil is already wet?,irrigation,handwritten_unseen,irrigation,True
+వంకాయకు drip నీటి షెడ్యూల్ ఇవ్వండి,irrigation,handwritten_unseen,irrigation,True
+We grow pomegranate on sandy soil and the surface dries quickly but the deeper root zone is wet; please advise how to decide when to irrigate instead of using a fixed calendar,irrigation,handwritten_unseen,irrigation,True
+dondakaya lo tadulu ela ivvali,irrigation,handwritten_unseen,irrigation,True
+వేరుశనగకు బిందు సేద్యం చేయవచ్చా,irrigation,handwritten_unseen,irrigation,True
+Waterlogging drainage for chickpea,irrigation,handwritten_unseen,irrigation,True
+arati neeru morning ivvala evening ivvala,irrigation,handwritten_unseen,out_of_scope,False
+గుమ్మడికి నీళ్ళు సరిపోవడం లేదు,irrigation,handwritten_unseen,other_agri,False
+How often should I water jasmine?,irrigation,handwritten_unseen,irrigation,True
+potlakaya water schedule entha,irrigation,handwritten_unseen,irrigation,True
+క్యారెట్ irrigation అవసరం ఎంత,irrigation,handwritten_unseen,irrigation,True
+Find today's wholesale onion price,market_price,handwritten_unseen,market_price,True
+బెండకాయ మార్కెట్ ధర చెప్పండి,market_price,handwritten_unseen,market_price,True
+mamidi ki eeroju dhara enta untundi,market_price,handwritten_unseen,market_price,True
+What is the historical wheat MSP?,market_price,handwritten_unseen,market_price,True
+దానిమ్మ పంట ఎక్కడ అమ్మాలి,market_price,handwritten_unseen,market_price,True
+tomatto mandi prce please,market_price,handwritten_unseen,market_price,True
+kakarakaya ammakam retu kavali,market_price,handwritten_unseen,market_price,True
+ధర?,market_price,handwritten_unseen,market_price,True
+selling rate,market_price,handwritten_unseen,market_price,True
+Compare the market price of dry and green chilli,market_price,handwritten_unseen,market_price,True
+మామిడి wholesale rate ఎంత ఉంది,market_price,handwritten_unseen,market_price,True
+I have twenty quintals of turmeric ready to sell and want to compare verified mandi prices by grade before paying for transport; where should I check the rate?,market_price,handwritten_unseen,market_price,True
+palakura dharalu ekkada telustayi,market_price,handwritten_unseen,market_price,True
+కాలీఫ్లవర్ టోకు ధర ఎంత,market_price,handwritten_unseen,market_price,True
+Price per quintal for maize,market_price,handwritten_unseen,market_price,True
+boppayi pandlu ammali mandi rate unda,market_price,handwritten_unseen,market_price,True
+నువ్వులకు కనీస మద్దతు ధర ఎంత,market_price,handwritten_unseen,market_price,True
+Can I check tomato selling prices by market?,market_price,handwritten_unseen,market_price,True
+malle poola rate cheppandi,market_price,handwritten_unseen,market_price,True
+అరటి market price ఏ పోర్టల్ లో ఉంటుంది,market_price,handwritten_unseen,market_price,True
+Is rain expected in Guntur tomorrow?,weather,handwritten_unseen,weather,True
+రేపు వర్షం పడుతుందా,weather,handwritten_unseen,weather,True
+warangal lo vaana untunda repu,weather,handwritten_unseen,weather,True
+Give the wind forecast before field work,weather,handwritten_unseen,weather,True
+మామిడి తోట వద్ద వడగాలుల ముప్పు ఉందా,weather,handwritten_unseen,weather,True
+weathr forcast for chilli field,weather,handwritten_unseen,other_agri,False
+repu tufanu gaali untunda,weather,handwritten_unseen,weather,True
+వాతావరణం?,weather,handwritten_unseen,other_agri,False
+rainfall,weather,handwritten_unseen,weather,True
+Could a heatwave affect the vegetable nursery this weekend?,weather,handwritten_unseen,weather,True
+ఖమ్మంలో rain forecast ఏమిటి,weather,handwritten_unseen,weather,True
+We intend to harvest mangoes next week but need a seven day forecast of rain and high wind to choose a calm dry day and protect the picked fruit,weather,handwritten_unseen,weather,True
+nizamabad ushnoograta repu ela untundi,weather,handwritten_unseen,weather,True
+మిరప పొలం దగ్గర గాలి వేగం ఎంత,weather,handwritten_unseen,weather,True
+Hailstorm warning for my orchard,weather,handwritten_unseen,weather,True
+varshalu eppudu padatayi guntur lo,weather,handwritten_unseen,irrigation,False
+ఈ వారం వర్షపాతం వివరాలు చెప్పండి,weather,handwritten_unseen,weather,True
+Is a storm forecast for the coast?,weather,handwritten_unseen,weather,True
+endalu ekkuva weather alert kavali,weather,handwritten_unseen,weather,True
+రేపటి temperature వివరాలు కావాలి,weather,handwritten_unseen,weather,True
+How can a tenant farmer apply for KCC credit?,govt_scheme,handwritten_unseen,govt_scheme,True
+పంట బీమాకు ఎలా దరఖాస్తు చేయాలి,govt_scheme,handwritten_unseen,govt_scheme,True
+pm kisan pathakam documents enti,govt_scheme,handwritten_unseen,govt_scheme,True
+Where do I enquire about a drip subsidy scheme?,govt_scheme,handwritten_unseen,govt_scheme,True
+రైతు భరోసా అర్హత ఎవరు నిర్ధారిస్తారు,govt_scheme,handwritten_unseen,govt_scheme,True
+goverment subsdy for farmers,govt_scheme,handwritten_unseen,govt_scheme,True
+rythu runam bima kosam office ekkada,govt_scheme,handwritten_unseen,govt_scheme,True
+పథకం?,govt_scheme,handwritten_unseen,govt_scheme,True
+subsidy,govt_scheme,handwritten_unseen,govt_scheme,True
+What papers are needed for crop insurance?,govt_scheme,handwritten_unseen,govt_scheme,True
+వరి రైతుకు PM KISAN scheme వర్తిస్తుందా,govt_scheme,handwritten_unseen,govt_scheme,True
+I cultivate leased land and want to ask the bank about a Kisan Credit Card loan and the accepted proof of cultivation before applying for any government assistance,govt_scheme,handwritten_unseen,govt_scheme,True
+panta bima ela kattali,govt_scheme,handwritten_unseen,govt_scheme,True
+సౌర పంపు సబ్సిడీ పథకం వివరాలు,govt_scheme,handwritten_unseen,govt_scheme,True
+Government support for horticulture farmers,govt_scheme,handwritten_unseen,govt_scheme,True
+kusum scheme ki ela register avvali,govt_scheme,handwritten_unseen,govt_scheme,True
+రైతులకు రుణ పథకాలు ఏవి,govt_scheme,handwritten_unseen,govt_scheme,True
+Is PMFBY enrollment open for my crop?,govt_scheme,handwritten_unseen,other_agri,False
+prabhutva sahayam subsidy gurinchi cheppandi,govt_scheme,handwritten_unseen,govt_scheme,True
+టమాటా crop insurance పథకం ఎలా తెలుసుకోవాలి,govt_scheme,handwritten_unseen,govt_scheme,True
+When should I harvest papaya?,other_agri,handwritten_unseen,irrigation,False
+మామిడి పండ్ల నిల్వ పద్ధతి చెప్పండి,other_agri,handwritten_unseen,other_agri,True
+vari seed quality ela check cheyali,other_agri,handwritten_unseen,other_agri,True
+How do I choose a crop for red soil?,other_agri,handwritten_unseen,govt_scheme,False
+కొత్తిమీర విత్తే సమయం ఏది,other_agri,handwritten_unseen,other_agri,True
+tomato spacing between plants enti,other_agri,handwritten_unseen,other_agri,True
+I need guidance on organic farming,other_agri,handwritten_unseen,other_agri,True
+పొలంలో కలుపు మొక్కల నివారణ,other_agri,handwritten_unseen,other_agri,True
+Can a harvesting machine be rented?,other_agri,handwritten_unseen,other_agri,True
+soil testing sample ela teeyali,other_agri,handwritten_unseen,other_agri,True
+అరటి కోత తర్వాత ప్యాకింగ్ ఎలా చేయాలి,other_agri,handwritten_unseen,other_agri,True
+How can I reduce storage losses in grain?,other_agri,handwritten_unseen,other_agri,True
+Which seed variety suits the season?,other_agri,handwritten_unseen,other_agri,True
+విత్తనాల మొలక శాతం ఎలా పరీక్షించాలి,other_agri,handwritten_unseen,other_agri,True
+mung bean crop rotation planning please,other_agri,handwritten_unseen,other_agri,True
+Namaste friend how are you today,out_of_scope,handwritten_unseen,out_of_scope,True
+నాకు సినిమా టికెట్ బుక్ చేయి,out_of_scope,handwritten_unseen,out_of_scope,True
+ipl match evaru gelicharu,out_of_scope,handwritten_unseen,out_of_scope,True
+Explain inheritance in Java,out_of_scope,handwritten_unseen,crop_disease,False
+నాకు ఒక పాట పాడు,out_of_scope,handwritten_unseen,out_of_scope,True
+qzxwv ljkqq zzzzzz,out_of_scope,handwritten_unseen,other_agri,False
+Recommend an action movie for tonight,out_of_scope,handwritten_unseen,out_of_scope,True
+birthday wishes kavali,out_of_scope,handwritten_unseen,out_of_scope,True
+What is seven multiplied by nine?,out_of_scope,handwritten_unseen,weather,False
+క్రికెట్ ఆటగాళ్ల పేర్లు చెప్పు,out_of_scope,handwritten_unseen,out_of_scope,True
+Order noodles to my home,out_of_scope,handwritten_unseen,fertilizer,False
+wifi password ela marchali,out_of_scope,handwritten_unseen,out_of_scope,True
+Who painted the Mona Lisa?,out_of_scope,handwritten_unseen,out_of_scope,True
+నా మొబైల్ స్క్రీన్ పగిలింది,out_of_scope,handwritten_unseen,other_agri,False
+Book a train to Delhi,out_of_scope,handwritten_unseen,out_of_scope,True

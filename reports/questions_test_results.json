@@ -1,0 +1,391 @@
+{
+  "passed": 43,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "requested crop question 1",
+      "status": "passed"
+    },
+    {
+      "name": "requested crop question 2",
+      "status": "passed"
+    },
+    {
+      "name": "requested crop question 3",
+      "status": "passed"
+    },
+    {
+      "name": "requested tomorrow question 4",
+      "status": "passed"
+    },
+    {
+      "name": "requested tomorrow question 5",
+      "status": "passed"
+    },
+    {
+      "name": "requested tomorrow question 6",
+      "status": "passed"
+    },
+    {
+      "name": "requested chilli question 7",
+      "status": "passed"
+    },
+    {
+      "name": "requested chilli question 8",
+      "status": "passed"
+    },
+    {
+      "name": "requested chilli question 9",
+      "status": "passed"
+    },
+    {
+      "name": "requested bharosa question 10",
+      "status": "passed"
+    },
+    {
+      "name": "requested bharosa question 11",
+      "status": "passed"
+    },
+    {
+      "name": "requested bharosa question 12",
+      "status": "passed"
+    },
+    {
+      "name": "requested soil question 13",
+      "status": "passed"
+    },
+    {
+      "name": "requested soil question 14",
+      "status": "passed"
+    },
+    {
+      "name": "requested soil question 15",
+      "status": "passed"
+    },
+    {
+      "name": "requested quantity question 16",
+      "status": "passed"
+    },
+    {
+      "name": "requested quantity question 17",
+      "status": "passed"
+    },
+    {
+      "name": "requested quantity question 18",
+      "status": "passed"
+    },
+    {
+      "name": "requested turmeric question 19",
+      "status": "passed"
+    },
+    {
+      "name": "requested turmeric question 20",
+      "status": "passed"
+    },
+    {
+      "name": "requested turmeric question 21",
+      "status": "passed"
+    },
+    {
+      "name": "requested status question 22",
+      "status": "passed"
+    },
+    {
+      "name": "requested status question 23",
+      "status": "passed"
+    },
+    {
+      "name": "requested status question 24",
+      "status": "passed"
+    },
+    {
+      "name": "requested three_days question 25",
+      "status": "passed"
+    },
+    {
+      "name": "requested three_days question 26",
+      "status": "passed"
+    },
+    {
+      "name": "requested three_days question 27",
+      "status": "passed"
+    },
+    {
+      "name": "requested rental question 28",
+      "status": "passed"
+    },
+    {
+      "name": "requested rental question 29",
+      "status": "passed"
+    },
+    {
+      "name": "requested rental question 30",
+      "status": "passed"
+    },
+    {
+      "name": "two-acre maize calculation credits nitrogen from DAP",
+      "status": "passed"
+    },
+    {
+      "name": "Telugu acreage and numeral spellings parse correctly",
+      "status": "passed"
+    },
+    {
+      "name": "tomorrow uses day two, not today, after district selection",
+      "status": "passed"
+    },
+    {
+      "name": "next three days has three correctly dated forecast rows",
+      "status": "passed"
+    },
+    {
+      "name": "missing rainfall probability is not displayed as zero",
+      "status": "passed"
+    },
+    {
+      "name": "weather failure has no invented forecast",
+      "status": "passed"
+    },
+    {
+      "name": "home turmeric rate fetched for the actual district and commodity",
+      "status": "passed"
+    },
+    {
+      "name": "chilli form clarification leads to dry-chilli lookup",
+      "status": "passed"
+    },
+    {
+      "name": "empty and failed price replies never invent a rate",
+      "status": "passed"
+    },
+    {
+      "name": "incompatible price units are not relabelled INR/quintal",
+      "status": "passed"
+    },
+    {
+      "name": "official status/forms/rental/laboratory links are relevant",
+      "status": "passed"
+    },
+    {
+      "name": "all requested topics render in Telugu on mobile",
+      "status": "passed"
+    },
+    {
+      "name": "no JavaScript errors",
+      "status": "passed"
+    }
+  ],
+  "javascript_errors": [],
+  "answers": [
+    {
+      "query": "వరి పంటలో తెగుళ్ల నివారణకు ఏ మందు వాడాలి?",
+      "intent": "crop_disease",
+      "crop": "paddy",
+      "location": null,
+      "answer": "Your farm question\nCrop health\nPaddy\nBefore choosing a pesticide\n\nDifferent pests and diseases need different treatments. A crop name alone is not enough to choose a medicine.\n\nInspect affected and nearby healthy plants; look at leaves, stems, roots and the growing point.\nLook for insects or eggs, feeding holes, spots, yellowing or wilting. Note crop age and how fast the problem is spreading.\nChoose the symptom below for immediate practical checks. Do not mix or repeat pesticides before identifying the problem.\n\nWhat do you observe? Tap a symptom.\n\nYellow leaves\nLeaf spots\nWilting / drying\nPowder on leaves\nPest / feeding damage\nCurled leaves\nRoot / fruit rot\n\nFor field-specific advice, consult your agriculture officer. Kisan Call Centre: 1800-180-1551\n\nSee full guide\nAdd details to this question\n\nInclude the affected part, crop age, soil moisture and whether the problem is spreading. Your crop and original question stay attached.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "Which pesticide should be used to control pests in paddy crops?",
+      "intent": "crop_disease",
+      "crop": "paddy",
+      "location": null,
+      "answer": "Your farm question\nCrop health\nPaddy\nBefore choosing a pesticide\n\nDifferent pests and diseases need different treatments. A crop name alone is not enough to choose a medicine.\n\nInspect affected and nearby healthy plants; look at leaves, stems, roots and the growing point.\nLook for insects or eggs, feeding holes, spots, yellowing or wilting. Note crop age and how fast the problem is spreading.\nChoose the symptom below for immediate practical checks. Do not mix or repeat pesticides before identifying the problem.\n\nWhat do you observe? Tap a symptom.\n\nYellow leaves\nLeaf spots\nWilting / drying\nPowder on leaves\nPest / feeding damage\nCurled leaves\nRoot / fruit rot\n\nFor field-specific advice, consult your agriculture officer. Kisan Call Centre: 1800-180-1551\n\nSee full guide\nAdd details to this question\n\nInclude the affected part, crop age, soil moisture and whether the problem is spreading. Your crop and original question stay attached.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "na vari panta ki pests unnay ఏ మందు వాడాలి?",
+      "intent": "crop_disease",
+      "crop": "paddy",
+      "location": null,
+      "answer": "Your farm question\nCrop health\nPaddy\nBefore choosing a pesticide\n\nDifferent pests and diseases need different treatments. A crop name alone is not enough to choose a medicine.\n\nInspect affected and nearby healthy plants; look at leaves, stems, roots and the growing point.\nLook for insects or eggs, feeding holes, spots, yellowing or wilting. Note crop age and how fast the problem is spreading.\nChoose the symptom below for immediate practical checks. Do not mix or repeat pesticides before identifying the problem.\n\nWhat do you observe? Tap a symptom.\n\nYellow leaves\nLeaf spots\nWilting / drying\nPowder on leaves\nPest / feeding damage\nCurled leaves\nRoot / fruit rot\n\nFor field-specific advice, consult your agriculture officer. Kisan Call Centre: 1800-180-1551\n\nSee full guide\nAdd details to this question\n\nInclude the affected part, crop age, soil moisture and whether the problem is spreading. Your crop and original question stay attached.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "రేపు మా ప్రాంతంలో వర్షం పడే అవకాశం ఉందా?",
+      "intent": "weather",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarm weather\nCrop not mentioned\nTomorrow\n\nWhich district? “Our area” does not tell us your location. Select it below to check the requested dates.\n\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nSee full guide\nAdd details to this question\n\nInclude your district and dates, and whether you are planning spraying or harvest.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "Will it rain in our area tomorrow?",
+      "intent": "weather",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarm weather\nCrop not mentioned\nTomorrow\n\nWhich district? “Our area” does not tell us your location. Select it below to check the requested dates.\n\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nSee full guide\nAdd details to this question\n\nInclude your district and dates, and whether you are planning spraying or harvest.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "repu maa area lo rain పడుతుందా?",
+      "intent": "weather",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarm weather\nCrop not mentioned\nTomorrow\n\nWhich district? “Our area” does not tell us your location. Select it below to check the requested dates.\n\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nSee full guide\nAdd details to this question\n\nInclude your district and dates, and whether you are planning spraying or harvest.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "ఈరోజు వరంగల్ మార్కెట్‌లో మిర్చి ధర ఎంత ఉంది?",
+      "intent": "market_price",
+      "crop": "chilli",
+      "location": "Warangal",
+      "answer": "Your farm question\nMarket prices\nChilli\n\nLocation: Warangal\n\nDo you mean dry red chillies or green chillies? They have different market rates.\n\nDry red chillies\nGreen chillies\nCheck reported mandi prices\n\nOpen the market page with your crop selected. Choose your Telangana district, then compare the reported market, date, variety and grade. A current price must come from the price service; it cannot be inferred from your question.\n\nView mandi rates for this crop\nSee full guide\nAdd details to this question\n\nInclude crop, district/market, dry or fresh produce, and variety if known.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "What is the price of chili in the Warangal market today?",
+      "intent": "market_price",
+      "crop": "chilli",
+      "location": "Warangal",
+      "answer": "Your farm question\nMarket prices\nChilli\n\nLocation: Warangal\n\nDo you mean dry red chillies or green chillies? They have different market rates.\n\nDry red chillies\nGreen chillies\nCheck reported mandi prices\n\nOpen the market page with your crop selected. Choose your Telangana district, then compare the reported market, date, variety and grade. A current price must come from the price service; it cannot be inferred from your question.\n\nView mandi rates for this crop\nSee full guide\nAdd details to this question\n\nInclude crop, district/market, dry or fresh produce, and variety if known.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "వరంగల్ market lo mirchi price entha today?",
+      "intent": "market_price",
+      "crop": "chilli",
+      "location": "Warangal",
+      "answer": "Your farm question\nMarket prices\nChilli\n\nLocation: Warangal\n\nDo you mean dry red chillies or green chillies? They have different market rates.\n\nDry red chillies\nGreen chillies\nCheck reported mandi prices\n\nOpen the market page with your crop selected. Choose your Telangana district, then compare the reported market, date, variety and grade. A current price must come from the price service; it cannot be inferred from your question.\n\nView mandi rates for this crop\nSee full guide\nAdd details to this question\n\nInclude crop, district/market, dry or fresh produce, and variety if known.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "రైతు భరోసా పథకానికి ఎలా దరఖాస్తు చేసుకోవాలి?",
+      "intent": "govt_scheme",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarmer schemes\nCrop not mentioned\nRythu Bharosa: application and record verification\nOpen the Telangana Rythu Bharosa portal and check its current orders, circulars and forms.\nAsk your mandal agriculture/extension officer about enrolment or corrections for your land and cultivation records. Keep Aadhaar, bank and land records ready for the authorised office.\nUse the official bank-details/consent forms if instructed. Obtain an acknowledgement; confirm eligibility and the current submission route locally.\nOfficial Telangana Rythu Bharosa portal · Official forms\n\nThis does not confirm that a new application window is open or that you qualify.\n\nAdd details to this question\n\nInclude the scheme name and whether you need application, payment status or record-correction guidance. Enter personal IDs and OTPs only on the official portal.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "How to apply for the Rythu Bharosa scheme?",
+      "intent": "govt_scheme",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarmer schemes\nCrop not mentioned\nRythu Bharosa: application and record verification\nOpen the Telangana Rythu Bharosa portal and check its current orders, circulars and forms.\nAsk your mandal agriculture/extension officer about enrolment or corrections for your land and cultivation records. Keep Aadhaar, bank and land records ready for the authorised office.\nUse the official bank-details/consent forms if instructed. Obtain an acknowledgement; confirm eligibility and the current submission route locally.\nOfficial Telangana Rythu Bharosa portal · Official forms\n\nThis does not confirm that a new application window is open or that you qualify.\n\nAdd details to this question\n\nInclude the scheme name and whether you need application, payment status or record-correction guidance. Enter personal IDs and OTPs only on the official portal.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "rythu bharosa కి apply ela cheyali?",
+      "intent": "govt_scheme",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarmer schemes\nCrop not mentioned\nRythu Bharosa: application and record verification\nOpen the Telangana Rythu Bharosa portal and check its current orders, circulars and forms.\nAsk your mandal agriculture/extension officer about enrolment or corrections for your land and cultivation records. Keep Aadhaar, bank and land records ready for the authorised office.\nUse the official bank-details/consent forms if instructed. Obtain an acknowledgement; confirm eligibility and the current submission route locally.\nOfficial Telangana Rythu Bharosa portal · Official forms\n\nThis does not confirm that a new application window is open or that you qualify.\n\nAdd details to this question\n\nInclude the scheme name and whether you need application, payment status or record-correction guidance. Enter personal IDs and OTPs only on the official portal.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "Where can I get a soil health card made near Hanamkonda?",
+      "intent": "fertilizer",
+      "crop": null,
+      "location": "Hanumakonda",
+      "answer": "Your farm question\nFertilizer guide\nCrop not mentioned\n\nLocation: Hanumakonda\n\nSoil testing and Soil Health Card\n\nThe Hanumakonda district Agriculture Department lists a Soil Testing Laboratory–Hanumakonda that analyses field samples and generates Soil Health Cards.\n\nUse the official soil-lab locator or ask the mandal agriculture office about the nearest authorised lab and sample collection.\nConfirm sample method, receiving hours and any fee before travelling. Keep field location, crop and earlier fertilizer details ready.\nRequest pH and nutrient results with crop-specific recommendations, and ask when and how to collect the card/report.\nHanumakonda Agriculture Department — laboratory information · Official Soil Health Card portal — locate a laboratory\nAdd details to this question\n\nInclude your village/district and whether you need sample collection, a lab or help reading a soil report.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "హనుమకొండ దగ్గర సాయిల్ హెల్త్ కార్డ్ ఎక్కడ చేయించుకోవాలి?",
+      "intent": "fertilizer",
+      "crop": null,
+      "location": "Hanumakonda",
+      "answer": "Your farm question\nFertilizer guide\nCrop not mentioned\n\nLocation: Hanumakonda\n\nSoil testing and Soil Health Card\n\nThe Hanumakonda district Agriculture Department lists a Soil Testing Laboratory–Hanumakonda that analyses field samples and generates Soil Health Cards.\n\nUse the official soil-lab locator or ask the mandal agriculture office about the nearest authorised lab and sample collection.\nConfirm sample method, receiving hours and any fee before travelling. Keep field location, crop and earlier fertilizer details ready.\nRequest pH and nutrient results with crop-specific recommendations, and ask when and how to collect the card/report.\nHanumakonda Agriculture Department — laboratory information · Official Soil Health Card portal — locate a laboratory\nAdd details to this question\n\nInclude your village/district and whether you need sample collection, a lab or help reading a soil report.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "Hanamkonda దగ్గర soil testing ఎక్కడ చేస్తారు?",
+      "intent": "fertilizer",
+      "crop": null,
+      "location": "Hanumakonda",
+      "answer": "Your farm question\nFertilizer guide\nCrop not mentioned\n\nLocation: Hanumakonda\n\nSoil testing and Soil Health Card\n\nThe Hanumakonda district Agriculture Department lists a Soil Testing Laboratory–Hanumakonda that analyses field samples and generates Soil Health Cards.\n\nUse the official soil-lab locator or ask the mandal agriculture office about the nearest authorised lab and sample collection.\nConfirm sample method, receiving hours and any fee before travelling. Keep field location, crop and earlier fertilizer details ready.\nRequest pH and nutrient results with crop-specific recommendations, and ask when and how to collect the card/report.\nHanumakonda Agriculture Department — laboratory information · Official Soil Health Card portal — locate a laboratory\nAdd details to this question\n\nInclude your village/district and whether you need sample collection, a lab or help reading a soil report.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "How much urea and DAP do I need for two acres of maize?",
+      "intent": "fertilizer",
+      "crop": "maize",
+      "location": null,
+      "answer": "Your farm question\nFertilizer guide\nMaize\nPlan nutrients before buying another fertilizer\n\nUse the crop stage, soil test and earlier applications together. A yellow leaf alone does not set a dose.\n\nSteps you can take now\nWrite down the crop age, cultivated area, fertilizer names, amounts and dates already applied.\nUse a recent soil test to identify missing nutrients rather than repeating the same product.\nUse the fertilizer guide to convert an existing nutrient recommendation into product quantities.\n\nTo narrow it down: Which crop, age, area and fertilizers already applied? Do you have a soil report?\n\nWhy these steps? Sources\nConditional fertilizer quantity calculation\n\nDetected area: 2 acres.\n\nThis is a high-input irrigated hybrid reference; rainfed maize may need much less. Nitrogen splits are 25% basal, 50% around day 25, and 25% around day 45. Full phosphorus and potash are basal in this reference.\n\nOnly if this saved reference fits your crop and growing conditions, the whole-season product equivalents are:\n\nCalculated reference quantities, not a field-specific prescription\nProduct\tkg / 2 acres\nUrea (46% N)\t388.24\nDAP (18% N, 46% P₂O₅)\t131.96\nMOP (60% K₂O)\t101.17\n\nDAP nitrogen is deducted before calculating urea. These are season totals, not one application; already-applied nutrients and your soil recommendation must be accounted for. For maize, confirm irrigated hybrid versus rainfed/variety before using this reference.\n\nExisting crop nutrient reference\nNutrient guidance for your crop\n\nThis is a high-input irrigated hybrid reference; rainfed maize may need much less. Nitrogen splits are 25% basal, 50% around day 25, and 25% around day 45. Full phosphorus and potash are basal in this reference.\n\nA detected stage helps you discuss timing, but it does not establish a safe fertilizer dose. Use your soil report and record earlier applications.\n\nTNAU Agritech — crop reference\n\nFor field-specific advice, consult your agriculture officer. Kisan Call Centre: 1800-180-1551\n\nSee full guide\nAdd details to this question\n\nInclude crop, area, irrigation, growth stage and fertilizers already applied.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "రెండు ఎకరాల మొక్కజొన్నకు యూరియా DAP ఎంత కావాలి?",
+      "intent": "fertilizer",
+      "crop": "maize",
+      "location": null,
+      "answer": "Your farm question\nFertilizer guide\nMaize\nPlan nutrients before buying another fertilizer\n\nUse the crop stage, soil test and earlier applications together. A yellow leaf alone does not set a dose.\n\nSteps you can take now\nWrite down the crop age, cultivated area, fertilizer names, amounts and dates already applied.\nUse a recent soil test to identify missing nutrients rather than repeating the same product.\nUse the fertilizer guide to convert an existing nutrient recommendation into product quantities.\n\nTo narrow it down: Which crop, age, area and fertilizers already applied? Do you have a soil report?\n\nWhy these steps? Sources\nConditional fertilizer quantity calculation\n\nDetected area: 2 acres.\n\nThis is a high-input irrigated hybrid reference; rainfed maize may need much less. Nitrogen splits are 25% basal, 50% around day 25, and 25% around day 45. Full phosphorus and potash are basal in this reference.\n\nOnly if this saved reference fits your crop and growing conditions, the whole-season product equivalents are:\n\nCalculated reference quantities, not a field-specific prescription\nProduct\tkg / 2 acres\nUrea (46% N)\t388.24\nDAP (18% N, 46% P₂O₅)\t131.96\nMOP (60% K₂O)\t101.17\n\nDAP nitrogen is deducted before calculating urea. These are season totals, not one application; already-applied nutrients and your soil recommendation must be accounted for. For maize, confirm irrigated hybrid versus rainfed/variety before using this reference.\n\nExisting crop nutrient reference\nNutrient guidance for your crop\n\nThis is a high-input irrigated hybrid reference; rainfed maize may need much less. Nitrogen splits are 25% basal, 50% around day 25, and 25% around day 45. Full phosphorus and potash are basal in this reference.\n\nA detected stage helps you discuss timing, but it does not establish a safe fertilizer dose. Use your soil report and record earlier applications.\n\nTNAU Agritech — crop reference\n\nFor field-specific advice, consult your agriculture officer. Kisan Call Centre: 1800-180-1551\n\nSee full guide\nAdd details to this question\n\nInclude crop, area, irrigation, growth stage and fertilizers already applied.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "maize 2 acres కి urea DAP entha kavali?",
+      "intent": "fertilizer",
+      "crop": "maize",
+      "location": null,
+      "answer": "Your farm question\nFertilizer guide\nMaize\nPlan nutrients before buying another fertilizer\n\nUse the crop stage, soil test and earlier applications together. A yellow leaf alone does not set a dose.\n\nSteps you can take now\nWrite down the crop age, cultivated area, fertilizer names, amounts and dates already applied.\nUse a recent soil test to identify missing nutrients rather than repeating the same product.\nUse the fertilizer guide to convert an existing nutrient recommendation into product quantities.\n\nTo narrow it down: Which crop, age, area and fertilizers already applied? Do you have a soil report?\n\nWhy these steps? Sources\nConditional fertilizer quantity calculation\n\nDetected area: 2 acres.\n\nThis is a high-input irrigated hybrid reference; rainfed maize may need much less. Nitrogen splits are 25% basal, 50% around day 25, and 25% around day 45. Full phosphorus and potash are basal in this reference.\n\nOnly if this saved reference fits your crop and growing conditions, the whole-season product equivalents are:\n\nCalculated reference quantities, not a field-specific prescription\nProduct\tkg / 2 acres\nUrea (46% N)\t388.24\nDAP (18% N, 46% P₂O₅)\t131.96\nMOP (60% K₂O)\t101.17\n\nDAP nitrogen is deducted before calculating urea. These are season totals, not one application; already-applied nutrients and your soil recommendation must be accounted for. For maize, confirm irrigated hybrid versus rainfed/variety before using this reference.\n\nExisting crop nutrient reference\nNutrient guidance for your crop\n\nThis is a high-input irrigated hybrid reference; rainfed maize may need much less. Nitrogen splits are 25% basal, 50% around day 25, and 25% around day 45. Full phosphorus and potash are basal in this reference.\n\nA detected stage helps you discuss timing, but it does not establish a safe fertilizer dose. Use your soil report and record earlier applications.\n\nTNAU Agritech — crop reference\n\nFor field-specific advice, consult your agriculture officer. Kisan Call Centre: 1800-180-1551\n\nSee full guide\nAdd details to this question\n\nInclude crop, area, irrigation, growth stage and fertilizers already applied.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "What is today's market price for turmeric at the Warangal mandi?",
+      "intent": "market_price",
+      "crop": "turmeric",
+      "location": "Warangal",
+      "answer": "Your farm question\nMarket prices\nTurmeric\n\nLocation: Warangal\n\nReported mandi prices for your question\n\nCheck the reporting date: an older report is not today’s price. Rates vary by market, variety and grade.\n\nReported mandi rates — INR per quintal (100 kg)\nCommodity / variety / grade\tMarket / district\tReporting date\tModal (INR/quintal)\nTurmeric / Fixture variety / FAQ\tFixture Warangal mandi / Warangal\t12/11/2026\t10000\n\nSource: data.gov.in / AGMARKNET; no historical MSP is substituted.\n\nCheck reported mandi prices\n\nOpen the market page with your crop selected. Choose your Telangana district, then compare the reported market, date, variety and grade. A current price must come from the price service; it cannot be inferred from your question.\n\nView mandi rates for this crop\nSee full guide\nAdd details to this question\n\nInclude crop, district/market, dry or fresh produce, and variety if known.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "వరంగల్ మార్కెట్‌లో ఈరోజు పసుపు ధర ఎంత?",
+      "intent": "market_price",
+      "crop": "turmeric",
+      "location": "Warangal",
+      "answer": "Your farm question\nMarket prices\nTurmeric\n\nLocation: Warangal\n\nReported mandi prices for your question\n\nCheck the reporting date: an older report is not today’s price. Rates vary by market, variety and grade.\n\nReported mandi rates — INR per quintal (100 kg)\nCommodity / variety / grade\tMarket / district\tReporting date\tModal (INR/quintal)\nTurmeric / Fixture variety / FAQ\tFixture Warangal mandi / Warangal\t12/11/2026\t10000\n\nSource: data.gov.in / AGMARKNET; no historical MSP is substituted.\n\nCheck reported mandi prices\n\nOpen the market page with your crop selected. Choose your Telangana district, then compare the reported market, date, variety and grade. A current price must come from the price service; it cannot be inferred from your question.\n\nView mandi rates for this crop\nSee full guide\nAdd details to this question\n\nInclude crop, district/market, dry or fresh produce, and variety if known.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "Warangal mandi lo పసుపు price entha?",
+      "intent": "market_price",
+      "crop": "turmeric",
+      "location": "Warangal",
+      "answer": "Your farm question\nMarket prices\nTurmeric\n\nLocation: Warangal\n\nReported mandi prices for your question\nChecking dated mandi reports...\nCheck reported mandi prices\n\nOpen the market page with your crop selected. Choose your Telangana district, then compare the reported market, date, variety and grade. A current price must come from the price service; it cannot be inferred from your question.\n\nView mandi rates for this crop\nSee full guide\nAdd details to this question\n\nInclude crop, district/market, dry or fresh produce, and variety if known.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "How do I check the status of my PM-KISAN payment?",
+      "intent": "govt_scheme",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarmer schemes\nCrop not mentioned\nPM-KISAN: check payment or registration status\nOpen the official PM-KISAN portal and choose Know Your Status.\nUse your registration number, captcha and the registered-mobile OTP on that official page. Use Know Your Registration Number if needed.\nRead the payment and verification messages. For a held payment or record mismatch, use the portal help options or your CSC/agriculture office.\nPM-KISAN — Know Your Status · Know Your Registration Number\n\nPersonal payment status must be checked on the official portal; do not enter Aadhaar, bank numbers or OTPs in this assistant.\n\nAdd details to this question\n\nInclude the scheme name and whether you need application, payment status or record-correction guidance. Enter personal IDs and OTPs only on the official portal.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "నా పీఎం కిసాన్ చెల్లింపు స్థితి ఎలా చూడాలి?",
+      "intent": "govt_scheme",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarmer schemes\nCrop not mentioned\nPM-KISAN: check payment or registration status\nOpen the official PM-KISAN portal and choose Know Your Status.\nUse your registration number, captcha and the registered-mobile OTP on that official page. Use Know Your Registration Number if needed.\nRead the payment and verification messages. For a held payment or record mismatch, use the portal help options or your CSC/agriculture office.\nPM-KISAN — Know Your Status · Know Your Registration Number\n\nPersonal payment status must be checked on the official portal; do not enter Aadhaar, bank numbers or OTPs in this assistant.\n\nAdd details to this question\n\nInclude the scheme name and whether you need application, payment status or record-correction guidance. Enter personal IDs and OTPs only on the official portal.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "PM-KISAN payment status ఎలా check cheyali?",
+      "intent": "govt_scheme",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarmer schemes\nCrop not mentioned\nPM-KISAN: check payment or registration status\nOpen the official PM-KISAN portal and choose Know Your Status.\nUse your registration number, captcha and the registered-mobile OTP on that official page. Use Know Your Registration Number if needed.\nRead the payment and verification messages. For a held payment or record mismatch, use the portal help options or your CSC/agriculture office.\nPM-KISAN — Know Your Status · Know Your Registration Number\n\nPersonal payment status must be checked on the official portal; do not enter Aadhaar, bank numbers or OTPs in this assistant.\n\nAdd details to this question\n\nInclude the scheme name and whether you need application, payment status or record-correction guidance. Enter personal IDs and OTPs only on the official portal.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "Will it rain in the next three days so I can plan my harvest?",
+      "intent": "weather",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarm weather\nCrop not mentioned\n\nDetected growth stage: harvesting\n\nNext three days, including today\n\nWhich district? “Our area” does not tell us your location. Select it below to check the requested dates.\n\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nSee full guide\nAdd details to this question\n\nInclude your district and dates, and whether you are planning spraying or harvest.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "వచ్చే మూడు రోజుల్లో వర్షం వస్తుందా? కోత ప్లాన్ చేయాలి.",
+      "intent": "weather",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarm weather\nCrop not mentioned\n\nDetected growth stage: harvesting\n\nNext three days, including today\n\nWhich district? “Our area” does not tell us your location. Select it below to check the requested dates.\n\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nSee full guide\nAdd details to this question\n\nInclude your district and dates, and whether you are planning spraying or harvest.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "next 3 days లో rain untunda harvest plan cheyali?",
+      "intent": "weather",
+      "crop": null,
+      "location": null,
+      "answer": "Your farm question\nFarm weather\nCrop not mentioned\n\nDetected growth stage: harvesting\n\nNext three days, including today\n\nWhich district? “Our area” does not tell us your location. Select it below to check the requested dates.\n\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nSee full guide\nAdd details to this question\n\nInclude your district and dates, and whether you are planning spraying or harvest.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "Where can I rent a paddy harvester near me?",
+      "intent": "other_agri",
+      "crop": "paddy",
+      "location": null,
+      "answer": "Your farm question\nOther farm question\nPaddy\nRent a harvester, tractor or farm equipment\n\nUse the Government of India FARMS service to find Custom Hiring Centres and machinery providers. This website does not have live rental availability or verified local quotations.\n\nOpen FARMS and search for the required machine in your state and district.\nTell the provider your village, acreage, crop and required date. Ask whether the machine suits your field.\nConfirm availability, operator, transport, fuel and total charges directly before booking.\nOfficial FARMS machinery hiring service\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nAdd details to this question\n\nInclude your village/district, required machine, acreage and booking date.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "మా దగ్గర వరి కోత యంత్రం అద్దెకు ఎక్కడ దొరుకుతుంది?",
+      "intent": "other_agri",
+      "crop": "paddy",
+      "location": null,
+      "answer": "Your farm question\nOther farm question\nPaddy\n\nDetected growth stage: harvesting\n\nRent a harvester, tractor or farm equipment\n\nUse the Government of India FARMS service to find Custom Hiring Centres and machinery providers. This website does not have live rental availability or verified local quotations.\n\nOpen FARMS and search for the required machine in your state and district.\nTell the provider your village, acreage, crop and required date. Ask whether the machine suits your field.\nConfirm availability, operator, transport, fuel and total charges directly before booking.\nOfficial FARMS machinery hiring service\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nAdd details to this question\n\nInclude your village/district, required machine, acreage and booking date.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    },
+    {
+      "query": "na paddy కి harvester adde ekkada dorukutundi?",
+      "intent": "other_agri",
+      "crop": "paddy",
+      "location": null,
+      "answer": "Your farm question\nOther farm question\nPaddy\nRent a harvester, tractor or farm equipment\n\nUse the Government of India FARMS service to find Custom Hiring Centres and machinery providers. This website does not have live rental availability or verified local quotations.\n\nOpen FARMS and search for the required machine in your state and district.\nTell the provider your village, acreage, crop and required date. Ask whether the machine suits your field.\nConfirm availability, operator, transport, fuel and total charges directly before booking.\nOfficial FARMS machinery hiring service\nChoose your Telangana district\nSelect district\nAdilabad / ఆదిలాబాద్\nBhadradri Kothagudem\nHanumakonda / హనుమకొండ\nHyderabad / హైదరాబాద్\nJagtial\nJangaon\nJayashankar Bhupalpally\nJogulamba Gadwal\nKamareddy\nKarimnagar / కరీంనగర్\nKhammam / ఖమ్మం\nKumuram Bheem Asifabad\nMahabubabad\nMahabubnagar\nMancherial\nMedak\nMedchal Malkajgiri\nMulugu\nNagarkurnool\nNalgonda / నల్గొండ\nNarayanpet\nNirmal / నిర్మల్\nNizamabad / నిజామాబాద్\nPeddapalli\nRajanna Sircilla\nRangareddy\nSangareddy / సంగారెడ్డి\nSiddipet / సిద్దిపేట\nSuryapet / సూర్యాపేట\nVikarabad\nWanaparthy\nWarangal / వరంగల్\nYadadri Bhuvanagiri\nUse this district\nAdd details to this question\n\nInclude your village/district, required machine, acreage and booking date.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+    }
+  ]
+}

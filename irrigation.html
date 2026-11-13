@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1F4D2E">
+  <meta name="description" content="Simple crop care, water planning, fertilizer guidance, weather, prices, and farmer schemes for Telugu–English questions.">
+  <title>Water planner | Rythu Mitra</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/crops-data.js"></script>
+<script defer src="js/slots-data.js"></script><script defer src="js/districts-data.js"></script>
+  <script defer src="js/advice.js"></script>
+  <script defer src="js/coverage.js"></script>
+  
+  <script defer src="js/app.js"></script>
+</head>
+<body data-page="irrigation">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"></header>
+  <main id="main"><div class="page-intro"><div class="wrap"><div class="breadcrumb"><a href="index.html" data-en="Home" data-te="హోమ్">Home</a> / Every drop has a job to do</div><span class="eyebrow" data-en="YOUR FIELD COMPANION" data-te="మీ వ్యవసాయ సహాయకుడు">YOUR FIELD COMPANION</span><h1 data-en="Every drop has a job to do" data-te="ప్రతి నీటి బొట్టూ విలువైనదే">Every drop has a job to do</h1><p>Plan irrigation around your crop, soil, and season. Check the field before switching on the pump.</p></div></div>
+<div class="wrap content"><section class="panel no-print"><form id="irrigation-form"><h2 data-en="Make a water plan" data-te="నీటి ప్రణాళిక చేసుకోండి">Make a water plan</h2><div class="form-grid"><div><label for="water-crop">Crop</label><select id="water-crop" class="crop-select"></select></div><div><label for="soil">Soil type</label><select id="soil"><option value="red">Red / loamy soil</option><option value="black">Black / clay soil</option><option value="sandy">Sandy soil</option></select></div><div><label for="season">Season</label><select id="season"><option value="kharif">Kharif / rainy season</option><option value="rabi">Rabi / cool season</option><option value="summer">Summer / hot season</option></select></div></div><label for="water-depth" data-en="Your chosen net water depth (mm), for unit conversion only" data-te="మీరు ఎంచుకున్న నీటి లోతు (మి.మీ.), లీటర్ల లెక్క కోసం మాత్రమే">Your chosen net water depth (mm), for unit conversion only</label><input id="water-depth" type="number" min="0" max="1000" step="0.1" value="10" required><p>10 mm is an example input, not an irrigation recommendation.</p><button class="button" type="submit">Show water plan</button></form></section><section id="water-result" class="panel" aria-live="polite" hidden></section><section id="water-methods" class="panel"></section><section id="water-tips" class="panel"></section></div></main>
+  <footer id="site-footer"></footer>
+  <noscript><p class="wrap notice">Please enable JavaScript to use the question assistant and calculators. For help, call Kisan Call Centre: 1800-180-1551.</p></noscript>
+</body>
+</html>

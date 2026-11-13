@@ -1,0 +1,150 @@
+{
+  "sheets": [
+    "Sheet1"
+  ],
+  "rows": 12625,
+  "columns": [
+    "query_id",
+    "query_telugu",
+    "query_english",
+    "query_code_mixed",
+    "intent",
+    "crop",
+    "problem",
+    "location",
+    "growth_stage",
+    "expected_response_type"
+  ],
+  "null_counts": {
+    "query_id": 0,
+    "query_telugu": 0,
+    "query_english": 0,
+    "query_code_mixed": 0,
+    "intent": 0,
+    "crop": 0,
+    "problem": 0,
+    "location": 0,
+    "growth_stage": 0,
+    "expected_response_type": 0
+  },
+  "row_duplicates": 0,
+  "intent_counts": {
+    "fertilizer_recommendation": 634,
+    "storage": 634,
+    "crop_selection": 634,
+    "weather_related": 634,
+    "organic_farming": 633,
+    "weed_management": 632,
+    "crop_planting": 632,
+    "yield_improvement": 632,
+    "seed_selection": 632,
+    "harvesting": 631,
+    "soil_management": 631,
+    "disease_management": 631,
+    "pest_management": 630,
+    "post_harvest_management": 630,
+    "general_agriculture": 630,
+    "market_price": 629,
+    "crop_nutrition": 629,
+    "government_scheme": 629,
+    "farming_equipment": 629,
+    "irrigation": 629
+  },
+  "crop_counts": {
+    "Mango": 557,
+    "Okra": 548,
+    "Brinjal": 532,
+    "Onion": 526,
+    "Cauliflower": 520,
+    "Cotton": 520,
+    "Citrus": 513,
+    "Groundnut": 510,
+    "Tomato": 509,
+    "general": 507,
+    "Chilli": 505,
+    "Bengal gram": 503,
+    "Banana": 501,
+    "Sunflower": 500,
+    "Sesame": 499,
+    "Sugarcane": 497,
+    "Black gram": 495,
+    "Papaya": 494,
+    "Cabbage": 491,
+    "Soybean": 490,
+    "Rice": 489,
+    "Maize": 487,
+    "Turmeric": 486,
+    "Green gram": 476,
+    "Red gram": 470
+  },
+  "query_telugu": {
+    "empty": 0,
+    "duplicates": 3249,
+    "normalized_duplicates": 3429,
+    "conflicting_label_queries": 0,
+    "script_counts": {
+      "telugu": 10037,
+      "mixed": 2588
+    },
+    "word_length": {
+      "count": 12625.0,
+      "mean": 7.811326732673267,
+      "std": 4.058922991647555,
+      "min": 2.0,
+      "25%": 4.0,
+      "50%": 8.0,
+      "75%": 9.0,
+      "max": 21.0
+    },
+    "script_share_percent": {
+      "telugu": 79.50099009900991,
+      "mixed": 20.4990099009901
+    }
+  },
+  "query_english": {
+    "empty": 0,
+    "duplicates": 3387,
+    "normalized_duplicates": 3387,
+    "conflicting_label_queries": 0,
+    "script_counts": {
+      "english": 12625
+    },
+    "word_length": {
+      "count": 12625.0,
+      "mean": 9.041663366336634,
+      "std": 4.809554985597159,
+      "min": 2.0,
+      "25%": 5.0,
+      "50%": 9.0,
+      "75%": 11.0,
+      "max": 23.0
+    },
+    "script_share_percent": {
+      "english": 100.0
+    }
+  },
+  "query_code_mixed": {
+    "empty": 0,
+    "duplicates": 2871,
+    "normalized_duplicates": 2871,
+    "conflicting_label_queries": 0,
+    "script_counts": {
+      "mixed": 12022,
+      "romanized": 603
+    },
+    "word_length": {
+      "count": 12625.0,
+      "mean": 8.249346534653466,
+      "std": 3.4226823117227276,
+      "min": 3.0,
+      "25%": 7.0,
+      "50%": 8.0,
+      "75%": 9.0,
+      "max": 18.0
+    },
+    "script_share_percent": {
+      "mixed": 95.22376237623762,
+      "romanized": 4.776237623762376
+    }
+  }
+}

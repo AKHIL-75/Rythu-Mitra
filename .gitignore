@@ -1,0 +1,12 @@
+.vendor/
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+ml/cache/
+.chart-data-*/
+tmp/
+
+# Local secrets
+.env
+.env.*

@@ -1,0 +1,10 @@
+{
+  "0": "crop_disease",
+  "1": "fertilizer",
+  "2": "govt_scheme",
+  "3": "irrigation",
+  "4": "market_price",
+  "5": "other_agri",
+  "6": "out_of_scope",
+  "7": "weather"
+}

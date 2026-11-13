@@ -1,0 +1,583 @@
+crop,name,intent,before_workbook,before_train,synthetic_added,after_train,typo_added
+paddy,Paddy,crop_disease,127,90,15,140,35
+paddy,Paddy,fertilizer,102,69,15,100,16
+paddy,Paddy,irrigation,49,36,15,63,12
+paddy,Paddy,market_price,51,33,15,59,11
+paddy,Paddy,weather,55,49,15,84,20
+paddy,Paddy,govt_scheme,53,32,15,53,6
+wheat,Wheat,crop_disease,0,0,15,18,3
+wheat,Wheat,fertilizer,0,0,15,20,5
+wheat,Wheat,irrigation,0,0,15,21,6
+wheat,Wheat,market_price,0,0,15,18,3
+wheat,Wheat,weather,0,0,15,20,5
+wheat,Wheat,govt_scheme,0,0,15,17,2
+maize,Maize,crop_disease,126,78,15,118,25
+maize,Maize,fertilizer,109,78,15,117,24
+maize,Maize,irrigation,63,39,15,65,11
+maize,Maize,market_price,71,55,15,83,13
+maize,Maize,weather,46,31,15,56,10
+maize,Maize,govt_scheme,58,42,15,72,15
+jowar,Jowar,crop_disease,0,0,15,20,5
+jowar,Jowar,fertilizer,0,0,15,16,1
+jowar,Jowar,irrigation,0,0,15,18,3
+jowar,Jowar,market_price,0,0,15,19,4
+jowar,Jowar,weather,0,0,15,19,4
+jowar,Jowar,govt_scheme,0,0,15,18,3
+bajra,Bajra,crop_disease,0,0,15,18,3
+bajra,Bajra,fertilizer,0,0,15,17,2
+bajra,Bajra,irrigation,0,0,15,20,5
+bajra,Bajra,market_price,0,0,15,16,1
+bajra,Bajra,weather,0,0,15,18,3
+bajra,Bajra,govt_scheme,0,0,15,18,3
+ragi,Ragi,crop_disease,0,0,15,16,1
+ragi,Ragi,fertilizer,0,0,15,19,4
+ragi,Ragi,irrigation,0,0,15,20,5
+ragi,Ragi,market_price,0,0,15,17,2
+ragi,Ragi,weather,0,0,15,19,4
+ragi,Ragi,govt_scheme,0,0,15,20,5
+barley,Barley,crop_disease,0,0,15,16,1
+barley,Barley,fertilizer,0,0,15,19,4
+barley,Barley,irrigation,0,0,15,19,4
+barley,Barley,market_price,0,0,15,16,1
+barley,Barley,weather,0,0,15,21,6
+barley,Barley,govt_scheme,0,0,15,18,3
+foxtail,Foxtail millet,crop_disease,0,0,15,18,3
+foxtail,Foxtail millet,fertilizer,0,0,15,21,6
+foxtail,Foxtail millet,irrigation,0,0,15,17,2
+foxtail,Foxtail millet,market_price,0,0,15,17,2
+foxtail,Foxtail millet,weather,0,0,15,16,1
+foxtail,Foxtail millet,govt_scheme,0,0,15,18,3
+little_millet,Little millet,crop_disease,0,0,15,17,2
+little_millet,Little millet,fertilizer,0,0,15,18,3
+little_millet,Little millet,irrigation,0,0,15,19,4
+little_millet,Little millet,market_price,0,0,15,16,1
+little_millet,Little millet,weather,0,0,15,18,3
+little_millet,Little millet,govt_scheme,0,0,15,21,6
+red_gram,Red gram,crop_disease,132,79,15,119,25
+red_gram,Red gram,fertilizer,133,94,15,130,21
+red_gram,Red gram,irrigation,42,33,15,59,11
+red_gram,Red gram,market_price,61,37,15,67,15
+red_gram,Red gram,weather,40,34,15,59,10
+red_gram,Red gram,govt_scheme,45,42,15,69,12
+green_gram,Green gram,crop_disease,109,73,15,114,26
+green_gram,Green gram,fertilizer,115,85,15,125,25
+green_gram,Green gram,irrigation,51,33,15,58,10
+green_gram,Green gram,market_price,35,29,15,53,9
+green_gram,Green gram,weather,36,30,15,54,9
+green_gram,Green gram,govt_scheme,57,44,15,78,19
+black_gram,Black gram,crop_disease,122,72,15,111,24
+black_gram,Black gram,fertilizer,110,79,15,113,19
+black_gram,Black gram,irrigation,54,33,15,62,14
+black_gram,Black gram,market_price,50,31,15,56,10
+black_gram,Black gram,weather,72,54,15,86,17
+black_gram,Black gram,govt_scheme,62,52,15,82,15
+chickpea,Chickpea,crop_disease,128,89,15,131,27
+chickpea,Chickpea,fertilizer,104,73,15,111,23
+chickpea,Chickpea,irrigation,36,21,15,48,12
+chickpea,Chickpea,market_price,45,33,15,60,12
+chickpea,Chickpea,weather,80,58,15,93,20
+chickpea,Chickpea,govt_scheme,52,46,15,73,12
+horse_gram,Horse gram,crop_disease,0,0,15,18,3
+horse_gram,Horse gram,fertilizer,0,0,15,18,3
+horse_gram,Horse gram,irrigation,0,0,15,18,3
+horse_gram,Horse gram,market_price,0,0,15,20,5
+horse_gram,Horse gram,weather,0,0,15,15,0
+horse_gram,Horse gram,govt_scheme,0,0,15,19,4
+cowpea,Cowpea,crop_disease,0,0,15,21,6
+cowpea,Cowpea,fertilizer,0,0,15,21,6
+cowpea,Cowpea,irrigation,0,0,15,20,5
+cowpea,Cowpea,market_price,0,0,15,16,1
+cowpea,Cowpea,weather,0,0,15,17,2
+cowpea,Cowpea,govt_scheme,0,0,15,19,4
+lentil,Lentil,crop_disease,0,0,15,18,3
+lentil,Lentil,fertilizer,0,0,15,21,6
+lentil,Lentil,irrigation,0,0,15,19,4
+lentil,Lentil,market_price,0,0,15,18,3
+lentil,Lentil,weather,0,0,15,20,5
+lentil,Lentil,govt_scheme,0,0,15,21,6
+field_bean,Field bean,crop_disease,0,0,15,17,2
+field_bean,Field bean,fertilizer,0,0,15,18,3
+field_bean,Field bean,irrigation,0,0,15,21,6
+field_bean,Field bean,market_price,0,0,15,17,2
+field_bean,Field bean,weather,0,0,15,22,7
+field_bean,Field bean,govt_scheme,0,0,15,17,2
+groundnut,Groundnut,crop_disease,133,87,15,129,27
+groundnut,Groundnut,fertilizer,133,105,15,154,34
+groundnut,Groundnut,irrigation,63,48,15,78,15
+groundnut,Groundnut,market_price,71,47,15,81,19
+groundnut,Groundnut,weather,59,50,15,85,20
+groundnut,Groundnut,govt_scheme,60,42,15,72,15
+sunflower,Sunflower,crop_disease,138,102,15,145,28
+sunflower,Sunflower,fertilizer,105,75,15,110,20
+sunflower,Sunflower,irrigation,71,46,15,77,16
+sunflower,Sunflower,market_price,66,54,15,91,22
+sunflower,Sunflower,weather,56,40,15,67,12
+sunflower,Sunflower,govt_scheme,45,29,15,56,12
+sesame,Sesame,crop_disease,106,70,15,111,26
+sesame,Sesame,fertilizer,117,84,15,125,26
+sesame,Sesame,irrigation,51,30,15,56,11
+sesame,Sesame,market_price,70,64,15,109,30
+sesame,Sesame,weather,55,36,15,62,11
+sesame,Sesame,govt_scheme,62,37,15,64,12
+castor,Castor,crop_disease,0,0,15,20,5
+castor,Castor,fertilizer,0,0,15,16,1
+castor,Castor,irrigation,0,0,15,18,3
+castor,Castor,market_price,0,0,15,19,4
+castor,Castor,weather,0,0,15,17,2
+castor,Castor,govt_scheme,0,0,15,19,4
+soybean,Soybean,crop_disease,105,93,15,141,33
+soybean,Soybean,fertilizer,126,90,15,128,23
+soybean,Soybean,irrigation,62,50,15,85,20
+soybean,Soybean,market_price,53,44,15,76,17
+soybean,Soybean,weather,50,34,15,63,14
+soybean,Soybean,govt_scheme,54,45,15,79,19
+safflower,Safflower,crop_disease,0,0,15,19,4
+safflower,Safflower,fertilizer,0,0,15,21,6
+safflower,Safflower,irrigation,0,0,15,16,1
+safflower,Safflower,market_price,0,0,15,20,5
+safflower,Safflower,weather,0,0,15,18,3
+safflower,Safflower,govt_scheme,0,0,15,18,3
+mustard,Mustard,crop_disease,0,0,15,18,3
+mustard,Mustard,fertilizer,0,0,15,20,5
+mustard,Mustard,irrigation,0,0,15,18,3
+mustard,Mustard,market_price,0,0,15,17,2
+mustard,Mustard,weather,0,0,15,17,2
+mustard,Mustard,govt_scheme,0,0,15,19,4
+niger,Niger,crop_disease,0,0,15,17,2
+niger,Niger,fertilizer,0,0,15,17,2
+niger,Niger,irrigation,0,0,15,18,3
+niger,Niger,market_price,0,0,15,18,3
+niger,Niger,weather,0,0,15,17,2
+niger,Niger,govt_scheme,0,0,15,16,1
+cotton,Cotton,crop_disease,120,86,15,132,31
+cotton,Cotton,fertilizer,106,85,15,138,38
+cotton,Cotton,irrigation,69,48,15,83,20
+cotton,Cotton,market_price,58,46,15,78,17
+cotton,Cotton,weather,55,36,15,59,8
+cotton,Cotton,govt_scheme,47,29,15,60,16
+sugarcane,Sugarcane,crop_disease,124,81,15,116,20
+sugarcane,Sugarcane,fertilizer,125,84,15,125,26
+sugarcane,Sugarcane,irrigation,67,40,15,65,10
+sugarcane,Sugarcane,market_price,45,36,15,68,17
+sugarcane,Sugarcane,weather,60,33,15,56,8
+sugarcane,Sugarcane,govt_scheme,54,36,15,64,13
+tobacco,Tobacco,crop_disease,0,0,15,19,4
+tobacco,Tobacco,fertilizer,0,0,15,19,4
+tobacco,Tobacco,irrigation,0,0,15,18,3
+tobacco,Tobacco,market_price,0,0,15,16,1
+tobacco,Tobacco,weather,0,0,15,17,2
+tobacco,Tobacco,govt_scheme,0,0,15,18,3
+jute,Jute,crop_disease,0,0,15,20,5
+jute,Jute,fertilizer,0,0,15,18,3
+jute,Jute,irrigation,0,0,15,20,5
+jute,Jute,market_price,0,0,15,18,3
+jute,Jute,weather,0,0,15,17,2
+jute,Jute,govt_scheme,0,0,15,22,7
+chilli,Chilli,crop_disease,135,104,15,147,28
+chilli,Chilli,fertilizer,87,65,15,99,19
+chilli,Chilli,irrigation,55,46,15,78,17
+chilli,Chilli,market_price,40,30,15,55,10
+chilli,Chilli,weather,54,42,15,71,14
+chilli,Chilli,govt_scheme,58,32,15,57,10
+turmeric,Turmeric,crop_disease,75,54,15,90,21
+turmeric,Turmeric,fertilizer,141,123,15,177,39
+turmeric,Turmeric,irrigation,62,46,15,77,16
+turmeric,Turmeric,market_price,45,33,15,59,11
+turmeric,Turmeric,weather,53,34,15,62,13
+turmeric,Turmeric,govt_scheme,54,36,15,63,12
+coconut,Coconut,crop_disease,0,0,15,19,4
+coconut,Coconut,fertilizer,0,0,15,18,3
+coconut,Coconut,irrigation,0,0,15,19,4
+coconut,Coconut,market_price,0,0,15,19,4
+coconut,Coconut,weather,0,0,15,16,1
+coconut,Coconut,govt_scheme,0,0,15,19,4
+oil_palm,Oil palm,crop_disease,0,0,15,21,6
+oil_palm,Oil palm,fertilizer,0,0,15,17,2
+oil_palm,Oil palm,irrigation,0,0,15,17,2
+oil_palm,Oil palm,market_price,0,0,15,19,4
+oil_palm,Oil palm,weather,0,0,15,19,4
+oil_palm,Oil palm,govt_scheme,0,0,15,16,1
+cashew,Cashew,crop_disease,0,0,15,18,3
+cashew,Cashew,fertilizer,0,0,15,19,4
+cashew,Cashew,irrigation,0,0,15,16,1
+cashew,Cashew,market_price,0,0,15,18,3
+cashew,Cashew,weather,0,0,15,18,3
+cashew,Cashew,govt_scheme,0,0,15,19,4
+mango,Mango,crop_disease,127,95,15,139,29
+mango,Mango,fertilizer,114,88,15,127,24
+mango,Mango,irrigation,61,55,15,90,20
+mango,Mango,market_price,54,32,15,59,12
+mango,Mango,weather,78,51,15,80,14
+mango,Mango,govt_scheme,52,34,15,60,11
+banana,Banana,crop_disease,132,102,15,144,27
+banana,Banana,fertilizer,123,90,15,134,29
+banana,Banana,irrigation,42,24,15,51,12
+banana,Banana,market_price,63,42,15,76,19
+banana,Banana,weather,52,40,15,64,9
+banana,Banana,govt_scheme,51,36,15,65,14
+papaya,Papaya,crop_disease,114,75,15,108,18
+papaya,Papaya,fertilizer,113,94,15,134,25
+papaya,Papaya,irrigation,72,51,15,90,24
+papaya,Papaya,market_price,49,31,15,60,14
+papaya,Papaya,weather,69,60,15,91,16
+papaya,Papaya,govt_scheme,39,24,15,50,11
+guava,Guava,crop_disease,0,0,15,16,1
+guava,Guava,fertilizer,0,0,15,18,3
+guava,Guava,irrigation,0,0,15,18,3
+guava,Guava,market_price,0,0,15,20,5
+guava,Guava,weather,0,0,15,19,4
+guava,Guava,govt_scheme,0,0,15,17,2
+sweet_orange,Sweet orange,crop_disease,0,0,15,19,4
+sweet_orange,Sweet orange,fertilizer,0,0,15,17,2
+sweet_orange,Sweet orange,irrigation,0,0,15,20,5
+sweet_orange,Sweet orange,market_price,0,0,15,19,4
+sweet_orange,Sweet orange,weather,0,0,15,17,2
+sweet_orange,Sweet orange,govt_scheme,0,0,15,18,3
+lemon,Lemon,crop_disease,0,0,15,16,1
+lemon,Lemon,fertilizer,0,0,15,16,1
+lemon,Lemon,irrigation,0,0,15,17,2
+lemon,Lemon,market_price,0,0,15,18,3
+lemon,Lemon,weather,0,0,15,18,3
+lemon,Lemon,govt_scheme,0,0,15,22,7
+pomegranate,Pomegranate,crop_disease,0,0,15,21,6
+pomegranate,Pomegranate,fertilizer,0,0,15,19,4
+pomegranate,Pomegranate,irrigation,0,0,15,18,3
+pomegranate,Pomegranate,market_price,0,0,15,20,5
+pomegranate,Pomegranate,weather,0,0,15,20,5
+pomegranate,Pomegranate,govt_scheme,0,0,15,21,6
+grapes,Grapes,crop_disease,0,0,15,17,2
+grapes,Grapes,fertilizer,0,0,15,19,4
+grapes,Grapes,irrigation,0,0,15,19,4
+grapes,Grapes,market_price,0,0,15,19,4
+grapes,Grapes,weather,0,0,15,19,4
+grapes,Grapes,govt_scheme,0,0,15,21,6
+sapota,Sapota,crop_disease,0,0,15,19,4
+sapota,Sapota,fertilizer,0,0,15,16,1
+sapota,Sapota,irrigation,0,0,15,19,4
+sapota,Sapota,market_price,0,0,15,17,2
+sapota,Sapota,weather,0,0,15,16,1
+sapota,Sapota,govt_scheme,0,0,15,18,3
+custard_apple,Custard apple,crop_disease,0,0,15,16,1
+custard_apple,Custard apple,fertilizer,0,0,15,21,6
+custard_apple,Custard apple,irrigation,0,0,15,19,4
+custard_apple,Custard apple,market_price,0,0,15,20,5
+custard_apple,Custard apple,weather,0,0,15,19,4
+custard_apple,Custard apple,govt_scheme,0,0,15,19,4
+watermelon,Watermelon,crop_disease,0,0,15,20,5
+watermelon,Watermelon,fertilizer,0,0,15,18,3
+watermelon,Watermelon,irrigation,0,0,15,19,4
+watermelon,Watermelon,market_price,0,0,15,17,2
+watermelon,Watermelon,weather,0,0,15,17,2
+watermelon,Watermelon,govt_scheme,0,0,15,19,4
+muskmelon,Muskmelon,crop_disease,0,0,15,19,4
+muskmelon,Muskmelon,fertilizer,0,0,15,16,1
+muskmelon,Muskmelon,irrigation,0,0,15,17,2
+muskmelon,Muskmelon,market_price,0,0,15,17,2
+muskmelon,Muskmelon,weather,0,0,15,19,4
+muskmelon,Muskmelon,govt_scheme,0,0,15,16,1
+areca_nut,Areca nut,crop_disease,0,0,15,18,3
+areca_nut,Areca nut,fertilizer,0,0,15,18,3
+areca_nut,Areca nut,irrigation,0,0,15,20,5
+areca_nut,Areca nut,market_price,0,0,15,21,6
+areca_nut,Areca nut,weather,0,0,15,21,6
+areca_nut,Areca nut,govt_scheme,0,0,15,18,3
+coffee,Coffee,crop_disease,0,0,15,18,3
+coffee,Coffee,fertilizer,0,0,15,20,5
+coffee,Coffee,irrigation,0,0,15,18,3
+coffee,Coffee,market_price,0,0,15,22,7
+coffee,Coffee,weather,0,0,15,17,2
+coffee,Coffee,govt_scheme,0,0,15,17,2
+tea,Tea,crop_disease,0,0,15,20,5
+tea,Tea,fertilizer,0,0,15,17,2
+tea,Tea,irrigation,0,0,15,18,3
+tea,Tea,market_price,0,0,15,17,2
+tea,Tea,weather,0,0,15,16,1
+tea,Tea,govt_scheme,0,0,15,17,2
+rubber,Rubber,crop_disease,0,0,15,18,3
+rubber,Rubber,fertilizer,0,0,15,19,4
+rubber,Rubber,irrigation,0,0,15,22,7
+rubber,Rubber,market_price,0,0,15,20,5
+rubber,Rubber,weather,0,0,15,18,3
+rubber,Rubber,govt_scheme,0,0,15,17,2
+black_pepper,Black pepper,crop_disease,0,0,15,20,5
+black_pepper,Black pepper,fertilizer,0,0,15,15,0
+black_pepper,Black pepper,irrigation,0,0,15,18,3
+black_pepper,Black pepper,market_price,0,0,15,20,5
+black_pepper,Black pepper,weather,0,0,15,20,5
+black_pepper,Black pepper,govt_scheme,0,0,15,18,3
+cardamom,Cardamom,crop_disease,0,0,15,20,5
+cardamom,Cardamom,fertilizer,0,0,15,17,2
+cardamom,Cardamom,irrigation,0,0,15,17,2
+cardamom,Cardamom,market_price,0,0,15,17,2
+cardamom,Cardamom,weather,0,0,15,15,0
+cardamom,Cardamom,govt_scheme,0,0,15,19,4
+tomato,Tomato,crop_disease,158,121,15,173,37
+tomato,Tomato,fertilizer,121,97,15,139,27
+tomato,Tomato,irrigation,60,30,15,58,13
+tomato,Tomato,market_price,64,43,15,72,14
+tomato,Tomato,weather,69,42,15,74,17
+tomato,Tomato,govt_scheme,67,52,15,77,10
+brinjal,Brinjal,crop_disease,144,100,15,148,33
+brinjal,Brinjal,fertilizer,104,79,15,122,28
+brinjal,Brinjal,irrigation,83,59,15,89,15
+brinjal,Brinjal,market_price,49,37,15,61,9
+brinjal,Brinjal,weather,64,52,15,84,17
+brinjal,Brinjal,govt_scheme,57,39,15,64,10
+okra,Okra,crop_disease,124,85,15,124,24
+okra,Okra,fertilizer,108,77,15,113,21
+okra,Okra,irrigation,61,33,15,64,16
+okra,Okra,market_price,58,43,15,78,20
+okra,Okra,weather,85,66,15,100,19
+okra,Okra,govt_scheme,61,49,15,82,18
+potato,Potato,crop_disease,0,0,15,16,1
+potato,Potato,fertilizer,0,0,15,20,5
+potato,Potato,irrigation,0,0,15,20,5
+potato,Potato,market_price,0,0,15,17,2
+potato,Potato,weather,0,0,15,20,5
+potato,Potato,govt_scheme,0,0,15,20,5
+onion,Onion,crop_disease,135,92,15,134,27
+onion,Onion,fertilizer,120,92,15,134,27
+onion,Onion,irrigation,67,57,15,97,25
+onion,Onion,market_price,46,33,15,58,10
+onion,Onion,weather,58,40,15,67,12
+onion,Onion,govt_scheme,56,37,15,68,16
+garlic,Garlic,crop_disease,0,0,15,19,4
+garlic,Garlic,fertilizer,0,0,15,19,4
+garlic,Garlic,irrigation,0,0,15,19,4
+garlic,Garlic,market_price,0,0,15,21,6
+garlic,Garlic,weather,0,0,15,17,2
+garlic,Garlic,govt_scheme,0,0,15,17,2
+cabbage,Cabbage,crop_disease,162,102,15,146,29
+cabbage,Cabbage,fertilizer,124,100,15,141,26
+cabbage,Cabbage,irrigation,61,42,15,73,16
+cabbage,Cabbage,market_price,57,48,15,81,18
+cabbage,Cabbage,weather,58,46,15,77,16
+cabbage,Cabbage,govt_scheme,63,51,15,78,12
+cauliflower,Cauliflower,crop_disease,141,113,15,162,34
+cauliflower,Cauliflower,fertilizer,117,67,15,106,24
+cauliflower,Cauliflower,irrigation,61,31,15,57,11
+cauliflower,Cauliflower,market_price,36,21,15,42,6
+cauliflower,Cauliflower,weather,52,30,15,57,12
+cauliflower,Cauliflower,govt_scheme,62,46,15,73,12
+carrot,Carrot,crop_disease,0,0,15,17,2
+carrot,Carrot,fertilizer,0,0,15,18,3
+carrot,Carrot,irrigation,0,0,15,20,5
+carrot,Carrot,market_price,0,0,15,18,3
+carrot,Carrot,weather,0,0,15,17,2
+carrot,Carrot,govt_scheme,0,0,15,18,3
+beetroot,Beetroot,crop_disease,0,0,15,19,4
+beetroot,Beetroot,fertilizer,0,0,15,19,4
+beetroot,Beetroot,irrigation,0,0,15,19,4
+beetroot,Beetroot,market_price,0,0,15,19,4
+beetroot,Beetroot,weather,0,0,15,20,5
+beetroot,Beetroot,govt_scheme,0,0,15,20,5
+radish,Radish,crop_disease,0,0,15,17,2
+radish,Radish,fertilizer,0,0,15,17,2
+radish,Radish,irrigation,0,0,15,18,3
+radish,Radish,market_price,0,0,15,20,5
+radish,Radish,weather,0,0,15,22,7
+radish,Radish,govt_scheme,0,0,15,16,1
+cucumber,Cucumber,crop_disease,0,0,15,19,4
+cucumber,Cucumber,fertilizer,0,0,15,19,4
+cucumber,Cucumber,irrigation,0,0,15,16,1
+cucumber,Cucumber,market_price,0,0,15,18,3
+cucumber,Cucumber,weather,0,0,15,18,3
+cucumber,Cucumber,govt_scheme,0,0,15,19,4
+bottle_gourd,Bottle gourd,crop_disease,0,0,15,21,6
+bottle_gourd,Bottle gourd,fertilizer,0,0,15,17,2
+bottle_gourd,Bottle gourd,irrigation,0,0,15,19,4
+bottle_gourd,Bottle gourd,market_price,0,0,15,19,4
+bottle_gourd,Bottle gourd,weather,0,0,15,20,5
+bottle_gourd,Bottle gourd,govt_scheme,0,0,15,19,4
+bitter_gourd,Bitter gourd,crop_disease,0,0,15,18,3
+bitter_gourd,Bitter gourd,fertilizer,0,0,15,18,3
+bitter_gourd,Bitter gourd,irrigation,0,0,15,16,1
+bitter_gourd,Bitter gourd,market_price,0,0,15,20,5
+bitter_gourd,Bitter gourd,weather,0,0,15,17,2
+bitter_gourd,Bitter gourd,govt_scheme,0,0,15,18,3
+ridge_gourd,Ridge gourd,crop_disease,0,0,15,18,3
+ridge_gourd,Ridge gourd,fertilizer,0,0,15,19,4
+ridge_gourd,Ridge gourd,irrigation,0,0,15,18,3
+ridge_gourd,Ridge gourd,market_price,0,0,15,19,4
+ridge_gourd,Ridge gourd,weather,0,0,15,18,3
+ridge_gourd,Ridge gourd,govt_scheme,0,0,15,18,3
+snake_gourd,Snake gourd,crop_disease,0,0,15,17,2
+snake_gourd,Snake gourd,fertilizer,0,0,15,19,4
+snake_gourd,Snake gourd,irrigation,0,0,15,19,4
+snake_gourd,Snake gourd,market_price,0,0,15,16,1
+snake_gourd,Snake gourd,weather,0,0,15,17,2
+snake_gourd,Snake gourd,govt_scheme,0,0,15,19,4
+pumpkin,Pumpkin,crop_disease,0,0,15,18,3
+pumpkin,Pumpkin,fertilizer,0,0,15,19,4
+pumpkin,Pumpkin,irrigation,0,0,15,20,5
+pumpkin,Pumpkin,market_price,0,0,15,18,3
+pumpkin,Pumpkin,weather,0,0,15,18,3
+pumpkin,Pumpkin,govt_scheme,0,0,15,17,2
+ash_gourd,Ash gourd,crop_disease,0,0,15,18,3
+ash_gourd,Ash gourd,fertilizer,0,0,15,17,2
+ash_gourd,Ash gourd,irrigation,0,0,15,16,1
+ash_gourd,Ash gourd,market_price,0,0,15,19,4
+ash_gourd,Ash gourd,weather,0,0,15,18,3
+ash_gourd,Ash gourd,govt_scheme,0,0,15,18,3
+ivy_gourd,Ivy gourd,crop_disease,0,0,15,20,5
+ivy_gourd,Ivy gourd,fertilizer,0,0,15,17,2
+ivy_gourd,Ivy gourd,irrigation,0,0,15,19,4
+ivy_gourd,Ivy gourd,market_price,0,0,15,17,2
+ivy_gourd,Ivy gourd,weather,0,0,15,20,5
+ivy_gourd,Ivy gourd,govt_scheme,0,0,15,20,5
+drumstick,Drumstick,crop_disease,0,0,15,16,1
+drumstick,Drumstick,fertilizer,0,0,15,15,0
+drumstick,Drumstick,irrigation,0,0,15,18,3
+drumstick,Drumstick,market_price,0,0,15,17,2
+drumstick,Drumstick,weather,0,0,15,18,3
+drumstick,Drumstick,govt_scheme,0,0,15,20,5
+cluster_beans,Cluster beans,crop_disease,0,0,15,18,3
+cluster_beans,Cluster beans,fertilizer,0,0,15,18,3
+cluster_beans,Cluster beans,irrigation,0,0,15,18,3
+cluster_beans,Cluster beans,market_price,0,0,15,18,3
+cluster_beans,Cluster beans,weather,0,0,15,20,5
+cluster_beans,Cluster beans,govt_scheme,0,0,15,18,3
+french_beans,French beans,crop_disease,0,0,15,17,2
+french_beans,French beans,fertilizer,0,0,15,20,5
+french_beans,French beans,irrigation,0,0,15,18,3
+french_beans,French beans,market_price,0,0,15,19,4
+french_beans,French beans,weather,0,0,15,18,3
+french_beans,French beans,govt_scheme,0,0,15,20,5
+broad_beans,Broad beans,crop_disease,0,0,15,21,6
+broad_beans,Broad beans,fertilizer,0,0,15,18,3
+broad_beans,Broad beans,irrigation,0,0,15,19,4
+broad_beans,Broad beans,market_price,0,0,15,20,5
+broad_beans,Broad beans,weather,0,0,15,19,4
+broad_beans,Broad beans,govt_scheme,0,0,15,18,3
+peas,Peas,crop_disease,0,0,15,18,3
+peas,Peas,fertilizer,0,0,15,18,3
+peas,Peas,irrigation,0,0,15,19,4
+peas,Peas,market_price,0,0,15,19,4
+peas,Peas,weather,0,0,15,20,5
+peas,Peas,govt_scheme,0,0,15,20,5
+capsicum,Capsicum,crop_disease,0,0,15,20,5
+capsicum,Capsicum,fertilizer,0,0,15,20,5
+capsicum,Capsicum,irrigation,0,0,15,20,5
+capsicum,Capsicum,market_price,0,0,15,17,2
+capsicum,Capsicum,weather,0,0,15,16,1
+capsicum,Capsicum,govt_scheme,0,0,15,18,3
+green_chilli,Green chilli,crop_disease,0,0,15,20,5
+green_chilli,Green chilli,fertilizer,0,0,15,16,1
+green_chilli,Green chilli,irrigation,0,0,15,19,4
+green_chilli,Green chilli,market_price,0,0,15,18,3
+green_chilli,Green chilli,weather,0,0,15,18,3
+green_chilli,Green chilli,govt_scheme,0,0,15,18,3
+spinach,Spinach,crop_disease,0,0,15,18,3
+spinach,Spinach,fertilizer,0,0,15,21,6
+spinach,Spinach,irrigation,0,0,15,18,3
+spinach,Spinach,market_price,0,0,15,21,6
+spinach,Spinach,weather,0,0,15,18,3
+spinach,Spinach,govt_scheme,0,0,15,18,3
+amaranth,Amaranth,crop_disease,0,0,15,18,3
+amaranth,Amaranth,fertilizer,0,0,15,18,3
+amaranth,Amaranth,irrigation,0,0,15,20,5
+amaranth,Amaranth,market_price,0,0,15,18,3
+amaranth,Amaranth,weather,0,0,15,18,3
+amaranth,Amaranth,govt_scheme,0,0,15,19,4
+gongura,Gongura,crop_disease,0,0,15,19,4
+gongura,Gongura,fertilizer,0,0,15,19,4
+gongura,Gongura,irrigation,0,0,15,18,3
+gongura,Gongura,market_price,0,0,15,18,3
+gongura,Gongura,weather,0,0,15,19,4
+gongura,Gongura,govt_scheme,0,0,15,17,2
+coriander,Coriander,crop_disease,0,0,15,16,1
+coriander,Coriander,fertilizer,0,0,15,16,1
+coriander,Coriander,irrigation,0,0,15,20,5
+coriander,Coriander,market_price,0,0,15,16,1
+coriander,Coriander,weather,0,0,15,17,2
+coriander,Coriander,govt_scheme,0,0,15,16,1
+curry_leaf,Curry leaf,crop_disease,0,0,15,19,4
+curry_leaf,Curry leaf,fertilizer,0,0,15,17,2
+curry_leaf,Curry leaf,irrigation,0,0,15,18,3
+curry_leaf,Curry leaf,market_price,0,0,15,17,2
+curry_leaf,Curry leaf,weather,0,0,15,19,4
+curry_leaf,Curry leaf,govt_scheme,0,0,15,18,3
+mint,Mint,crop_disease,0,0,15,18,3
+mint,Mint,fertilizer,0,0,15,19,4
+mint,Mint,irrigation,0,0,15,18,3
+mint,Mint,market_price,0,0,15,18,3
+mint,Mint,weather,0,0,15,16,1
+mint,Mint,govt_scheme,0,0,15,20,5
+ginger,Ginger,crop_disease,0,0,15,19,4
+ginger,Ginger,fertilizer,0,0,15,18,3
+ginger,Ginger,irrigation,0,0,15,19,4
+ginger,Ginger,market_price,0,0,15,18,3
+ginger,Ginger,weather,0,0,15,18,3
+ginger,Ginger,govt_scheme,0,0,15,19,4
+sweet_potato,Sweet potato,crop_disease,0,0,15,18,3
+sweet_potato,Sweet potato,fertilizer,0,0,15,22,7
+sweet_potato,Sweet potato,irrigation,0,0,15,19,4
+sweet_potato,Sweet potato,market_price,0,0,15,19,4
+sweet_potato,Sweet potato,weather,0,0,15,16,1
+sweet_potato,Sweet potato,govt_scheme,0,0,15,18,3
+tapioca,Tapioca,crop_disease,0,0,15,17,2
+tapioca,Tapioca,fertilizer,0,0,15,20,5
+tapioca,Tapioca,irrigation,0,0,15,19,4
+tapioca,Tapioca,market_price,0,0,15,18,3
+tapioca,Tapioca,weather,0,0,15,20,5
+tapioca,Tapioca,govt_scheme,0,0,15,19,4
+yam,Yam,crop_disease,0,0,15,18,3
+yam,Yam,fertilizer,0,0,15,20,5
+yam,Yam,irrigation,0,0,15,17,2
+yam,Yam,market_price,0,0,15,20,5
+yam,Yam,weather,0,0,15,18,3
+yam,Yam,govt_scheme,0,0,15,19,4
+taro,Taro,crop_disease,0,0,15,18,3
+taro,Taro,fertilizer,0,0,15,19,4
+taro,Taro,irrigation,0,0,15,17,2
+taro,Taro,market_price,0,0,15,17,2
+taro,Taro,weather,0,0,15,19,4
+taro,Taro,govt_scheme,0,0,15,19,4
+marigold,Marigold,crop_disease,0,0,15,18,3
+marigold,Marigold,fertilizer,0,0,15,18,3
+marigold,Marigold,irrigation,0,0,15,16,1
+marigold,Marigold,market_price,0,0,15,19,4
+marigold,Marigold,weather,0,0,15,18,3
+marigold,Marigold,govt_scheme,0,0,15,20,5
+jasmine,Jasmine,crop_disease,0,0,15,21,6
+jasmine,Jasmine,fertilizer,0,0,15,19,4
+jasmine,Jasmine,irrigation,0,0,15,17,2
+jasmine,Jasmine,market_price,0,0,15,18,3
+jasmine,Jasmine,weather,0,0,15,19,4
+jasmine,Jasmine,govt_scheme,0,0,15,20,5
+rose,Rose,crop_disease,0,0,15,18,3
+rose,Rose,fertilizer,0,0,15,17,2
+rose,Rose,irrigation,0,0,15,20,5
+rose,Rose,market_price,0,0,15,22,7
+rose,Rose,weather,0,0,15,17,2
+rose,Rose,govt_scheme,0,0,15,18,3
+chrysanthemum,Chrysanthemum,crop_disease,0,0,15,18,3
+chrysanthemum,Chrysanthemum,fertilizer,0,0,15,21,6
+chrysanthemum,Chrysanthemum,irrigation,0,0,15,17,2
+chrysanthemum,Chrysanthemum,market_price,0,0,15,17,2
+chrysanthemum,Chrysanthemum,weather,0,0,15,17,2
+chrysanthemum,Chrysanthemum,govt_scheme,0,0,15,19,4
+crossandra,Crossandra,crop_disease,0,0,15,17,2
+crossandra,Crossandra,fertilizer,0,0,15,19,4
+crossandra,Crossandra,irrigation,0,0,15,18,3
+crossandra,Crossandra,market_price,0,0,15,18,3
+crossandra,Crossandra,weather,0,0,15,17,2
+crossandra,Crossandra,govt_scheme,0,0,15,17,2
+mulberry,Mulberry,crop_disease,0,0,15,19,4
+mulberry,Mulberry,fertilizer,0,0,15,20,5
+mulberry,Mulberry,irrigation,0,0,15,18,3
+mulberry,Mulberry,market_price,0,0,15,16,1
+mulberry,Mulberry,weather,0,0,15,19,4
+mulberry,Mulberry,govt_scheme,0,0,15,17,2
+napier,Napier,crop_disease,0,0,15,18,3
+napier,Napier,fertilizer,0,0,15,15,0
+napier,Napier,irrigation,0,0,15,19,4
+napier,Napier,market_price,0,0,15,19,4
+napier,Napier,weather,0,0,15,20,5
+napier,Napier,govt_scheme,0,0,15,17,2
+maize_fodder,Maize fodder,crop_disease,0,0,15,17,2
+maize_fodder,Maize fodder,fertilizer,0,0,15,19,4
+maize_fodder,Maize fodder,irrigation,0,0,15,19,4
+maize_fodder,Maize fodder,market_price,0,0,15,17,2
+maize_fodder,Maize fodder,weather,0,0,15,18,3
+maize_fodder,Maize fodder,govt_scheme,0,0,15,18,3

@@ -1,0 +1,320 @@
+query,intent,source
+nakku vari chettu ki pasupu rangu vachindi em cheyali,crop_disease,project_authored_unseen_v2
+patti aakulu pasupu avuthunnay em cheyali,crop_disease,project_authored_unseen_v2
+vari panta aakulu yellow gaa marayi,crop_disease,project_authored_unseen_v2
+tomato chettu meeda nalla macchalu unnay,crop_disease,project_authored_unseen_v2
+mamidi aakulu endipotundi doctor evaru,crop_disease,project_authored_unseen_v2
+vankaya kayallo purugul paddayi,crop_disease,project_authored_unseen_v2
+bendakaya aakula meeda tellati podi laga undi,crop_disease,project_authored_unseen_v2
+mirapa leaf muduchukuntunnayi,crop_disease,project_authored_unseen_v2
+arati veru kullipothundi,crop_disease,project_authored_unseen_v2
+dosakaya lo randhralu kanipistunnayi,crop_disease,project_authored_unseen_v2
+leaf blight advice,crop_disease,project_authored_unseen_v2
+cotton yellowing,crop_disease,project_authored_unseen_v2
+okra whitefly,crop_disease,project_authored_unseen_v2
+rose leaf spotting after a wet week,crop_disease,project_authored_unseen_v2
+papaya stems look diseased and I need someone to inspect them,crop_disease,project_authored_unseen_v2
+there are tiny caterpillars inside my brinjal fruits,crop_disease,project_authored_unseen_v2
+my groundnut foliage has powdery rust-like marks,crop_disease,project_authored_unseen_v2
+tomato lower leaves have dark concentric spots and are falling,crop_disease,project_authored_unseen_v2
+is this a pest damaging the ridge gourd leaves,crop_disease,project_authored_unseen_v2
+banana plants collapse and their roots smell rotten,crop_disease,project_authored_unseen_v2
+వరికి పసుపు రంగు వచ్చింది ఏమి చేయాలి,crop_disease,project_authored_unseen_v2
+పత్తి ఆకులు పసుపుగా మారుతున్నాయి,crop_disease,project_authored_unseen_v2
+వంకాయలో పురుగులు తినేస్తున్నాయి,crop_disease,project_authored_unseen_v2
+టమాటా ఆకుల మచ్చల గురించి సలహా కావాలి,crop_disease,project_authored_unseen_v2
+దానిమ్మ వేర్లు కుళ్ళుతున్నాయి,crop_disease,project_authored_unseen_v2
+గులాబీ ఆకులపై బూడిద ఉంది,crop_disease,project_authored_unseen_v2
+మిరప ఆకులు ముడుచుకుంటున్నాయి,crop_disease,project_authored_unseen_v2
+మామిడి మొక్క వాడిపోతుంది,crop_disease,project_authored_unseen_v2
+బెండకాయలో రంధ్రాలు కనిపిస్తున్నాయి,crop_disease,project_authored_unseen_v2
+అరటికి ఏ తెగులు వచ్చిందో గుర్తించాలి,crop_disease,project_authored_unseen_v2
+leaf spottt in tomato plz,crop_disease,project_authored_unseen_v2
+cottn leafs going yelow,crop_disease,project_authored_unseen_v2
+vari puruguluuu inspection kavali,crop_disease,project_authored_unseen_v2
+vankayya disease vachinattundi,crop_disease,project_authored_unseen_v2
+root rott in papaya,crop_disease,project_authored_unseen_v2
+pasupu rangu on paddy leaves after transplanting,crop_disease,project_authored_unseen_v2
+puvvu raalutundi mirapa lo em cheyali,crop_disease,project_authored_unseen_v2
+beans లో pest damage ఉంది,crop_disease,project_authored_unseen_v2
+తెగులు గుర్తించడానికి crop photo చూపించాలా,crop_disease,project_authored_unseen_v2
+my maize whorl has insect droppings and chewed leaf tissue,crop_disease,project_authored_unseen_v2
+vari chettu ki eruvu schedule kavali,fertilizer,project_authored_unseen_v2
+patti lo poshakalu mothadu cheppara,fertilizer,project_authored_unseen_v2
+tomata eruvulu enni kg,fertilizer,project_authored_unseen_v2
+arati panta ki potash eppudu ivvali,fertilizer,project_authored_unseen_v2
+mamidi thota urea ni ela divide cheyali,fertilizer,project_authored_unseen_v2
+bendakaya ki dap dose soil report prakaram,fertilizer,project_authored_unseen_v2
+verusenaga ki calcium nutrient gurinchi aduguthunna,fertilizer,project_authored_unseen_v2
+mirapa poshaka lopam undemo soil test chesanu,fertilizer,project_authored_unseen_v2
+pasupu panta fertilizer mothadu enta,fertilizer,project_authored_unseen_v2
+senagalu ki compost veyochaa,fertilizer,project_authored_unseen_v2
+urea for maize,fertilizer,project_authored_unseen_v2
+NPK recommendation please,fertilizer,project_authored_unseen_v2
+coconut fertilizer requirement,fertilizer,project_authored_unseen_v2
+Which nutrient does a soil report help me select for coriander?,fertilizer,project_authored_unseen_v2
+Do the nitrogen figures include what my manure already supplies?,fertilizer,project_authored_unseen_v2
+I need fertilizer equivalents for a tomato hybrid recommendation,fertilizer,project_authored_unseen_v2
+Please explain potassium feeding for my banana crop,fertilizer,project_authored_unseen_v2
+Does a brinjal nutrition plan depend on soil-test results?,fertilizer,project_authored_unseen_v2
+How should I avoid repeating the basal fertilizer for cotton?,fertilizer,project_authored_unseen_v2
+I want a nutrient plan for cluster beans rather than a pesticide,fertilizer,project_authored_unseen_v2
+వరికి యూరియా ఎంత మోతాదు ఇవ్వాలి,fertilizer,project_authored_unseen_v2
+పత్తికి ఎరువుల ప్రణాళిక కావాలి,fertilizer,project_authored_unseen_v2
+టమాటాకు పోషకాల లోపం గురించి అడుగుతున్నాను,fertilizer,project_authored_unseen_v2
+బెండకు కంపోస్ట్ ఎలా వేయాలి,fertilizer,project_authored_unseen_v2
+అరటికి పొటాష్ ఎరువు ఏ దశలో ఇవ్వాలి,fertilizer,project_authored_unseen_v2
+మామిడి తోటలో ఎరువుల మోతాదు నిర్ధారించాలి,fertilizer,project_authored_unseen_v2
+శనగకు నత్రజని అవసరం ఎంత,fertilizer,project_authored_unseen_v2
+కొత్తిమీర ఎరువుల సూచన కావాలి,fertilizer,project_authored_unseen_v2
+మొక్కజొన్నకు డీఏపీ గురించి చెప్పండి,fertilizer,project_authored_unseen_v2
+నేల పరీక్ష తర్వాత ఏ ఎరువులు ఎంచుకోవాలి,fertilizer,project_authored_unseen_v2
+fertilizr for okra please,fertilizer,project_authored_unseen_v2
+ureaa dose cottonn,fertilizer,project_authored_unseen_v2
+potsh nutrient for bananna,fertilizer,project_authored_unseen_v2
+tamata ki erruvulu pls,fertilizer,project_authored_unseen_v2
+need fertliser planning for ragi,fertilizer,project_authored_unseen_v2
+పాలకూరకు nutrition సలహా ఇవ్వండి,fertilizer,project_authored_unseen_v2
+guava ki fertilizer already vesanu next dose enti,fertilizer,project_authored_unseen_v2
+sunflower N phosphorus potassium needs after manure,fertilizer,project_authored_unseen_v2
+my wheat soil report is low in nitrogen; who can set fertilizer quantities?,fertilizer,project_authored_unseen_v2
+help me understand an officer's fertilizer recommendation for ginger,fertilizer,project_authored_unseen_v2
+pasupu panta ki neellu eppudu,irrigation,project_authored_unseen_v2
+vari chettu ki neellu rojuki ivvala,irrigation,project_authored_unseen_v2
+patti polam ki tadulu eppudu ivvali,irrigation,project_authored_unseen_v2
+mamidi thota drip neeti schedule kavali,irrigation,project_authored_unseen_v2
+tomata nela tadi undi malli neeru ivvala,irrigation,project_authored_unseen_v2
+vankaya ki water quantity ela decide cheyali,irrigation,project_authored_unseen_v2
+arati ki saguneeru enni sarlu,irrigation,project_authored_unseen_v2
+senagalu lo neeru nilichindi drainage em cheyali,irrigation,project_authored_unseen_v2
+dosakaya ki sand soil lo neellu ela,irrigation,project_authored_unseen_v2
+allam lo waterlogging tagginchali,irrigation,project_authored_unseen_v2
+drip for guava,irrigation,project_authored_unseen_v2
+watering interval please,irrigation,project_authored_unseen_v2
+rice irrigation timing,irrigation,project_authored_unseen_v2
+How can I check root-zone moisture before watering my chilli?,irrigation,project_authored_unseen_v2
+Does rain mean I can postpone irrigation for my onion plot?,irrigation,project_authored_unseen_v2
+Help me convert a chosen water depth into litres per acre,irrigation,project_authored_unseen_v2
+My tomato soil is wet underneath; should I still irrigate today?,irrigation,project_authored_unseen_v2
+Can I plan shorter irrigation runs for sandy groundnut soil?,irrigation,project_authored_unseen_v2
+I need drainage advice for a flooded chickpea field,irrigation,project_authored_unseen_v2
+What should I ask an officer before setting banana drip duration?,irrigation,project_authored_unseen_v2
+పసుపు పంటకు సాగునీరు ఎప్పుడు ఇవ్వాలి,irrigation,project_authored_unseen_v2
+వరికి నీళ్ళు ఎప్పుడు పెట్టాలో చెప్పండి,irrigation,project_authored_unseen_v2
+పత్తి పొలంలో నీరు నిలిచింది,irrigation,project_authored_unseen_v2
+టమాటాకు బిందు సేద్యం ప్రణాళిక కావాలి,irrigation,project_authored_unseen_v2
+వంకాయకు నీటి అవసరం తెలుసుకోవాలి,irrigation,project_authored_unseen_v2
+మామిడి తోటలో నేల తేమ చూసి నీరు ఇవ్వాలా,irrigation,project_authored_unseen_v2
+బెండకు ఎన్ని రోజులకు నీరు పెట్టాలి,irrigation,project_authored_unseen_v2
+అరటి పొలంలో అధిక నీటిని తొలగించాలి,irrigation,project_authored_unseen_v2
+కొత్తిమీరకు నీరు తక్కువైంది,irrigation,project_authored_unseen_v2
+వేరుశనగ పొలానికి నీరు ఎలా అందించాలి,irrigation,project_authored_unseen_v2
+irrigaton for tomatto,irrigation,project_authored_unseen_v2
+neelllu kavali patti field ki,irrigation,project_authored_unseen_v2
+dripp irrigation on mango,irrigation,project_authored_unseen_v2
+waterng maize in red soil,irrigation,project_authored_unseen_v2
+varri ki neeruu eppuduu,irrigation,project_authored_unseen_v2
+పంటకు water schedule కావాలి,irrigation,project_authored_unseen_v2
+beerakaya drip timing ela chudali,irrigation,project_authored_unseen_v2
+chamadumpa irrigation soil moisture batti cheppandi,irrigation,project_authored_unseen_v2
+how do I measure irrigation water rather than guess a fixed interval?,irrigation,project_authored_unseen_v2
+sweet potato roots are in saturated soil and I want to manage irrigation,irrigation,project_authored_unseen_v2
+vari panta ki dhara eeroju entha,market_price,project_authored_unseen_v2
+patti mandi lo retu telsukovali,market_price,project_authored_unseen_v2
+mamidi ammakam kosam market price kavali,market_price,project_authored_unseen_v2
+tomata quintal dharalu chudali,market_price,project_authored_unseen_v2
+bendakaya wholesale price e market lo better,market_price,project_authored_unseen_v2
+mirapa dry grade ki msp unda,market_price,project_authored_unseen_v2
+nuvvulu selling rate history kavali,market_price,project_authored_unseen_v2
+arati pandla dhara ekkada telustundi,market_price,project_authored_unseen_v2
+pasupu panta ammalante rate enta,market_price,project_authored_unseen_v2
+ullipaya mandi rate today cheppara,market_price,project_authored_unseen_v2
+price for cabbage,market_price,project_authored_unseen_v2
+rice MSP reference,market_price,project_authored_unseen_v2
+cotton mandi rates,market_price,project_authored_unseen_v2
+Which date and market does this tomato modal price refer to?,market_price,project_authored_unseen_v2
+I need a verified sale price before estimating guava profit,market_price,project_authored_unseen_v2
+Is the coconut reference for copra or for fresh coconuts?,market_price,project_authored_unseen_v2
+Where can I compare minimum and maximum chilli mandi prices?,market_price,project_authored_unseen_v2
+Does my maize price include the variety and reporting date?,market_price,project_authored_unseen_v2
+Show an official historical wheat support price rather than a sample rate,market_price,project_authored_unseen_v2
+How can I compare onion prices without confusing rupees per kg and quintal?,market_price,project_authored_unseen_v2
+వరి క్వింటాల్ ధర ఎంత ఉందో తెలుసుకోవాలి,market_price,project_authored_unseen_v2
+పత్తి అమ్మకం రేటు ఏ మార్కెట్లో చూడాలి,market_price,project_authored_unseen_v2
+టమాటా టోకు ధర వివరాలు కావాలి,market_price,project_authored_unseen_v2
+మామిడి ధర ఏ తేదీకి సంబంధించినది,market_price,project_authored_unseen_v2
+బెండకాయ మార్కెట్ ధరలు ఎక్కడ దొరుకుతాయి,market_price,project_authored_unseen_v2
+మిరప కనీస మద్దతు ధర ఉందా,market_price,project_authored_unseen_v2
+నువ్వుల అమ్మకం కోసం ధర పోల్చాలి,market_price,project_authored_unseen_v2
+అరటి పండ్ల టోకు రేటు చెప్పండి,market_price,project_authored_unseen_v2
+ఉల్లిపాయ మండీ ధర తెలుసుకోవడం ఎలా,market_price,project_authored_unseen_v2
+గోధుమ చారిత్రక మద్దతు ధర వివరాలు,market_price,project_authored_unseen_v2
+markett prce for okra,market_price,project_authored_unseen_v2
+dharaa enti paddy ki,market_price,project_authored_unseen_v2
+tomatto sellingg rate pls,market_price,project_authored_unseen_v2
+cottn mandi pricess,market_price,project_authored_unseen_v2
+want msp refernce for barley,market_price,project_authored_unseen_v2
+దానిమ్మ market rate తేదీతో కావాలి,market_price,project_authored_unseen_v2
+gorachikkudu ni ekkada ammali price ela chudali,market_price,project_authored_unseen_v2
+what is the modal price of turmeric in a named mandi on its reporting date?,market_price,project_authored_unseen_v2
+please show a price source for jasmine flowers,market_price,project_authored_unseen_v2
+groundnut selling price comparison after transport cost,market_price,project_authored_unseen_v2
+repu maa polam daggara vaana untunda,weather,project_authored_unseen_v2
+warangal vaathavaranam ela undi,weather,project_authored_unseen_v2
+guntur varshalu next week padataya,weather,project_authored_unseen_v2
+mamidi thota daggara gaali ekkuva untunda,weather,project_authored_unseen_v2
+mirapa field kosam weather cheppara,weather,project_authored_unseen_v2
+adilabad lo repati ushnoograta enta,weather,project_authored_unseen_v2
+karimnagar vaana forecast kavali,weather,project_authored_unseen_v2
+repu endalu ekkuva untaya,weather,project_authored_unseen_v2
+polavaram district lo rain warning unda,weather,project_authored_unseen_v2
+markapuram lo tufanu prabhavam untunda,weather,project_authored_unseen_v2
+rain forecast please,weather,project_authored_unseen_v2
+village weather outlook,weather,project_authored_unseen_v2
+wind tomorrow?,weather,project_authored_unseen_v2
+Will a dry calm window be available for field work near Hyderabad?,weather,project_authored_unseen_v2
+I need the next week's temperature forecast for the nursery,weather,project_authored_unseen_v2
+How do I check an official storm warning before harvesting?,weather,project_authored_unseen_v2
+Is heavy rain forecast around my paddy village tonight?,weather,project_authored_unseen_v2
+Could strong wind reach my mango orchard this weekend?,weather,project_authored_unseen_v2
+Tell me the weather forecast rather than the irrigation interval,weather,project_authored_unseen_v2
+Where do I check rainfall and heat warnings for Nizamabad?,weather,project_authored_unseen_v2
+రేపు మా గ్రామంలో వాన పడే అవకాశం ఉందా,weather,project_authored_unseen_v2
+వరంగల్ వాతావరణ సూచన కావాలి,weather,project_authored_unseen_v2
+గుంటూరులో వచ్చే వారం వర్షాలు ఉంటాయా,weather,project_authored_unseen_v2
+మామిడి తోట దగ్గర గాలి వేగం పెరుగుతుందా,weather,project_authored_unseen_v2
+రేపు ఎండలు ఎక్కువగా ఉంటాయా,weather,project_authored_unseen_v2
+పోలవరం జిల్లాలో తుఫాను హెచ్చరిక ఉందా,weather,project_authored_unseen_v2
+మార్కాపురంలో వర్ష సూచన చెప్పండి,weather,project_authored_unseen_v2
+నిజామాబాద్ ఉష్ణోగ్రత అంచనా కావాలి,weather,project_authored_unseen_v2
+ములుగు వద్ద వడగాలుల ముప్పు ఉందా,weather,project_authored_unseen_v2
+రేపటి వాతావరణం చూసి పొలం పని చేయాలి,weather,project_authored_unseen_v2
+weatherr in gunturr,weather,project_authored_unseen_v2
+vaathavarnam repu ela,weather,project_authored_unseen_v2
+rain forcastt for farm,weather,project_authored_unseen_v2
+varshamm paduthundaa,weather,project_authored_unseen_v2
+strongg wind alert pls,weather,project_authored_unseen_v2
+నా పొలం దగ్గర rain chances చెప్పండి,weather,project_authored_unseen_v2
+banthi flower field ki heat warning kavali,weather,project_authored_unseen_v2
+is a hailstorm expected before the tomato harvest?,weather,project_authored_unseen_v2
+I want a seven-day weather forecast for a nearby town,weather,project_authored_unseen_v2
+weather report for Suryapet agriculture,weather,project_authored_unseen_v2
+vari rythu ki scheme enquiry ekkada,govt_scheme,project_authored_unseen_v2
+patti panta bima documents enti cheppara,govt_scheme,project_authored_unseen_v2
+mamidi thota subsidy notification unda,govt_scheme,project_authored_unseen_v2
+tenant rythu ki kcc runam ela,govt_scheme,project_authored_unseen_v2
+pm kisan registration ki emi kavali,govt_scheme,project_authored_unseen_v2
+solar pump kusum pathakam ekkada apply,govt_scheme,project_authored_unseen_v2
+mirapa panta insurance gurinchi aduguthunna,govt_scheme,project_authored_unseen_v2
+rythu bharosa status evarini adagali,govt_scheme,project_authored_unseen_v2
+drip subsidy kosam office ekkada,govt_scheme,project_authored_unseen_v2
+crop loan scheme ki land proof enta,govt_scheme,project_authored_unseen_v2
+PMFBY application help,govt_scheme,project_authored_unseen_v2
+farmer subsidy documents,govt_scheme,project_authored_unseen_v2
+government loan enquiry,govt_scheme,project_authored_unseen_v2
+Where can a sharecropper check the documents accepted for crop insurance?,govt_scheme,project_authored_unseen_v2
+Does a government notification decide whether my crop is covered?,govt_scheme,project_authored_unseen_v2
+I want to ask about PM KISAN exclusions before submitting a form,govt_scheme,project_authored_unseen_v2
+Which office confirms eligibility for a solar pump subsidy?,govt_scheme,project_authored_unseen_v2
+Can the bank explain a Kisan Credit Card application for leased land?,govt_scheme,project_authored_unseen_v2
+I need the current insurance enrolment deadline from an official source,govt_scheme,project_authored_unseen_v2
+Where do I check a farmer support scheme without assuming eligibility?,govt_scheme,project_authored_unseen_v2
+వరి రైతుకు ప్రభుత్వ పథకాల వివరాలు కావాలి,govt_scheme,project_authored_unseen_v2
+పత్తి పంట బీమా దరఖాస్తు పత్రాలు ఏవి,govt_scheme,project_authored_unseen_v2
+మామిడి తోటకు సబ్సిడీ గురించి ఎక్కడ అడగాలి,govt_scheme,project_authored_unseen_v2
+కౌలు రైతు రుణం కోసం ఎవరిని సంప్రదించాలి,govt_scheme,project_authored_unseen_v2
+పీఎం కిసాన్ పథకం అర్హత నిర్ధారించాలి,govt_scheme,project_authored_unseen_v2
+సౌర పంపు పథకం దరఖాస్తు ఎక్కడ చేయాలి,govt_scheme,project_authored_unseen_v2
+మిరప పంట బీమా నోటిఫికేషన్ ఉందా,govt_scheme,project_authored_unseen_v2
+రైతు భరోసా స్థితి ఎలా తెలుసుకోవాలి,govt_scheme,project_authored_unseen_v2
+బిందు సేద్యం సబ్సిడీ వివరాలు కావాలి,govt_scheme,project_authored_unseen_v2
+రైతు రుణ పథకం గురించి బ్యాంకులో అడగాలా,govt_scheme,project_authored_unseen_v2
+governnment schem help,govt_scheme,project_authored_unseen_v2
+subsiddy for farmer pls,govt_scheme,project_authored_unseen_v2
+panta bheemaa application,govt_scheme,project_authored_unseen_v2
+pm kisaan documnts,govt_scheme,project_authored_unseen_v2
+kcc loann eligiblity,govt_scheme,project_authored_unseen_v2
+కౌలు రైతుకు insurance పథకం ఏది,govt_scheme,project_authored_unseen_v2
+organic farming subsidy prabhutva pathakam unda,govt_scheme,project_authored_unseen_v2
+I want an official crop insurance contact for my district,govt_scheme,project_authored_unseen_v2
+support scheme for horticulture farmers enquiry,govt_scheme,project_authored_unseen_v2
+which department publishes farmer subsidy application windows?,govt_scheme,project_authored_unseen_v2
+mamidi kotha eppudu start cheyali,other_agri,project_authored_unseen_v2
+vari vittanalu nilva ela cheyali,other_agri,project_authored_unseen_v2
+tomata mokkala madhya distance enta,other_agri,project_authored_unseen_v2
+patti vithadam time enti,other_agri,project_authored_unseen_v2
+verusenaga seed variety ela select cheyali,other_agri,project_authored_unseen_v2
+arati pandlu packing ela cheyali,other_agri,project_authored_unseen_v2
+organic farming method nerchukovali,other_agri,project_authored_unseen_v2
+kalupu mokkalu theeyadaniki paddhati enti,other_agri,project_authored_unseen_v2
+tractor rent ekkada dorukutundi,other_agri,project_authored_unseen_v2
+soil sample teeyadam vidhanam cheppara,other_agri,project_authored_unseen_v2
+harvest timing,other_agri,project_authored_unseen_v2
+seed selection,other_agri,project_authored_unseen_v2
+grain storage,other_agri,project_authored_unseen_v2
+How do I check whether harvested papaya is ready for packing?,other_agri,project_authored_unseen_v2
+Which crop could suit my field's season and soil?,other_agri,project_authored_unseen_v2
+I need a planting calendar for red gram,other_agri,project_authored_unseen_v2
+How should I store dry seed without moisture damage?,other_agri,project_authored_unseen_v2
+Can I learn the spacing between transplanted brinjal plants?,other_agri,project_authored_unseen_v2
+Where can I enquire about renting a harvesting machine?,other_agri,project_authored_unseen_v2
+How can I reduce damage while transporting mango boxes?,other_agri,project_authored_unseen_v2
+వరి విత్తనాల ఎంపిక ఎలా చేయాలి,other_agri,project_authored_unseen_v2
+మామిడి కోత సమయం తెలుసుకోవాలి,other_agri,project_authored_unseen_v2
+టమాటా మొక్కల మధ్య దూరం ఎంత,other_agri,project_authored_unseen_v2
+పత్తి విత్తే కాలం ఏది,other_agri,project_authored_unseen_v2
+వేరుశనగ విత్తనాలు నిల్వ చేయడం ఎలా,other_agri,project_authored_unseen_v2
+అరటి పండ్లు ప్యాకింగ్ పద్ధతి కావాలి,other_agri,project_authored_unseen_v2
+సేంద్రియ సాగు పద్ధతులు నేర్చుకోవాలి,other_agri,project_authored_unseen_v2
+కలుపు మొక్కల నిర్వహణ గురించి అడుగుతున్నాను,other_agri,project_authored_unseen_v2
+కోత యంత్రం అద్దెకు కావాలి,other_agri,project_authored_unseen_v2
+నేల నమూనా ఎలా తీసుకోవాలి,other_agri,project_authored_unseen_v2
+harvsting machinne rent,other_agri,project_authored_unseen_v2
+seed storagge advice,other_agri,project_authored_unseen_v2
+plantng distance for brinjal,other_agri,project_authored_unseen_v2
+organic farmng process,other_agri,project_authored_unseen_v2
+crop selecton for sandy soil,other_agri,project_authored_unseen_v2
+మామిడి post harvest packing పద్ధతి,other_agri,project_authored_unseen_v2
+gongura vittanala germination ela check cheyali,other_agri,project_authored_unseen_v2
+how should a farmer plan crop rotation between seasons?,other_agri,project_authored_unseen_v2
+recommend whom to ask about planting material quality for cassava,other_agri,project_authored_unseen_v2
+I need general agricultural training rather than a chemical recommendation,other_agri,project_authored_unseen_v2
+order noodles,out_of_scope,project_authored_unseen_v2
+can you book my cinema tickets for tonight,out_of_scope,project_authored_unseen_v2
+please play a romantic song for me,out_of_scope,project_authored_unseen_v2
+who won yesterday's cricket match,out_of_scope,project_authored_unseen_v2
+my laptop will not boot after an update,out_of_scope,project_authored_unseen_v2
+explain binary search for my programming exam,out_of_scope,project_authored_unseen_v2
+tell me a funny story about a robot,out_of_scope,project_authored_unseen_v2
+help choose a mobile recharge plan,out_of_scope,project_authored_unseen_v2
+I want a train ticket to Mumbai,out_of_scope,project_authored_unseen_v2
+hello there friend,out_of_scope,project_authored_unseen_v2
+good evening assistant,out_of_scope,project_authored_unseen_v2
+qzzxx vvvjjj,out_of_scope,project_authored_unseen_v2
+zxv qqq wwr,out_of_scope,project_authored_unseen_v2
+noodles please,out_of_scope,project_authored_unseen_v2
+cinema tickets,out_of_scope,project_authored_unseen_v2
+cricket score now,out_of_scope,project_authored_unseen_v2
+wifi password reset,out_of_scope,project_authored_unseen_v2
+birthday greeting please,out_of_scope,project_authored_unseen_v2
+Python homework help,out_of_scope,project_authored_unseen_v2
+నాకు సినిమా టికెట్లు కావాలి,out_of_scope,project_authored_unseen_v2
+ఒక మంచి పాట వినిపించు,out_of_scope,project_authored_unseen_v2
+క్రికెట్ మ్యాచ్ ఎవరు గెలిచారు,out_of_scope,project_authored_unseen_v2
+నా కంప్యూటర్ పనిచేయడం లేదు,out_of_scope,project_authored_unseen_v2
+గణిత సమస్యకు సమాధానం కావాలి,out_of_scope,project_authored_unseen_v2
+రైల్వే టికెట్ బుక్ చేయాలి,out_of_scope,project_authored_unseen_v2
+నాకు నూడుల్స్ తెప్పించు,out_of_scope,project_authored_unseen_v2
+నీ పేరు ఏమిటి,out_of_scope,project_authored_unseen_v2
+నమస్తే ఎలా ఉన్నావు,out_of_scope,project_authored_unseen_v2
+ఒక పుట్టినరోజు సందేశం రాయు,out_of_scope,project_authored_unseen_v2
+naa phone password marchali,out_of_scope,project_authored_unseen_v2
+cinema ki tickets book cheyyi,out_of_scope,project_authored_unseen_v2
+cricket match score ivvu,out_of_scope,project_authored_unseen_v2
+naaku biryani order cheyyi,out_of_scope,project_authored_unseen_v2
+java assignment solve cheyyi,out_of_scope,project_authored_unseen_v2
+హలో friend ఎలా ఉన్నావ్,out_of_scope,project_authored_unseen_v2
+what is the square root of eighty one,out_of_scope,project_authored_unseen_v2
+can you explain the history of the moon landing,out_of_scope,project_authored_unseen_v2
+recommend a multiplayer video game,out_of_scope,project_authored_unseen_v2
+write a birthday poem for my sister,out_of_scope,project_authored_unseen_v2

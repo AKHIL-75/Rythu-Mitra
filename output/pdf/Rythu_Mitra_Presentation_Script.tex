@@ -1,0 +1,176 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\definecolor{forest}{HTML}{17634E}
+\definecolor{slate}{HTML}{44546A}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small\textsf{RYTHU MITRA}}
+\rhead{\small\textsf{Presentation speaking script}}
+\cfoot{\small\thepage}
+\setlength{\headheight}{16pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+\renewcommand{\baselinestretch}{1.15}
+\newcommand{\slide}[3]{\vspace{8pt}{\color{forest}\large\bfseries Slide #1: #2}\par{\color{slate}\bfseries Speaker: #3}\par\vspace{1pt}}
+\newcommand{\cue}[1]{{\color{slate}\itshape[#1]}\par}
+\begin{document}
+{\Huge\bfseries\color{forest} Rythu Mitra}\par
+{\large Telugu--English Agricultural Query Assistant}\par
+\textbf{Akhil Naragani and Vishwesh}\par
+\textbf{Speaking order:} Vishwesh: 1, 3, 11, 12, 14.\\
+Akhil: 2, 4--10, 13.\par
+\textit{Read the paragraphs aloud. Text in brackets is an action cue.}
+
+\slide{1}{Introduction}{Vishwesh}
+Good morning, sir and everyone. I am Vishwesh, and my teammate is Akhil.
+
+Our project is Rythu Mitra, a Telugu--English agricultural query assistant.
+
+Farmers can ask questions in Telugu, English, or a mixture of both languages. Our system identifies the topic and provides useful guidance.
+
+Now, Akhil will explain the problem statement.
+
+\slide{2}{Problem statement}{Akhil}
+Many farmers type Telugu using English letters. They also mix English words and use different spellings.
+
+For example, a farmer may ask, ``na potato chetu ki holes unnay em cheyali?'' The system needs to understand that the farmer is asking about holes in a potato plant.
+
+But this question does not tell us whether the holes are on the leaves, stems, or potatoes. Different causes may need different actions.
+
+Our problem is to understand these mixed-language questions, identify useful details, and ask follow-up questions before giving more specific guidance.
+
+\slide{3}{Objectives}{Vishwesh}
+Our project has four main objectives. First, understand the farmer's question. Second, identify details like the crop, symptom, and location. Third, provide a useful next step. Fourth, ask for missing information when the question is incomplete.
+
+Now, Akhil will explain the dataset and working process.
+
+\newpage
+\slide{4}{Dataset}{Akhil}
+Our dataset contains 12,625 rows, with questions in Telugu, English, and mixed language.
+
+The original dataset has 20 intent labels. Intent means the purpose or topic of a question.
+
+We grouped these labels into seven farming topics and added an out-of-scope category for unrelated questions.
+
+We separated the data into training, validation, and testing sets. Related versions of the same question were kept together to reduce overlap between these sets.
+
+The larger counts shown here include different language versions and additional generated training examples.
+
+\slide{5}{Methodology}{Akhil}
+Our system works in five steps.
+
+First, it cleans the text and standardizes some spelling variations.
+
+Second, it converts the text into numerical features using TF-IDF. This helps the model identify useful words and patterns.
+
+Third, the model predicts the topic, such as irrigation, fertilizer, or market price.
+
+Fourth, the system identifies details like the crop, symptom, and district.
+
+Finally, it provides guidance, checks a service, or asks a follow-up question.
+
+\newpage
+\slide{6}{Experiments and model selection}{Akhil}
+We compared three models: Naive Bayes, Logistic Regression, and Linear SVM.
+
+We tested each model with word features, character features, and a combination of both. So, we conducted nine experiments.
+
+Word features use words and short word pairs. Character features use small groups of letters, which can help with spelling differences.
+
+We selected Logistic Regression with word TF-IDF based on validation results. We then evaluated the selected model on separate test questions.
+
+\slide{7}{Results}{Akhil}
+This chart compares the nine experiments on a separate set of 319 questions written for evaluation.
+
+Our selected model achieved 79 percent accuracy and 80.02 percent macro-F1.
+
+Accuracy tells us how many predictions were correct overall. Macro-F1 gives equal importance to each category.
+
+Character and combined features performed better on this question set. However, we kept the model selected earlier using validation results.
+
+\slide{8}{Performance on different test sets}{Akhil}
+This slide shows that performance changes depending on the questions used for testing.
+
+The selected model achieved 100 percent on the workbook test set, but 79 percent on the larger set of separately written questions. This means the workbook score alone does not show how well the system will handle new questions.
+
+With the saved routing rules, accuracy on the 319 questions increased to 83.39 percent.
+
+The separate cross-script experiment also showed that transferring between writing styles needs more improvement.
+
+\newpage
+\slide{9}{Implementation}{Akhil}
+We built the website using HTML, CSS, and JavaScript.
+
+We used Python and Flask to run the prediction and market-price services.
+
+The trained model identifies the topic. Rules then identify details like the crop and location.
+
+The answer layer combines prepared guidance with service responses.
+
+The website also supports language switching and follow-up questions.
+
+\slide{10}{Practical guidance example}{Akhil}
+Let us take the potato question again: ``na potato chetu ki holes unnay em cheyali?''
+
+The system identifies potato as the crop and holes as the symptom.
+
+It provides initial checks, such as inspecting the plant for insects and observing new damage.
+
+Then it asks whether the holes are on the leaves, stems, or tubers.
+
+The system does not confirm a disease or pest from one symptom. The farmer should confirm chemical treatments with a local agriculture officer.
+
+Vishwesh will now explain the language support and other services.
+
+\newpage
+\slide{11}{Language support}{Vishwesh}
+Our system accepts Telugu, English, and mixed-language questions.
+
+These examples ask about chilli prices, tomorrow's weather, and soil testing.
+
+The system identifies the topic and useful details like the crop or district.
+
+The farmer can also change the website language.
+
+\slide{12}{Weather, prices and official services}{Vishwesh}
+The website can check weather forecasts and reported market prices through connected services.
+
+It also provides official links for soil testing, government schemes, and equipment hiring.
+
+If information is missing, it asks the farmer for more details.
+
+If a service is unavailable, it shows a clear message.
+
+Now, Akhil will demonstrate the website.
+
+\newpage
+\slide{13}{Live demonstration}{Akhil}
+First, I will enter the potato question.
+\cue{Type: na potato chetu ki holes unnay em cheyali}
+The system identifies the crop and symptom and shows initial guidance.
+\cue{Choose the tubers follow-up.}
+After I select tubers, the guidance changes based on this additional information.
+\cue{Enter the Telugu chilli-price question shown in the PPT.}
+Next, I will ask about chilli prices in Warangal. The system asks whether I mean dry chilli or green chilli so it can make a more specific request.
+\cue{Ask: Will it rain in Warangal tomorrow?}
+Finally, this question requests tomorrow's weather for Warangal. The website uses the location and requested date to check the forecast.
+
+\slide{14}{Conclusion}{Vishwesh}
+To conclude, Rythu Mitra helps farmers ask agricultural questions in Telugu, English, or mixed language.
+
+It identifies the topic, provides useful guidance, and asks follow-up questions.
+
+In the future, we want to collect more real farmer questions and improve language understanding.
+
+Thank you. We are ready to answer your questions.
+
+\vfill
+{\color{forest}\bfseries Backup slides and one useful answer}\par
+Slides 15 and 16 are backup slides. Open them if your sir asks about the complete model comparison or testing.
+
+\textbf{If asked: Why select a model with 79\% when another achieved 88\%?}\par
+\textbf{Akhil:} We selected the model using validation results. The 88\% result came from a separate evaluation set, so we kept that set for checking performance rather than changing our selection.
+\end{document}

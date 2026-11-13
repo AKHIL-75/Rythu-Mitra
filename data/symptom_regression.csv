@@ -1,0 +1,44 @@
+query,crop,symptom,intent
+nakku vari chettu ki pasupu rangu vachindi em cheyali,paddy,yellow,crop_disease
+patti aakulu pasupu avuthunnay em cheyali,cotton,yellow,crop_disease
+pasupu panta ki neellu eppudu,turmeric,,irrigation
+vari panta aakulu pasupu ga unnayi,paddy,yellow,crop_disease
+paddy chettu yellow leaves unnayi,paddy,yellow,crop_disease
+cotton plant has yellowing leaves,cotton,yellow,crop_disease
+వరి ఆకులు పసుపు రంగులో ఉన్నాయి,paddy,yellow,crop_disease
+పత్తి ఆకులు పసుపు అయ్యాయి,cotton,yellow,crop_disease
+tomato leaves have spots,tomato,spots,crop_disease
+tamata chettu lo macchalu unnayi,tomato,spots,crop_disease
+వంకాయ ఆకులపై మచ్చలు ఉన్నాయి,brinjal,spots,crop_disease
+mamidi aakula meeda chukkalu unnay,mango,spots,crop_disease
+banana foliage has leaf spots,banana,spots,crop_disease
+మామిడి ఆకుపై మచ్చ కనిపించింది,mango,spots,crop_disease
+papaya plant is wilting,papaya,wilting,crop_disease
+vankaya mokka vadipothundi,brinjal,wilting,crop_disease
+మిరప మొక్క ఎండిపోతుంది,chilli,wilting,crop_disease
+patti mokka mada laga undi,cotton,wilting,crop_disease
+guava tree is drying,guava,wilting,crop_disease
+టమాటా మొక్కలు ఎండిపోతున్నాయి,tomato,wilting,crop_disease
+rose leaves have powder,rose,powder,crop_disease
+vankaya aakulu tellati podi undi,brinjal,powder,crop_disease
+గులాబీ ఆకులపై తెల్ల పొడి ఉంది,rose,powder,crop_disease
+bendakaya aakula meeda boodida undi,okra,powder,crop_disease
+groundnut has powdery coating,groundnut,powder,crop_disease
+టమాటా మీద బూజు ఉంది,tomato,powder,crop_disease
+brinjal fruits have holes,brinjal,holes,crop_disease
+vari lo purugu undi,paddy,holes,crop_disease
+బెండకాయలో పురుగులు ఉన్నాయి,okra,holes,crop_disease
+mirapa kayalu tinestunnayi,chilli,holes,crop_disease
+maize has caterpillar damage,maize,holes,crop_disease
+వంకాయలో రంధ్రాలు ఉన్నాయి,brinjal,holes,crop_disease
+chilli leaves are curled,chilli,curl,crop_disease
+tomata aakulu muduchukuntunnayi,tomato,curl,crop_disease
+పత్తి ఆకులు ముడుచుకుంది,cotton,curl,crop_disease
+papaya aaku mudatha laga undi,papaya,curl,crop_disease
+lemon foliage is curling,lemon,curl,crop_disease
+మిరప ఆకులు ముడుచుకుంటున్నాయి,chilli,curl,crop_disease
+banana roots are rotting,banana,rot,crop_disease
+arati veru kullu vachindi,banana,rot,crop_disease
+దానిమ్మ వేర్లు కుళ్ళుతున్నాయి,pomegranate,rot,crop_disease
+tomata kayalu kullipoyayi,tomato,rot,crop_disease
+ginger root rot problem,ginger,rot,crop_disease

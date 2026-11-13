@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1F4D2E">
+  <meta name="description" content="Simple crop care, water planning, fertilizer guidance, weather, prices, and farmer schemes for Telugu–English questions.">
+  <title>Crop health | Rythu Mitra</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/crops-data.js"></script>
+<script defer src="js/slots-data.js"></script><script defer src="js/districts-data.js"></script>
+  <script defer src="js/advice.js"></script>
+  <script defer src="js/coverage.js"></script>
+  
+  <script defer src="js/practical.js"></script><script defer src="js/app.js"></script>
+</head>
+<body data-page="disease">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"></header>
+  <main id="main"><div class="page-intro"><div class="wrap"><div class="breadcrumb"><a href="index.html" data-en="Home" data-te="హోమ్">Home</a> / A closer look at crop health</div><span class="eyebrow" data-en="YOUR FIELD COMPANION" data-te="మీ వ్యవసాయ సహాయకుడు">YOUR FIELD COMPANION</span><h1 data-en="A closer look at crop health" data-te="పంట ఆరోగ్యాన్ని తెలుసుకోండి">A closer look at crop health</h1><p>Start with your crop, compare the signs, and choose a sensible next step. Similar symptoms can have different causes.</p></div></div>
+<div class="wrap content"><section class="panel no-print"><label for="disease-crop">Choose your crop</label><select id="disease-crop" class="crop-select"></select></section>
+<section id="symptom-panel" class="panel"><form id="symptom-form"><h2 data-en="What do you see?" data-te="ఏ లక్షణాలు కనిపిస్తున్నాయి?">What do you see?</h2><fieldset><legend>Select one or more symptoms</legend><div id="symptom-options" class="checks"></div></fieldset><button class="button" type="submit">Check possible causes</button><p id="symptom-status" class="status" role="status"></p></form><div id="symptom-result" aria-live="polite"></div></section>
+<section id="disease-guide"><h2 class="print-only" data-en="Crop health guide" data-te="పంట ఆరోగ్య మార్గదర్శి">Crop health guide</h2><div class="section-heading"><h2 data-en="Common problems to look for" data-te="సాధారణంగా కనిపించే సమస్యలు">Common problems to look for</h2><button class="button secondary small" type="button" data-print="disease-guide">Print crop guide</button></div><div id="disease-cards" class="grid"></div></section>
+<section id="prevention" class="panel"></section></div></main>
+  <footer id="site-footer"></footer>
+  <noscript><p class="wrap notice">Please enable JavaScript to use the question assistant and calculators. For help, call Kisan Call Centre: 1800-180-1551.</p></noscript>
+</body>
+</html>

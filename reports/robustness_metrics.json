@@ -1,0 +1,136 @@
+{
+  "primary_benchmark": "independently authored v2; reporting only, no selection",
+  "rows": 319,
+  "raw_models": [
+    {
+      "experiment": "naive_bayes_word",
+      "accuracy": 0.7272727272727273,
+      "macro_precision": 0.7548620678033053,
+      "macro_recall": 0.726201923076923,
+      "macro_f1": 0.7189777226557835,
+      "weighted_precision": 0.7542895351004943,
+      "weighted_recall": 0.7272727272727273,
+      "weighted_f1": 0.7195216824589222
+    },
+    {
+      "experiment": "logistic_regression_word",
+      "accuracy": 0.7899686520376176,
+      "macro_precision": 0.8420060359917148,
+      "macro_recall": 0.7895032051282052,
+      "macro_f1": 0.8002376862515979,
+      "weighted_precision": 0.8420332231473837,
+      "weighted_recall": 0.7899686520376176,
+      "weighted_f1": 0.8004746768631721
+    },
+    {
+      "experiment": "linear_svm_word",
+      "accuracy": 0.8275862068965517,
+      "macro_precision": 0.8378917334251921,
+      "macro_recall": 0.8270833333333334,
+      "macro_f1": 0.8269297966220244,
+      "weighted_precision": 0.8376074710579624,
+      "weighted_recall": 0.8275862068965517,
+      "weighted_f1": 0.8270890768528613
+    },
+    {
+      "experiment": "naive_bayes_char",
+      "accuracy": 0.8338557993730408,
+      "macro_precision": 0.8451778677978369,
+      "macro_recall": 0.8329326923076923,
+      "macro_f1": 0.8259626864617222,
+      "weighted_precision": 0.8448350226983143,
+      "weighted_recall": 0.8338557993730408,
+      "weighted_f1": 0.8263935268889882
+    },
+    {
+      "experiment": "logistic_regression_char",
+      "accuracy": 0.8808777429467085,
+      "macro_precision": 0.8993045324514345,
+      "macro_recall": 0.8802884615384615,
+      "macro_f1": 0.8833491584082612,
+      "weighted_precision": 0.8992050655225718,
+      "weighted_recall": 0.8808777429467085,
+      "weighted_f1": 0.8836288810143722
+    },
+    {
+      "experiment": "linear_svm_char",
+      "accuracy": 0.8620689655172413,
+      "macro_precision": 0.8667846061937199,
+      "macro_recall": 0.8612980769230769,
+      "macro_f1": 0.857769825628401,
+      "weighted_precision": 0.8667153137714781,
+      "weighted_recall": 0.8620689655172413,
+      "weighted_f1": 0.8581789074414283
+    },
+    {
+      "experiment": "naive_bayes_combined",
+      "accuracy": 0.8369905956112853,
+      "macro_precision": 0.8495357282591325,
+      "macro_recall": 0.8362179487179486,
+      "macro_f1": 0.8298024761194243,
+      "weighted_precision": 0.849064053426089,
+      "weighted_recall": 0.8369905956112853,
+      "weighted_f1": 0.8300779212361906
+    },
+    {
+      "experiment": "logistic_regression_combined",
+      "accuracy": 0.8808777429467085,
+      "macro_precision": 0.9065687317612863,
+      "macro_recall": 0.8802884615384615,
+      "macro_f1": 0.8848497381525807,
+      "weighted_precision": 0.906387800781586,
+      "weighted_recall": 0.8808777429467085,
+      "weighted_f1": 0.8850970095911351
+    },
+    {
+      "experiment": "linear_svm_combined",
+      "accuracy": 0.8746081504702194,
+      "macro_precision": 0.8801008894019824,
+      "macro_recall": 0.8740384615384615,
+      "macro_f1": 0.8711268370764154,
+      "weighted_precision": 0.8799412229651277,
+      "weighted_recall": 0.8746081504702194,
+      "weighted_f1": 0.8713682451955927
+    }
+  ],
+  "selected_raw": {
+    "accuracy": 0.7899686520376176,
+    "macro_precision": 0.8420060359917148,
+    "macro_recall": 0.7895032051282052,
+    "macro_f1": 0.8002376862515979,
+    "weighted_precision": 0.8420332231473837,
+    "weighted_recall": 0.7899686520376176,
+    "weighted_f1": 0.8004746768631721
+  },
+  "deployed_rules": {
+    "accuracy": 0.8338557993730408,
+    "macro_precision": 0.8697044470864992,
+    "macro_recall": 0.8343750000000001,
+    "macro_f1": 0.8388354772937711,
+    "weighted_precision": 0.870756039160932,
+    "weighted_recall": 0.8338557993730408,
+    "weighted_f1": 0.8392818939265773
+  },
+  "clarification_rate": 0.3824451410658307,
+  "provenance": "All 319 literal queries were authored for this project; this is a synthetic challenge, not a representative farmer sample. Exact overlaps with v1 are excluded and recorded separately.",
+  "cross_script": {
+    "train_rows": 13631,
+    "test_rows": 1256,
+    "accuracy": 0.5469745222929936,
+    "macro_precision": 0.10175180783384462,
+    "macro_recall": 0.1432919297621518,
+    "macro_f1": 0.11639250294712479,
+    "weighted_precision": 0.3562858879154522,
+    "weighted_recall": 0.5469745222929936,
+    "weighted_f1": 0.4289598435345906,
+    "policy": "Original training groups, English+code-mixed columns only; original held-out test groups, Telugu column only. Code-mixed training can contain Telugu. Parallel translations never cross groups."
+  },
+  "indicbert": {
+    "status": "NOT RUN",
+    "available": {
+      "torch": false,
+      "transformers": false
+    },
+    "reason": "No installed torch/transformers and usable pretrained weight bundle was available; use notebooks/indicbert_colab.ipynb. No neural metrics claimed."
+  }
+}

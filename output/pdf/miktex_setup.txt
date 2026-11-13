@@ -1,0 +1,350 @@
+14 [0x000067ec] INFO initexmf null - this is MiKTeX Configuration Utility 5.5 (MiKTeX 26.2)
+
+14 [0x000067ec] INFO initexmf null - this process (24616) started by pwsh in directory C:\Users\akhil\Desktop\NLP_PROJECT with command line: C:\Users\akhil\AppData\Local\Programs\MiKTeX\miktex\bin\x64\initexmf.exe --portable=C:\Users\akhil\Desktop\NLP_PROJECT\tmp\miktex_portable --user-install=C:\Users\akhil\AppData\Local\Programs\MiKTeX --update-fndb
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Setup
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+14 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+15 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+15 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+15 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+15 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+15 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+15 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+15 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+15 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+15 [0x000067ec] INFO initexmf null - Operating on the private (per-user) MiKTeX setup
+
+16 [0x000067ec] INFO initexmf null - Creating portable setup...
+
+28 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+28 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+28 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+28 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+28 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+29 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+29 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+29 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+29 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+29 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Setup
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+30 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+31 [0x000067ec] INFO initexmf null - Registering root directories...
+
+32 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+32 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+32 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+32 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+32 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+33 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+34 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+35 [0x000067ec] INFO trace.initexmf.core null - saving startup configuration; setupVersion=26.2
+
+35 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+35 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+35 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+35 [0x000067ec] ERROR trace.initexmf.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+35 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+36 [0x000067ec] ERROR trace.initexmf.core null - Access is denied.
+
+
+
+36 [0x000067ec] ERROR trace.initexmf.core null - Function: RegOpenKeyExW
+
+36 [0x000067ec] ERROR trace.initexmf.core null - Result: 5
+
+36 [0x000067ec] ERROR trace.initexmf.core null - Data: path="Software\MiKTeX.org\MiKTeX\2.9\Setup"
+
+36 [0x000067ec] ERROR trace.initexmf.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:179
+
+37 [0x000067ec] FATAL initexmf null - Windows API error 5: Access is denied.
+
+
+
+37 [0x000067ec] FATAL initexmf null - Info: path="Software\MiKTeX.org\MiKTeX\2.9\Setup"
+
+37 [0x000067ec] FATAL initexmf null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp
+
+37 [0x000067ec] FATAL initexmf null - Line: 179
+
+37 [0x000067ec] INFO initexmf null - this process (24616) finishes with exit code 1
+
+
+Sorry, but "MiKTeX Configuration Utility" did not succeed.

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1F4D2E">
+  <meta name="description" content="Simple crop care, water planning, fertilizer guidance, weather, prices, and farmer schemes for Telugu–English questions.">
+  <title>Farm weather | Rythu Mitra</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/crops-data.js"></script>
+<script defer src="js/slots-data.js"></script><script defer src="js/districts-data.js"></script>
+  <script defer src="js/advice.js"></script>
+  <script defer src="js/coverage.js"></script>
+  
+  <script defer src="js/districts.js"></script>
+  <script defer src="js/charts.js"></script><script defer src="js/app.js"></script>
+</head>
+<body data-page="weather">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"></header>
+  <main id="main"><div class="page-intro"><div class="wrap"><div class="breadcrumb"><a href="index.html" data-en="Home" data-te="హోమ్">Home</a> / Plan the week around the weather</div><span class="eyebrow" data-en="YOUR FIELD COMPANION" data-te="మీ వ్యవసాయ సహాయకుడు">YOUR FIELD COMPANION</span><h1 data-en="Plan the week around the weather" data-te="వాతావరణాన్ని బట్టి పనులు ప్లాన్ చేయండి">Plan the week around the weather</h1><p>Choose a nearby city for a seven-day outlook and simple advice for your field.</p></div></div>
+<div class="wrap content"><section class="panel no-print"><form id="weather-form"><h2 data-en="Where is your farm?" data-te="మీ పొలం ఎక్కడ ఉంది?">Where is your farm?</h2><div class="form-grid two"><div><label for="city">Nearest city</label><select id="city"><option value="0">Hyderabad</option><option value="1">Warangal</option><option value="2">Guntur</option><option value="3">Vijayawada</option><option value="4">Kurnool</option><option value="custom">Another city in India…</option></select></div><div id="custom-city-field" hidden><label for="custom-city">City name in India</label><input id="custom-city" maxlength="100" placeholder="e.g. Nizamabad" autocomplete="address-level2"></div></div><button id="weather-submit" class="button" type="submit">Get seven-day forecast</button><p id="weather-status" class="status" role="status"></p></form></section><section id="weather-result" class="panel" aria-live="polite" hidden></section><section class="empty-state no-print">Your questions and calculators work without an internet connection. Weather and official website links need internet access.</section></div></main>
+  <footer id="site-footer"></footer>
+  <noscript><p class="wrap notice">Please enable JavaScript to use the question assistant and calculators. For help, call Kisan Call Centre: 1800-180-1551.</p></noscript>
+</body>
+</html>

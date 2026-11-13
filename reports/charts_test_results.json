@@ -1,0 +1,91 @@
+{
+  "passed": 21,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "default authored benchmark: all nine exact metric pairs",
+      "status": "passed"
+    },
+    {
+      "name": "secondary workbook switch uses exact saved test results",
+      "status": "passed"
+    },
+    {
+      "name": "generalization counts, separate cross-script protocol and rules",
+      "status": "passed"
+    },
+    {
+      "name": "existing report tables, matrices and classifier retained",
+      "status": "passed"
+    },
+    {
+      "name": "report Telugu toggle updates charts and switch",
+      "status": "passed"
+    },
+    {
+      "name": "report mobile layout at 375 and 320 pixels",
+      "status": "passed"
+    },
+    {
+      "name": "market retains prices and dropdowns without charts",
+      "status": "passed"
+    },
+    {
+      "name": "market single, empty and failed responses remain functional",
+      "status": "passed"
+    },
+    {
+      "name": "harvest positive, negative and zero estimates without graphs",
+      "status": "passed"
+    },
+    {
+      "name": "market mobile layout and both language toggles",
+      "status": "passed"
+    },
+    {
+      "name": "forecast lines and rainfall bars use seven returned dates",
+      "status": "passed"
+    },
+    {
+      "name": "selected location preserved in both forecast charts",
+      "status": "passed"
+    },
+    {
+      "name": "weather charts translate and fit mobile",
+      "status": "passed"
+    },
+    {
+      "name": "forecast chart series and tables equal the returned forecast",
+      "status": "passed"
+    },
+    {
+      "name": "zero rainfall is zero, negative temperatures supported",
+      "status": "passed"
+    },
+    {
+      "name": "weather empty preserves error handling and hides stale charts",
+      "status": "passed"
+    },
+    {
+      "name": "weather single day preserves error handling and hides stale charts",
+      "status": "passed"
+    },
+    {
+      "name": "weather failure preserves error handling and hides stale charts",
+      "status": "passed"
+    },
+    {
+      "name": "accessible SVG names and readable data tables",
+      "status": "passed"
+    },
+    {
+      "name": "farmer home has no model charts",
+      "status": "passed"
+    },
+    {
+      "name": "no JavaScript errors across all tested pages",
+      "status": "passed"
+    }
+  ],
+  "javascript_errors": []
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1F4D2E">
+  <meta name="description" content="Simple crop care, water planning, fertilizer guidance, weather, prices, and farmer schemes for Telugu–English questions.">
+  <title>Market prices | Rythu Mitra</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/crops-data.js"></script>
+<script defer src="js/slots-data.js"></script><script defer src="js/districts-data.js"></script>
+  <script defer src="js/advice.js"></script>
+  <script defer src="js/coverage.js"></script>
+  
+  <script defer src="js/prices.js"></script><script defer src="js/app.js"></script>
+</head>
+<body data-page="market">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"></header>
+  <main id="main"><div class="page-intro"><div class="wrap"><div class="breadcrumb"><a href="index.html" data-en="Home" data-te="హోమ్">Home</a> / Know the price before you sell</div><span class="eyebrow" data-en="YOUR FIELD COMPANION" data-te="మీ వ్యవసాయ సహాయకుడు">YOUR FIELD COMPANION</span><h1 data-en="Know the price before you sell" data-te="అమ్మే ముందు ధర తెలుసుకోండి">Know the price before you sell</h1><p>Check reported mandi prices in Telangana and estimate what your harvest may earn.</p></div></div>
+<div class="wrap content"><section class="panel" id="market-panel"><h2 data-en="Reported mandi prices" >Reported mandi prices</h2><p>Reported mandi prices for Telangana. Choose a district and crop to find available market rates in INR per quintal (100 kg).</p><form id="live-price-form"><div class="form-grid"><div><label for="live-state">State</label><select id="live-state" name="state"><option value="Telangana">Telangana</option></select></div><div><label for="live-district">District</label><select id="live-district" name="district"><option value="">All Telangana districts</option></select></div><div><label for="live-market">Market (optional)</label><input id="live-market" name="market" maxlength="100" placeholder="Enter a market name"></div><div><label for="live-commodity">Crop</label><select id="live-commodity" name="commodity"><option value="">All crops</option></select></div></div><button class="button">Check reported prices</button></form><p id="live-price-status" role="status">Loading reported Telangana mandi prices...</p><div id="live-price-results" class="table-wrap"></div><a href="https://agmarknet.gov.in/" target="_blank" rel="noopener">Agmarknet official prices</a></section>
+<section class="panel no-print"><form id="profit-form"><h2 data-en="What could your harvest earn?" data-te="మీ పంట ఆదాయం ఎంత?">What could your harvest earn?</h2><div class="form-grid"><div><label for="yield">Total harvest (quintals)</label><input id="yield" type="number" min="0" max="1000000" step="0.01" value="20" required></div><div><label for="sale-price">Sale price (₹ / quintal)</label><input id="sale-price" type="number" min="0" max="1000000" step="0.01" value="2450" required></div><div><label for="cost">Total growing and selling cost (₹)</label><input id="cost" type="number" min="0" max="1000000000" step="0.01" value="30000" required></div></div><button class="button" type="submit">Estimate profit / loss</button><p id="profit-status" class="status" role="status"></p></form></section><section id="profit-result" class="panel" aria-live="polite" hidden></section></div></main>
+  <footer id="site-footer"></footer>
+  <noscript><p class="wrap notice">Please enable JavaScript to use the question assistant and calculators. For help, call Kisan Call Centre: 1800-180-1551.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1F4D2E">
+  <meta name="description" content="Simple crop care, water planning, fertilizer guidance, weather, prices, and farmer schemes for Telugu–English questions.">
+  <title>Fertilizer guide | Rythu Mitra</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/crops-data.js"></script>
+<script defer src="js/slots-data.js"></script><script defer src="js/districts-data.js"></script>
+  <script defer src="js/advice.js"></script>
+  <script defer src="js/coverage.js"></script>
+  
+  <script defer src="js/app.js"></script>
+</head>
+<body data-page="fertilizer">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"></header>
+  <main id="main"><div class="page-intro"><div class="wrap"><div class="breadcrumb"><a href="index.html" data-en="Home" data-te="హోమ్">Home</a> / Feed the crop, care for the soil</div><span class="eyebrow" data-en="YOUR FIELD COMPANION" data-te="మీ వ్యవసాయ సహాయకుడు">YOUR FIELD COMPANION</span><h1 data-en="Feed the crop, care for the soil" data-te="పంటకు పోషణ, నేలకు సంరక్షణ">Feed the crop, care for the soil</h1><p>Plan typical fertilizer quantities for your acreage. Start with a soil test, then adjust the plan with your agriculture officer.</p></div></div>
+<div class="wrap content"><section class="panel no-print"><form id="fertilizer-form"><h2 data-en="Fertilizer calculator" data-te="ఎరువుల లెక్కింపు">Fertilizer calculator</h2><div class="form-grid"><div><label for="fert-crop">Crop</label><select id="fert-crop" class="crop-select"></select></div><div><label for="fert-area">Land area (acres)</label><input id="fert-area" type="number" min="0.01" max="10000" step="0.01" value="1" required></div><div><label for="fert-stage">Growth stage</label><select id="fert-stage"><option value="basal">Before planting / basal</option><option value="vegetative">Early growth / first top dressing</option><option value="reproductive">Later growth / flowering</option></select></div></div><fieldset><legend data-en="Optional: enter all three nutrient amounts from your agriculture officer" data-te="ఐచ్ఛికం: అధికారి సూచించిన మూడు పోషక మోతాదులు నమోదు చేయండి">Optional: enter all three nutrient amounts from your agriculture officer</legend><div class="form-grid"><div><label for="manual-n">N kg/ha</label><input id="manual-n" type="number" min="0" max="1000" step="0.1" placeholder="Officer-provided value"></div><div><label for="manual-p">P2O5 kg/ha</label><input id="manual-p" type="number" min="0" max="1000" step="0.1" placeholder="Officer-provided value"></div><div><label for="manual-k">K2O kg/ha</label><input id="manual-k" type="number" min="0" max="1000" step="0.1" placeholder="Officer-provided value"></div></div><p>These are your inputs, not a crop recommendation. Leave blank to see a verified reference where available.</p></fieldset><button class="button" type="submit">Calculate quantities</button><p class="status" id="fert-status" role="status"></p></form></section><section id="fert-result" class="panel" aria-live="polite" hidden></section></div></main>
+  <footer id="site-footer"></footer>
+  <noscript><p class="wrap notice">Please enable JavaScript to use the question assistant and calculators. For help, call Kisan Call Centre: 1800-180-1551.</p></noscript>
+</body>
+</html>

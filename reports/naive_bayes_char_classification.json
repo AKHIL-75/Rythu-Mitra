@@ -1,0 +1,57 @@
+{
+  "crop_disease": {
+    "precision": 1.0,
+    "recall": 0.9625779625779626,
+    "f1-score": 0.9809322033898306,
+    "support": 481.0
+  },
+  "fertilizer": {
+    "precision": 1.0,
+    "recall": 0.9757281553398058,
+    "f1-score": 0.9877149877149877,
+    "support": 412.0
+  },
+  "govt_scheme": {
+    "precision": 1.0,
+    "recall": 0.9461077844311377,
+    "f1-score": 0.9723076923076923,
+    "support": 167.0
+  },
+  "irrigation": {
+    "precision": 0.9891891891891892,
+    "recall": 0.9481865284974094,
+    "f1-score": 0.9682539682539683,
+    "support": 193.0
+  },
+  "market_price": {
+    "precision": 1.0,
+    "recall": 0.8142076502732241,
+    "f1-score": 0.8975903614457831,
+    "support": 183.0
+  },
+  "other_agri": {
+    "precision": 0.959079283887468,
+    "recall": 1.0,
+    "f1-score": 0.97911227154047,
+    "support": 2250.0
+  },
+  "weather": {
+    "precision": 0.9931972789115646,
+    "recall": 0.8902439024390244,
+    "f1-score": 0.9389067524115756,
+    "support": 164.0
+  },
+  "accuracy": 0.9742857142857143,
+  "macro avg": {
+    "precision": 0.991637964569746,
+    "recall": 0.9338645690797949,
+    "f1-score": 0.9606883195806154,
+    "support": 3850.0
+  },
+  "weighted avg": {
+    "precision": 0.9752535729874839,
+    "recall": 0.9742857142857143,
+    "f1-score": 0.9738331739645761,
+    "support": 3850.0
+  }
+}

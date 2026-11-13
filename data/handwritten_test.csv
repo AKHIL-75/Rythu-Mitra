@@ -1,0 +1,151 @@
+query,intent,source
+"My tomato leaves have circular dark lesions; could this be blight?",crop_disease,handwritten_unseen
+"వంకాయ ఆకులపై చిన్న రంధ్రాలు పురుగులు కనిపిస్తున్నాయి",crop_disease,handwritten_unseen
+"mamidi pandu lo purugu undi emi cheyyali",crop_disease,handwritten_unseen
+"Cotton whitefly attack needs inspection",crop_disease,handwritten_unseen
+"పత్తి మొక్కలు వాడిపోతున్నాయి ఏ తెగులు",crop_disease,handwritten_unseen
+"guava leafs showing fungal spotz please help",crop_disease,handwritten_unseen
+"mirapa lo thrips damage chala ekkuva",crop_disease,handwritten_unseen
+"అరటి వేర్లు కుళ్ళుతున్నాయి నివారణ చెప్పండి",crop_disease,handwritten_unseen
+"Disease?",crop_disease,handwritten_unseen
+"tegulu",crop_disease,handwritten_unseen
+"Rose has powdery mildew spreading over buds",crop_disease,handwritten_unseen
+"టమాటా పండ్లలో fruit borer పురుగు ఉంది",crop_disease,handwritten_unseen
+"My brinjal shoots wilt and a caterpillar is inside; I have not sprayed anything and want help identifying the pest before deciding on control",crop_disease,handwritten_unseen
+"boppayi aakulu curl avutunnayi virus aa",crop_disease,handwritten_unseen
+"వరి అగ్గి తెగులు ఎలా గుర్తించాలి",crop_disease,handwritten_unseen
+"cucumber seedlings have root rot after rain",crop_disease,handwritten_unseen
+"bendakaya meeda aphids unnayi treatment kavali",crop_disease,handwritten_unseen
+"చామంతి ఆకులపై తెల్లదోమలు",crop_disease,handwritten_unseen
+"pest on pomegranate flower",crop_disease,handwritten_unseen
+"banana disease చికిత్స కోసం ఎవరిని అడగాలి",crop_disease,handwritten_unseen
+"How much potash fertilizer for a banana orchard?",fertilizer,handwritten_unseen
+"పాలకూరకు పోషకాలు ఎంత అవసరం",fertilizer,handwritten_unseen
+"tamata ki eruvulu eppudu veyyali",fertilizer,handwritten_unseen
+"My maize needs a nitrogen nutrient recommendation",fertilizer,handwritten_unseen
+"కందికి యూరియా మోతాదు చెప్పండి",fertilizer,handwritten_unseen
+"guava fertilizr dose after soil testing",fertilizer,handwritten_unseen
+"kobbari ki potash mariyu compost enta",fertilizer,handwritten_unseen
+"ఎరువు?",fertilizer,handwritten_unseen
+"urea",fertilizer,handwritten_unseen
+"Please explain DAP nutrition for turmeric",fertilizer,handwritten_unseen
+"మిరపకు nitrogen deficiency ఉంటే ఎరువు ఏమిటి",fertilizer,handwritten_unseen
+"My tomato soil report says phosphorus is low and I used manure last month; please help calculate the remaining fertilizer requirement without double feeding",fertilizer,handwritten_unseen
+"beetroot ki poshakalu kavali",fertilizer,handwritten_unseen
+"కొత్తిమీర పంటకు కంపోస్ట్ వేయవచ్చా",fertilizer,handwritten_unseen
+"NPK for French beans",fertilizer,handwritten_unseen
+"mamidi orchard lo zinc nutrient ela ivvali",fertilizer,handwritten_unseen
+"దానిమ్మకు పొటాష్ మోతాదు ఎంత",fertilizer,handwritten_unseen
+"Is vermicompost a fertilizer option for spinach?",fertilizer,handwritten_unseen
+"vankaya ki basal eruvu cheppandi",fertilizer,handwritten_unseen
+"ఉల్లిపాయ fertilizer schedule కావాలి",fertilizer,handwritten_unseen
+"When is the next irrigation for okra?",irrigation,handwritten_unseen
+"టమాటాకు నీరు ఎన్ని రోజులకు పెట్టాలి",irrigation,handwritten_unseen
+"patti ki neelllu enni sarlu ivvali",irrigation,handwritten_unseen
+"Set a drip water plan for mango",irrigation,handwritten_unseen
+"బొప్పాయి పొలంలో నీరు నిలిచిపోయింది",irrigation,handwritten_unseen
+"irrigaation timing for cabbage please",irrigation,handwritten_unseen
+"munaga ki saguneeru avasaram enta",irrigation,handwritten_unseen
+"నీరు?",irrigation,handwritten_unseen
+"watering",irrigation,handwritten_unseen
+"Does bottle gourd need irrigation when soil is already wet?",irrigation,handwritten_unseen
+"వంకాయకు drip నీటి షెడ్యూల్ ఇవ్వండి",irrigation,handwritten_unseen
+"We grow pomegranate on sandy soil and the surface dries quickly but the deeper root zone is wet; please advise how to decide when to irrigate instead of using a fixed calendar",irrigation,handwritten_unseen
+"dondakaya lo tadulu ela ivvali",irrigation,handwritten_unseen
+"వేరుశనగకు బిందు సేద్యం చేయవచ్చా",irrigation,handwritten_unseen
+"Waterlogging drainage for chickpea",irrigation,handwritten_unseen
+"arati neeru morning ivvala evening ivvala",irrigation,handwritten_unseen
+"గుమ్మడికి నీళ్ళు సరిపోవడం లేదు",irrigation,handwritten_unseen
+"How often should I water jasmine?",irrigation,handwritten_unseen
+"potlakaya water schedule entha",irrigation,handwritten_unseen
+"క్యారెట్ irrigation అవసరం ఎంత",irrigation,handwritten_unseen
+"Find today's wholesale onion price",market_price,handwritten_unseen
+"బెండకాయ మార్కెట్ ధర చెప్పండి",market_price,handwritten_unseen
+"mamidi ki eeroju dhara enta untundi",market_price,handwritten_unseen
+"What is the historical wheat MSP?",market_price,handwritten_unseen
+"దానిమ్మ పంట ఎక్కడ అమ్మాలి",market_price,handwritten_unseen
+"tomatto mandi prce please",market_price,handwritten_unseen
+"kakarakaya ammakam retu kavali",market_price,handwritten_unseen
+"ధర?",market_price,handwritten_unseen
+"selling rate",market_price,handwritten_unseen
+"Compare the market price of dry and green chilli",market_price,handwritten_unseen
+"మామిడి wholesale rate ఎంత ఉంది",market_price,handwritten_unseen
+"I have twenty quintals of turmeric ready to sell and want to compare verified mandi prices by grade before paying for transport; where should I check the rate?",market_price,handwritten_unseen
+"palakura dharalu ekkada telustayi",market_price,handwritten_unseen
+"కాలీఫ్లవర్ టోకు ధర ఎంత",market_price,handwritten_unseen
+"Price per quintal for maize",market_price,handwritten_unseen
+"boppayi pandlu ammali mandi rate unda",market_price,handwritten_unseen
+"నువ్వులకు కనీస మద్దతు ధర ఎంత",market_price,handwritten_unseen
+"Can I check tomato selling prices by market?",market_price,handwritten_unseen
+"malle poola rate cheppandi",market_price,handwritten_unseen
+"అరటి market price ఏ పోర్టల్ లో ఉంటుంది",market_price,handwritten_unseen
+"Is rain expected in Guntur tomorrow?",weather,handwritten_unseen
+"రేపు వర్షం పడుతుందా",weather,handwritten_unseen
+"warangal lo vaana untunda repu",weather,handwritten_unseen
+"Give the wind forecast before field work",weather,handwritten_unseen
+"మామిడి తోట వద్ద వడగాలుల ముప్పు ఉందా",weather,handwritten_unseen
+"weathr forcast for chilli field",weather,handwritten_unseen
+"repu tufanu gaali untunda",weather,handwritten_unseen
+"వాతావరణం?",weather,handwritten_unseen
+"rainfall",weather,handwritten_unseen
+"Could a heatwave affect the vegetable nursery this weekend?",weather,handwritten_unseen
+"ఖమ్మంలో rain forecast ఏమిటి",weather,handwritten_unseen
+"We intend to harvest mangoes next week but need a seven day forecast of rain and high wind to choose a calm dry day and protect the picked fruit",weather,handwritten_unseen
+"nizamabad ushnoograta repu ela untundi",weather,handwritten_unseen
+"మిరప పొలం దగ్గర గాలి వేగం ఎంత",weather,handwritten_unseen
+"Hailstorm warning for my orchard",weather,handwritten_unseen
+"varshalu eppudu padatayi guntur lo",weather,handwritten_unseen
+"ఈ వారం వర్షపాతం వివరాలు చెప్పండి",weather,handwritten_unseen
+"Is a storm forecast for the coast?",weather,handwritten_unseen
+"endalu ekkuva weather alert kavali",weather,handwritten_unseen
+"రేపటి temperature వివరాలు కావాలి",weather,handwritten_unseen
+"How can a tenant farmer apply for KCC credit?",govt_scheme,handwritten_unseen
+"పంట బీమాకు ఎలా దరఖాస్తు చేయాలి",govt_scheme,handwritten_unseen
+"pm kisan pathakam documents enti",govt_scheme,handwritten_unseen
+"Where do I enquire about a drip subsidy scheme?",govt_scheme,handwritten_unseen
+"రైతు భరోసా అర్హత ఎవరు నిర్ధారిస్తారు",govt_scheme,handwritten_unseen
+"goverment subsdy for farmers",govt_scheme,handwritten_unseen
+"rythu runam bima kosam office ekkada",govt_scheme,handwritten_unseen
+"పథకం?",govt_scheme,handwritten_unseen
+"subsidy",govt_scheme,handwritten_unseen
+"What papers are needed for crop insurance?",govt_scheme,handwritten_unseen
+"వరి రైతుకు PM KISAN scheme వర్తిస్తుందా",govt_scheme,handwritten_unseen
+"I cultivate leased land and want to ask the bank about a Kisan Credit Card loan and the accepted proof of cultivation before applying for any government assistance",govt_scheme,handwritten_unseen
+"panta bima ela kattali",govt_scheme,handwritten_unseen
+"సౌర పంపు సబ్సిడీ పథకం వివరాలు",govt_scheme,handwritten_unseen
+"Government support for horticulture farmers",govt_scheme,handwritten_unseen
+"kusum scheme ki ela register avvali",govt_scheme,handwritten_unseen
+"రైతులకు రుణ పథకాలు ఏవి",govt_scheme,handwritten_unseen
+"Is PMFBY enrollment open for my crop?",govt_scheme,handwritten_unseen
+"prabhutva sahayam subsidy gurinchi cheppandi",govt_scheme,handwritten_unseen
+"టమాటా crop insurance పథకం ఎలా తెలుసుకోవాలి",govt_scheme,handwritten_unseen
+"When should I harvest papaya?",other_agri,handwritten_unseen
+"మామిడి పండ్ల నిల్వ పద్ధతి చెప్పండి",other_agri,handwritten_unseen
+"vari seed quality ela check cheyali",other_agri,handwritten_unseen
+"How do I choose a crop for red soil?",other_agri,handwritten_unseen
+"కొత్తిమీర విత్తే సమయం ఏది",other_agri,handwritten_unseen
+"tomato spacing between plants enti",other_agri,handwritten_unseen
+"I need guidance on organic farming",other_agri,handwritten_unseen
+"పొలంలో కలుపు మొక్కల నివారణ",other_agri,handwritten_unseen
+"Can a harvesting machine be rented?",other_agri,handwritten_unseen
+"soil testing sample ela teeyali",other_agri,handwritten_unseen
+"అరటి కోత తర్వాత ప్యాకింగ్ ఎలా చేయాలి",other_agri,handwritten_unseen
+"How can I reduce storage losses in grain?",other_agri,handwritten_unseen
+"Which seed variety suits the season?",other_agri,handwritten_unseen
+"విత్తనాల మొలక శాతం ఎలా పరీక్షించాలి",other_agri,handwritten_unseen
+"mung bean crop rotation planning please",other_agri,handwritten_unseen
+"Namaste friend how are you today",out_of_scope,handwritten_unseen
+"నాకు సినిమా టికెట్ బుక్ చేయి",out_of_scope,handwritten_unseen
+"ipl match evaru gelicharu",out_of_scope,handwritten_unseen
+"Explain inheritance in Java",out_of_scope,handwritten_unseen
+"నాకు ఒక పాట పాడు",out_of_scope,handwritten_unseen
+"qzxwv ljkqq zzzzzz",out_of_scope,handwritten_unseen
+"Recommend an action movie for tonight",out_of_scope,handwritten_unseen
+"birthday wishes kavali",out_of_scope,handwritten_unseen
+"What is seven multiplied by nine?",out_of_scope,handwritten_unseen
+"క్రికెట్ ఆటగాళ్ల పేర్లు చెప్పు",out_of_scope,handwritten_unseen
+"Order noodles to my home",out_of_scope,handwritten_unseen
+"wifi password ela marchali",out_of_scope,handwritten_unseen
+"Who painted the Mona Lisa?",out_of_scope,handwritten_unseen
+"నా మొబైల్ స్క్రీన్ పగిలింది",out_of_scope,handwritten_unseen
+"Book a train to Delhi",out_of_scope,handwritten_unseen

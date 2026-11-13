@@ -1,0 +1,50 @@
+query,intent,problem,source
+"my tomato has leaf spot lesions and needs inspection",crop_disease,leaf spot,project_authored_unseen
+"patti ki whitefly insects unnay please inspect",crop_disease,whitefly,project_authored_unseen
+"వంకాయలో fruit borer కనిపించింది",crop_disease,fruit borer,project_authored_unseen
+"papaya root rot is spreading after saturation",crop_disease,root rot,project_authored_unseen
+"rose powdery mildew on the foliage please help",crop_disease,powdery mildew,project_authored_unseen
+"mirapa thrips kanipinchayi em cheyyalo",crop_disease,thrips,project_authored_unseen
+"పత్తిలో aphids ఉన్నాయేమో చూడాలి",crop_disease,aphids,project_authored_unseen
+"Which urea amount addresses nitrogen deficiency in maize?",fertilizer,nitrogen deficiency,project_authored_unseen
+"vari lo zinc deficiency ki nutrition plan kavali",fertilizer,zinc deficiency,project_authored_unseen
+"అరటిలో potassium deficiency గురించి అడుగుతున్నాను",fertilizer,potassium deficiency,project_authored_unseen
+"Need advice about phosphorus deficiency in chickpea",fertilizer,phosphorus deficiency,project_authored_unseen
+"cotton top dressing fertilizer timing please",fertilizer,top dressing,project_authored_unseen
+"టమాటా basal dose ఎరువులు తెలుసుకోవాలి",fertilizer,basal dose,project_authored_unseen
+"coriander micronutrient spray requirement enquiry",fertilizer,micronutrient spray,project_authored_unseen
+"how should I set drip irrigation for a guava plot",irrigation,drip irrigation,project_authored_unseen
+"patti lo waterlogging tagginchali drainage kosam",irrigation,waterlogging,project_authored_unseen
+"వరి పొలంలో water shortage సమస్య ఉంది",irrigation,water shortage,project_authored_unseen
+"need an irrigation schedule before summer in tomato",irrigation,irrigation schedule,project_authored_unseen
+"vankaya lo excess water undi ela drain cheyali",irrigation,excess water,project_authored_unseen
+"మామిడిలో drought stress తగ్గించడానికి నీరు",irrigation,drought stress,project_authored_unseen
+"the maize field needs its drip irrigation checked",irrigation,drip irrigation,project_authored_unseen
+"where can I verify the current market price for onions",market_price,current market price,project_authored_unseen
+"vari selling rate date tho chudali",market_price,selling rate,project_authored_unseen
+"టమాటా mandi price ఏ మార్కెట్లో ఉంది",market_price,mandi price,project_authored_unseen
+"help understand price fluctuation before selling cotton",market_price,price fluctuation,project_authored_unseen
+"mamidi current market price report ekkada",market_price,current market price,project_authored_unseen
+"అరటి selling rate వివరాలు కావాలి",market_price,selling rate,project_authored_unseen
+"need yesterday's mandi price source for chilli",market_price,mandi price,project_authored_unseen
+"is drought forecast near our maize village",weather,drought,project_authored_unseen
+"repu hailstorm damage risk weather enquiry",weather,hailstorm damage,project_authored_unseen
+"మిరపకు heat wave effect గురించి వాతావరణ సూచన",weather,heat wave effect,project_authored_unseen
+"can heavy rainfall damage the standing crop this week",weather,heavy rainfall damage,project_authored_unseen
+"mamidi frost damage weather warning unda",weather,frost damage,project_authored_unseen
+"రేపు unseasonal rain వస్తుందా",weather,unseasonal rain,project_authored_unseen
+"weather enquiry about heat wave effect on nursery",weather,heat wave effect,project_authored_unseen
+"where should I enquire about a loan scheme for cultivation",govt_scheme,loan scheme,project_authored_unseen
+"patti ki crop insurance scheme documents kavali",govt_scheme,crop insurance scheme,project_authored_unseen
+"మామిడి subsidy scheme గురించి ఎక్కడ అడగాలి",govt_scheme,subsidy scheme,project_authored_unseen
+"I need the official Rythu Bandhu scheme enquiry contact",govt_scheme,Rythu Bandhu scheme,project_authored_unseen
+"tenant farmer loan scheme proof enti",govt_scheme,loan scheme,project_authored_unseen
+"వరి crop insurance scheme నోటిఫికేషన్ కావాలి",govt_scheme,crop insurance scheme,project_authored_unseen
+"government subsidy scheme for an eligible farmer enquiry",govt_scheme,subsidy scheme,project_authored_unseen
+"how do I check seed quality before sowing",other_agri,seed quality,project_authored_unseen
+"tomata spacing between plants enta",other_agri,spacing between plants,project_authored_unseen
+"వరి grain storage problem గురించి సలహా",other_agri,grain storage problem,project_authored_unseen
+"need guidance on harvesting time for papaya",other_agri,harvesting time,project_authored_unseen
+"soil testing sample ela pampali",other_agri,soil testing,project_authored_unseen
+"మామిడి grading and packing నేర్చుకోవాలి",other_agri,grading and packing,project_authored_unseen
+"which natural farming method should I discuss with an officer",other_agri,natural farming method,project_authored_unseen

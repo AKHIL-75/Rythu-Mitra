@@ -1,0 +1,120 @@
+{
+  "passed": 28,
+  "failed": 0,
+  "javascript_errors": [],
+  "checks": [
+    {
+      "name": "exact user question gives practical steps, checks and no referral-only fallback",
+      "status": "passed"
+    },
+    {
+      "name": "potato tuber follow-up retains crop and changes inspection steps",
+      "status": "passed"
+    },
+    {
+      "name": "potato stem follow-up gives stem-specific checks",
+      "status": "passed"
+    },
+    {
+      "name": "typed follow-up keeps original question attached",
+      "status": "passed"
+    },
+    {
+      "name": "practical answer for yellow",
+      "status": "passed"
+    },
+    {
+      "name": "practical answer for spots",
+      "status": "passed"
+    },
+    {
+      "name": "practical answer for wilting",
+      "status": "passed"
+    },
+    {
+      "name": "practical answer for powder",
+      "status": "passed"
+    },
+    {
+      "name": "practical answer for curl",
+      "status": "passed"
+    },
+    {
+      "name": "practical answer for rot",
+      "status": "passed"
+    },
+    {
+      "name": "practical answer for flowers",
+      "status": "passed"
+    },
+    {
+      "name": "multiple symptoms retain both action plans",
+      "status": "passed"
+    },
+    {
+      "name": "all catalog crops receive each supported symptom plan",
+      "status": "passed"
+    },
+    {
+      "name": "fertilizer has an actionable checklist without invented dose",
+      "status": "passed"
+    },
+    {
+      "name": "irrigation distinguishes dry and saturated soil",
+      "status": "passed"
+    },
+    {
+      "name": "useful guidance for planting",
+      "status": "passed"
+    },
+    {
+      "name": "useful guidance for storage",
+      "status": "passed"
+    },
+    {
+      "name": "useful guidance for harvest",
+      "status": "passed"
+    },
+    {
+      "name": "useful guidance for weeds",
+      "status": "passed"
+    },
+    {
+      "name": "market question links selected crop to real mandi prices",
+      "status": "passed"
+    },
+    {
+      "name": "unknown crop asks instead of inventing a diagnosis",
+      "status": "passed"
+    },
+    {
+      "name": "unrelated question keeps farming boundary",
+      "status": "passed"
+    },
+    {
+      "name": "answer escapes untrusted query text",
+      "status": "passed"
+    },
+    {
+      "name": "Telugu toggle translates steps, follow-ups and headings",
+      "status": "passed"
+    },
+    {
+      "name": "mobile answer fits at 320 pixels",
+      "status": "passed"
+    },
+    {
+      "name": "full crop guide symptom checker also offers practical steps",
+      "status": "passed"
+    },
+    {
+      "name": "backend and browser classifications still agree for original question",
+      "status": "passed"
+    },
+    {
+      "name": "no JavaScript errors",
+      "status": "passed"
+    }
+  ],
+  "potato_answer": "Your farm question\nCrop health\nPotato\nPest / feeding damage\nHoles or feeding damage: what to do now\n\nFirst check whether the damage is on leaves, stems, or the harvested part. Holes alone do not identify the pest.\n\nSteps you can take now\nInspect both leaf surfaces, rolled leaves and nearby stems for larvae, eggs, droppings or webbing.\nOn a few plants, collect clearly identified leaf-eating caterpillars using gloves or tongs. Avoid handling hairy or unfamiliar insects.\nCompare new damage on the same marked plants. Do not spray an unknown insect or repeat pesticide mixtures just because holes are present.\n\nIf young plants are being cut, new damage is spreading quickly, or tubers/fruit are affected, arrange a local inspection promptly.\n\nTo narrow it down: Where are the holes? Are insects visible, and is the damage spreading?\n\nWhy these steps? Sources\nOn potato leaves, many tiny shot-like holes with small jumping beetles can suggest flea-beetle feeding. Larger chewed areas need a check for caterpillars or other feeders. Inspect before naming or treating the insect.\nWhy these steps? Sources\n\nChoose the affected part for more specific checks:\n\nLeaves\nStems\nTubers / fruit\nSee full guide\nAdd details to this question\n\nInclude the affected part, crop age, soil moisture and whether the problem is spreading. Your crop and original question stay attached.\n\nUpdate guidance\n\nGeneral guidance only. Please confirm with your local agriculture officer (Rythu Seva Kendram / KVK) before applying chemicals."
+}

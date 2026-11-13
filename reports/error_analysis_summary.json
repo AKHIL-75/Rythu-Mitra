@@ -1,0 +1,212 @@
+{
+  "workbook_test_rows": 3850,
+  "workbook_errors": 0,
+  "handwritten_rows": 150,
+  "handwritten_errors": 19,
+  "handwritten_confusion_pairs": [
+    {
+      "intent": "crop_disease",
+      "prediction": "other_agri",
+      "count": 1
+    },
+    {
+      "intent": "fertilizer",
+      "prediction": "irrigation",
+      "count": 1
+    },
+    {
+      "intent": "fertilizer",
+      "prediction": "other_agri",
+      "count": 3
+    },
+    {
+      "intent": "govt_scheme",
+      "prediction": "other_agri",
+      "count": 1
+    },
+    {
+      "intent": "irrigation",
+      "prediction": "other_agri",
+      "count": 2
+    },
+    {
+      "intent": "irrigation",
+      "prediction": "out_of_scope",
+      "count": 1
+    },
+    {
+      "intent": "other_agri",
+      "prediction": "govt_scheme",
+      "count": 1
+    },
+    {
+      "intent": "other_agri",
+      "prediction": "irrigation",
+      "count": 1
+    },
+    {
+      "intent": "out_of_scope",
+      "prediction": "crop_disease",
+      "count": 1
+    },
+    {
+      "intent": "out_of_scope",
+      "prediction": "fertilizer",
+      "count": 1
+    },
+    {
+      "intent": "out_of_scope",
+      "prediction": "other_agri",
+      "count": 2
+    },
+    {
+      "intent": "out_of_scope",
+      "prediction": "weather",
+      "count": 1
+    },
+    {
+      "intent": "weather",
+      "prediction": "irrigation",
+      "count": 1
+    },
+    {
+      "intent": "weather",
+      "prediction": "other_agri",
+      "count": 2
+    }
+  ],
+  "by_script_type": {
+    "english": {
+      "n": 1261,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "mixed": {
+      "n": 1641,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "romanized": {
+      "n": 68,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "telugu": {
+      "n": 880,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    }
+  },
+  "by_crop_group": {
+    "cereal": {
+      "n": 302,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "fibre": {
+      "n": 161,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "fruit": {
+      "n": 455,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "oilseed": {
+      "n": 629,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "plantation": {
+      "n": 182,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "pulse": {
+      "n": 590,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "spice": {
+      "n": 294,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "unspecified": {
+      "n": 354,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    },
+    "vegetable": {
+      "n": 883,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0
+    }
+  }
+}
