@@ -15,7 +15,7 @@ def test_prices_cache_and_filters(monkeypatch):
     a,status=prices.fetch_prices({'state':'Test state','commodity':'Test commodity'},opener)
     b,_=prices.fetch_prices({'state':'Test state','commodity':'Test commodity'},opener)
     assert status==200 and a['records'][0]['arrival_date']=='01/01/2000' and b['cached'] and len(calls)==1
-    assert 'filters%5Bstate%5D' in calls[0]
+    assert 'filters%5Bstate.keyword%5D' in calls[0]
     assert 'TEST_ONLY_NOT_A_REAL_KEY' not in json.dumps(a)
 
 def test_price_failures(monkeypatch):

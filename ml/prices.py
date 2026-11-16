@@ -67,7 +67,7 @@ try {
 def _open_windows_provider(url, timeout):
     try:
         process = subprocess.run(
-            ['powershell.exe', '-NoLogo', '-NoProfile', '-NonInteractive', '-Command', _WINDOWS_REQUEST],
+            ['powershell.exe', '-NoLogo', '-NoProfile', '-NonInteractive', '-Command', _WINDOWS_REQUEST.replace('-TimeoutSec 25', '-TimeoutSec ' + str(max(1, int(timeout))))],
             input=url, encoding='utf-8', capture_output=True, timeout=timeout + 5,
             creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0),
         )
@@ -125,7 +125,7 @@ def fetch_prices(filters,opener=None):
     with LOCK:
         cached=CACHE.get(cache_key)
         if cached and time.monotonic()-cached[0]<TTL:return dict(cached[1],cached=True),200
-    params={'api-key':key,'format':'json','limit':100,**{f'filters[{k}]':v for k,v in clean.items()}}
+    params={'api-key':key,'format':'json','limit':100,**{f"filters[{'state.keyword' if k == 'state' else k}]":v for k,v in clean.items()}}
     try:
         with (opener or _open_provider)(RESOURCE+'?'+urlencode(params),timeout=25) as response:
             raw=json.loads(response.read(2_000_000))

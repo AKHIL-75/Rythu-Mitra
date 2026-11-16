@@ -1,5 +1,8 @@
 """Local Flask API and static site. No query body is retained or logged."""
 import sys
+import os
+import hmac
+import threading
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT/'.vendor'))
@@ -15,6 +18,39 @@ def create_app():
     model=joblib.load(model_path) if model_path.exists() else None
     problem_path=ROOT/'ml/models/problem_models.joblib'
     problem_models=joblib.load(problem_path) if problem_path.exists() else {}
+
+    # Bounded temporary probes, disabled unless a separate token is configured.
+    diagnostics_lock = threading.Lock()
+
+    @app.get('/price-diagnostics')
+    def price_diagnostics_page():
+        if not os.environ.get('DIAGNOSTICS_TOKEN'):
+            return jsonify(error='Not found'), 404
+        response = send_from_directory(ROOT / 'ml', 'price_diagnostics.html')
+        response.headers['Cache-Control'] = 'no-store'
+        return response
+
+    @app.post('/_diagnostics/prices')
+    def price_diagnostics():
+        expected = os.environ.get('DIAGNOSTICS_TOKEN', '')
+        if not expected:
+            return jsonify(error='Not found'), 404
+        supplied = request.headers.get('Authorization', '')
+        if not hmac.compare_digest(supplied.encode(), ('Bearer ' + expected).encode()):
+            return jsonify(error='Unauthorized'), 401
+        payload = request.get_json(silent=True)
+        if not isinstance(payload, dict):
+            return jsonify(error='Use a JSON object'), 400
+        if not diagnostics_lock.acquire(blocking=False):
+            return jsonify(error='A diagnostic request is already running'), 429
+        try:
+            from ml.price_diagnostics import probe
+            result, status = probe(payload.get('stage'), payload.get('filters', {}))
+            response = jsonify(result)
+            response.headers['Cache-Control'] = 'no-store'
+            return response, status
+        finally:
+            diagnostics_lock.release()
 
     @app.get('/prices')
     def prices():
