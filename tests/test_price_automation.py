@@ -46,6 +46,7 @@ def test_temporary_workflow_script_imports_with_workspace_pythonpath(root,tmp_pa
     import subprocess
     import sys
     workflow=(root/'.github/workflows/refresh-mandi-prices.yml').read_text(encoding='utf8')
+    assert 'runs-on: ubuntu-latest' in workflow
     assert 'PYTHONPATH: ${{ github.workspace }}' in workflow
     assert 'working-directory: ${{ github.workspace }}' in workflow
     script=tmp_path/'runner_temporary_step.py'
