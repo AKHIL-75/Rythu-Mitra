@@ -334,9 +334,42 @@ never prints keys, stores credentials in the report, or commits/pushes files.
 After the command prints SUCCESS, commit the generated report alongside the
 application changes and push. Vercel redeploys with those records. Repeat the
 refresh and push when a newer report is needed (for example, before each day's
-use). Neither the website nor this script claims automatic daily updates.
+use). The manual command does not schedule updates. Use the workflow below for automatic refreshes.
 Do not publish `.env`. If refresh fails, keep the old report and investigate the
 working machine's provider connection; do not replace it with invented rates.
 
 Local `/prices` continues to use the live provider when available and falls back
 to a saved report on provider failure or missing local API configuration.
+
+
+### Automatic daily refresh (GitHub Actions)
+
+`.github/workflows/refresh-mandi-prices.yml` runs on a Windows GitHub runner at
+08:15 and 18:15 India time every day, and can also be started manually. Scheduled
+runs may be delayed by GitHub. Your laptop does not need to stay on. The first
+successful run can create the initial report; a manual local refresh is optional.
+
+One-time setup, after the workflow is pushed to the default branch:
+
+1. In Vercel, open this project's Settings > Git > Deploy Hooks. Create a hook for
+   the production branch (`main`) named `mandi-refresh`. Copy its secret URL.
+2. In the GitHub repository, open Settings > Secrets and variables > Actions and
+   create two repository secrets: `DATA_GOV_IN_API_KEY` (your existing provider
+   key) and `VERCEL_DEPLOY_HOOK` (the URL from step 1). Vercel's environment
+   variables are not automatically shared with GitHub Actions. Never put either
+   secret in a commit or chat message.
+3. In GitHub, select Actions > Refresh mandi prices > Run workflow on the default
+   branch. Confirm that the run succeeds and Vercel deploys the new report.
+4. If GitHub denies the automatic push, check Settings > Actions > General >
+   Workflow permissions and allow Read and write permissions. Branch protection
+   may also require repository-specific configuration; this job never force-pushes.
+
+On each successful run, the job commits ONLY `data/mandi_prices.json` and calls the
+Vercel deploy hook after the push succeeds. Using a deploy hook avoids depending
+on whether a bot-authored commit triggers a Git integration deployment. The hook
+requests deployment; a successful request alone does not prove the build finished.
+A failed, empty or incomplete fetch leaves the existing published report intact
+and fails the workflow visibly. Reporting dates always come from the provider;
+refreshing cannot turn an older report into today's rate. Verify the FIRST cloud
+run: the GitHub Windows runner uses a different network from your local PC and
+its provider connectivity is not yet established. No fabricated fallback is used.
