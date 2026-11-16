@@ -8,9 +8,26 @@ import time
 import threading
 import socket
 import ssl
+import logging
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 import requests
+
+LOGGER = logging.getLogger(__name__)
+
+
+def _log_connection_failure(error):
+    # Never log exception text, request URLs, headers, or arguments: they may contain keys.
+    pending = [error]; seen = set(); kinds = []
+    while pending and len(seen) < 12:
+        cause = pending.pop()
+        if not isinstance(cause, BaseException) or id(cause) in seen:
+            continue
+        seen.add(id(cause)); kinds.append(type(cause).__name__)
+        pending.extend([cause.__cause__, cause.__context__, getattr(cause, 'reason', None)])
+        pending.extend(a for a in cause.args if isinstance(a, BaseException))
+    LOGGER.warning('Mandi provider connection failed host=api.data.gov.in exception_types=%s', ','.join(kinds))
+
 
 RESOURCE='https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070'
 SOURCE='https://data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi'
@@ -84,11 +101,14 @@ def _open_provider(url, timeout):
                 if len(content)>2_000_000:
                     raise ValueError('Price provider response is too large')
             return io.BytesIO(content)
-    except requests.exceptions.Timeout:
+    except requests.exceptions.Timeout as error:
+        _log_connection_failure(error)
         raise TimeoutError('Price provider timed out') from None
     except requests.exceptions.SSLError as error:
-        raise URLError(error) from None
-    except requests.exceptions.RequestException:
+        _log_connection_failure(error)
+        raise URLError(ssl.SSLError('Provider TLS connection failed')) from None
+    except requests.exceptions.RequestException as error:
+        _log_connection_failure(error)
         raise URLError('Price provider request failed') from None
 
 
