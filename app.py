@@ -1,6 +1,4 @@
 """Local Flask API and static site. No query body is retained or logged."""
-import hmac
-import os
 import sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
@@ -23,31 +21,6 @@ def create_app():
         from ml.prices import fetch_prices
         data,status=fetch_prices(request.args)
         return jsonify(data),status
-
-    @app.post('/__diagnostics/prices')
-    def price_diagnostics():
-        if os.environ.get('VERCEL_ENV') not in ('production','preview'):
-            return jsonify(error='Not found'),404
-        token=os.environ.get('DIAGNOSTICS_TOKEN','')
-        if not token or not hmac.compare_digest(
-            request.headers.get('Authorization',''),'Bearer '+token
-        ):
-            return jsonify(error='Not found'),404
-        payload=request.get_json(silent=True)
-        if not isinstance(payload,dict):
-            return jsonify(error='Invalid diagnostic request'),400
-        category=payload.get('category')
-        if category not in ('minimal','telangana','selected'):
-            return jsonify(error='Invalid diagnostic request'),400
-        district=payload.get('district')
-        commodity=payload.get('commodity')
-        if category=='selected' and (
-            not isinstance(district,str) or not district.strip() or len(district)>100
-            or not isinstance(commodity,str) or not commodity.strip() or len(commodity)>100
-        ):
-            return jsonify(error='Invalid diagnostic request'),400
-        from ml.prices import diagnose_price_request
-        return jsonify(diagnose_price_request(category,district,commodity))
 
     @app.get('/health')
     def health():

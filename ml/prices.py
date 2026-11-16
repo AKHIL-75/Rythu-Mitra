@@ -34,10 +34,6 @@ SOURCE='https://data.gov.in/resource/current-daily-price-various-commodities-var
 CACHE={};LOCK=threading.Lock();TTL=600
 
 
-class MissingApiKeyError(Exception):
-    pass
-
-
 # Windows urllib can time out even when Invoke-RestMethod succeeds on the same
 # machine. Use the Windows connection path; send the URL over stdin so the key
 # never appears in process arguments, shell history, or temporary files.
@@ -114,59 +110,6 @@ def _open_provider(url, timeout):
     except requests.exceptions.RequestException as error:
         _log_connection_failure(error)
         raise URLError('Price provider request failed') from None
-
-
-def diagnose_price_request(category, district=None, commodity=None):
-    """Run one bounded provider probe and report metadata only."""
-    filters={
-        'minimal': {},
-        'telangana': {'state': 'Telangana'},
-    }
-    if category == 'selected':
-        filters[category]={'state': 'Telangana', 'district': district, 'commodity': commodity}
-    if category not in filters:
-        raise ValueError('Unknown diagnostic category')
-
-    started=time.monotonic()
-    status=None
-    exception_types=[]
-    key=os.environ.get('DATA_GOV_IN_API_KEY','').strip()
-    try:
-        if not key:
-            raise MissingApiKeyError()
-        params={'api-key':key,'format':'json','limit':1}
-        params.update({f'filters[{name}]':value for name,value in filters[category].items()})
-        with requests.get(RESOURCE,params=params,timeout=25,stream=True) as response:
-            status=response.status_code
-            if status < 400:
-                total=0
-                for chunk in response.iter_content(chunk_size=65536):
-                    total+=len(chunk)
-                    if total>2_000_000:
-                        raise ValueError('ResponseTooLarge')
-    except Exception as error:
-        pending=[error]
-        seen=set()
-        while pending and len(seen)<12:
-            cause=pending.pop()
-            if not isinstance(cause,BaseException) or id(cause) in seen:
-                continue
-            seen.add(id(cause))
-            exception_types.append(type(cause).__name__)
-            pending.extend([cause.__cause__,cause.__context__,getattr(cause,'reason',None)])
-            pending.extend(item for item in cause.args if isinstance(item,BaseException))
-
-    result={
-        'category':category,
-        'elapsed_ms':round((time.monotonic()-started)*1000),
-        'http_status':status,
-        'exception_types':exception_types,
-    }
-    LOGGER.warning(
-        'Mandi diagnostic category=%s elapsed_ms=%d http_status=%s exception_types=%s',
-        result['category'],result['elapsed_ms'],result['http_status'],','.join(exception_types),
-    )
-    return result
 
 
 def fetch_prices(filters,opener=None):
