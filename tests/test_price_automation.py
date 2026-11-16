@@ -39,3 +39,22 @@ def test_network_error_never_prints_secret_url(monkeypatch,capsys):
     monkeypatch.setattr(deploy.requests,'post',fail)
     assert deploy.main()==1
     assert 'FIXTURE_SECRET' not in capsys.readouterr().out
+
+
+def test_temporary_workflow_script_imports_with_workspace_pythonpath(root,tmp_path):
+    import os
+    import subprocess
+    import sys
+    workflow=(root/'.github/workflows/refresh-mandi-prices.yml').read_text(encoding='utf8')
+    assert 'PYTHONPATH: ${{ github.workspace }}' in workflow
+    assert 'working-directory: ${{ github.workspace }}' in workflow
+    script=tmp_path/'runner_temporary_step.py'
+    script.write_text('from ml.trigger_price_deploy import configured_hook\nfrom ml.refresh_prices import collect\nprint("Imports succeeded")\n',encoding='utf8')
+    env=os.environ.copy()
+    env.pop('PYTHONPATH',None)
+    baseline=subprocess.run([sys.executable,str(script)],cwd=root,env=env,capture_output=True,text=True)
+    assert baseline.returncode!=0 and "No module named 'ml'" in baseline.stderr
+    env['PYTHONPATH']=str(root)
+    corrected=subprocess.run([sys.executable,str(script)],cwd=root,env=env,capture_output=True,text=True)
+    assert corrected.returncode==0, corrected.stderr
+    assert 'Imports succeeded' in corrected.stdout

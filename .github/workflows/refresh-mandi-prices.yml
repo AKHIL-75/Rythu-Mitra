@@ -18,11 +18,15 @@ jobs:
     if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: windows-latest
     timeout-minutes: 15
+    env:
+      # Inline Python steps are executed from temporary script files.
+      PYTHONPATH: ${{ github.workspace }}
     permissions:
       contents: write
     defaults:
       run:
         shell: python
+        working-directory: ${{ github.workspace }}
     steps:
       - name: Check out default branch
         uses: actions/checkout@v7
