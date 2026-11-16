@@ -54,8 +54,8 @@ def create_app():
 
     @app.get('/prices')
     def prices():
-        from ml.prices import fetch_prices
-        data,status=fetch_prices(request.args)
+        from ml.price_reports import get_prices
+        data,status=get_prices(request.args)
         return jsonify(data),status
 
     @app.get('/health')

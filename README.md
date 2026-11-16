@@ -306,3 +306,37 @@ and problem-classifier model artifacts plus the crop, slot and district JSON
 catalogs are retained for inference. Set `DATA_GOV_IN_API_KEY` in Vercel before
 deploying if live mandi prices are required; `/prices` otherwise reports that
 the provider is not configured.
+
+
+## Mandi prices on Vercel: publish a saved official report
+
+The deployed provider connection has timed out even for a one-record unfiltered
+request. On Vercel, `/prices` therefore serves `data/mandi_prices.json` without an
+upstream request or an API key. This file must be generated from real provider
+responses; no sample file is supplied. Rates retain their actual reporting dates
+and are labelled **saved official report, not live**. Reports last refreshed more
+than 24 hours ago display a warning. A missing commodity/district returns no
+reported rate, never a neighbouring district's or another crop's rate.
+
+On the Windows machine where the provider worked, run from the project root:
+
+```powershell
+python -m ml.refresh_prices
+```
+
+The command privately loads the existing local `.env` at runtime and uses the
+Windows PowerShell provider transport. It downloads all pages for Telangana,
+validates records and reporting dates, and atomically replaces
+`data/mandi_prices.json` only after a successful complete download. A failed,
+empty, repeated-page or incomplete response preserves the previous report. It
+never prints keys, stores credentials in the report, or commits/pushes files.
+
+After the command prints SUCCESS, commit the generated report alongside the
+application changes and push. Vercel redeploys with those records. Repeat the
+refresh and push when a newer report is needed (for example, before each day's
+use). Neither the website nor this script claims automatic daily updates.
+Do not publish `.env`. If refresh fails, keep the old report and investigate the
+working machine's provider connection; do not replace it with invented rates.
+
+Local `/prices` continues to use the live provider when available and falls back
+to a saved report on provider failure or missing local API configuration.
